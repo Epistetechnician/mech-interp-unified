@@ -1,0 +1,4376 @@
+{
+ "files": [
+  {
+   "bytes": 3982,
+   "path": "imports/astral-neuron/boundary-docs/goodfire-already-clean-application-v1.md",
+   "sha256": "202121e0f34722f52f4eecfdb4a1aad96b3ee15a7504aa5555bb72b476867380",
+   "source_path": "docs/research/goodfire-already-clean-application-v1.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 7643,
+   "path": "imports/astral-neuron/boundary-docs/proof-carrying-nano-causal-intervention-record-v1-review-packet.md",
+   "sha256": "22cf77d3c69ff1c27e084e4a99b652dd8c0135e0a7b9f138852fdc22d06b9276",
+   "source_path": "docs/research/proof-carrying-nano-causal-intervention-record-v1-review-packet.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3277,
+   "path": "imports/astral-neuron/boundary-docs/proof-carrying-nano-causal-intervention-record-v1.md",
+   "sha256": "a4fadc4ef041b50944b5a98816355f9f89448bada8d2978b2d0858e60b481b26",
+   "source_path": "docs/research/proof-carrying-nano-causal-intervention-record-v1.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3530,
+   "path": "imports/astral-neuron/boundary-docs/proof-carrying-nano-host-activation-boundary-v1.md",
+   "sha256": "5e32e8c4f2ccca6ba8bcc91e60ffdf43574c2042c95403dcdad835908276dd73",
+   "source_path": "docs/research/proof-carrying-nano-host-activation-boundary-v1.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 5670,
+   "path": "imports/astral-neuron/boundary-docs/proof-carrying-nano-interpretability-v1.md",
+   "sha256": "b8fddaaf006511a51e7fee995c6180a53952e2d4bd7a9ad67252f298037287a0",
+   "source_path": "docs/research/proof-carrying-nano-interpretability-v1.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3086,
+   "path": "imports/astral-neuron/boundary-docs/proof-carrying-nano-jevlike-adapter-v1.md",
+   "sha256": "387233694baff0cb53487c696d87226c32e6c153968486d5c950f8bde4175dc7",
+   "source_path": "docs/research/proof-carrying-nano-jevlike-adapter-v1.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3252,
+   "path": "imports/astral-neuron/boundary-docs/proof-carrying-nano-jevlike-independent-validation-v1.md",
+   "sha256": "fb515bcbc5c702eaf707ab73dc6091c310ca6d7af310c8aeb1cc853c449b6802",
+   "source_path": "docs/research/proof-carrying-nano-jevlike-independent-validation-v1.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1438,
+   "path": "imports/astral-neuron/boundary-docs/theseus-neuron-control-instrument-validity-boundary.md",
+   "sha256": "1d00691df5b5dbfa87a60476111d570f8345b80cdaddb19f35860050ab2c75e6",
+   "source_path": "docs/research/theseus-neuron-control-instrument-validity-boundary.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 58162,
+   "path": "imports/astral-neuron/formal/neuron-gate-v1/NeuronGate/CertV61.lean",
+   "sha256": "a5860e0b70398a8f17b78c178f84505eaa9b2ba03aed8d074c1aeb7ddd4ed6f7",
+   "source_path": "formal/neuron-gate-v1/NeuronGate/CertV61.lean",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2926,
+   "path": "imports/astral-neuron/formal/neuron-gate-v1/NeuronGate/Gate.lean",
+   "sha256": "bbf46ef0e267aa00b456e0ffd09e3dc65e79e1613d8fb78894462a32f10e89d0",
+   "source_path": "formal/neuron-gate-v1/NeuronGate/Gate.lean",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 8084,
+   "path": "imports/astral-neuron/formal/neuron-gate-v1/NeuronGate/Pipeline.lean",
+   "sha256": "5c908297d6d21e4b427401f340ea1b9745fe8f71022d07734361fe6133d73495",
+   "source_path": "formal/neuron-gate-v1/NeuronGate/Pipeline.lean",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 142,
+   "path": "imports/astral-neuron/formal/neuron-gate-v1/lake-manifest.json",
+   "sha256": "3e2eb0b5752c6326986feabe957e04b183a94cb1e028c0850c51be77ba4eb192",
+   "source_path": "formal/neuron-gate-v1/lake-manifest.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 177,
+   "path": "imports/astral-neuron/formal/neuron-gate-v1/lakefile.toml",
+   "sha256": "01d8724b9b1b55bff30fa532733e7b465f296712322c6f83e482011d61496c9c",
+   "source_path": "formal/neuron-gate-v1/lakefile.toml",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 25,
+   "path": "imports/astral-neuron/formal/neuron-gate-v1/lean-toolchain",
+   "sha256": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+   "source_path": "formal/neuron-gate-v1/lean-toolchain",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2220,
+   "path": "imports/astral-neuron/formal/proof-carrying-nano-interp-v1/NanoInterp/CausalInterventionRecord.lean",
+   "sha256": "12879fbe65643593b0bf82ba1e559c773609e0ecda485cce379ec60296f9986b",
+   "source_path": "formal/proof-carrying-nano-interp-v1/NanoInterp/CausalInterventionRecord.lean",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 625,
+   "path": "imports/astral-neuron/formal/proof-carrying-nano-interp-v1/NanoInterp/FeatureClaim.lean",
+   "sha256": "7a9d4878ea2b1018438e54267b292b4880f83640477a4937461b5a6bf37da65d",
+   "source_path": "formal/proof-carrying-nano-interp-v1/NanoInterp/FeatureClaim.lean",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 878,
+   "path": "imports/astral-neuron/formal/proof-carrying-nano-interp-v1/NanoInterp/HostActivation.lean",
+   "sha256": "fea6e1422bdc68621ef41c36e1eb334c64d6a49828cf798920f18c47f7665e9d",
+   "source_path": "formal/proof-carrying-nano-interp-v1/NanoInterp/HostActivation.lean",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 150,
+   "path": "imports/astral-neuron/formal/proof-carrying-nano-interp-v1/lake-manifest.json",
+   "sha256": "d6b104063fcaa7bd6ca83206130bf07364efa37d3b8042f73156c876f2c543e9",
+   "source_path": "formal/proof-carrying-nano-interp-v1/lake-manifest.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 322,
+   "path": "imports/astral-neuron/formal/proof-carrying-nano-interp-v1/lakefile.toml",
+   "sha256": "1a441a7f37b06f1bead7738c471e8683278a161c641385e8d9159779a2100b11",
+   "source_path": "formal/proof-carrying-nano-interp-v1/lakefile.toml",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 25,
+   "path": "imports/astral-neuron/formal/proof-carrying-nano-interp-v1/lean-toolchain",
+   "sha256": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+   "source_path": "formal/proof-carrying-nano-interp-v1/lean-toolchain",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2406,
+   "path": "imports/astral-neuron/protocols/131-neuron-level-causal-lane-v49-boundary.md",
+   "sha256": "905cd70f41c5171b4fbeef4b9dadc62da7fb61629a50f93bf8583ce02b37fd78",
+   "source_path": "docs/research/astral-self-modeling/131-neuron-level-causal-lane-v49-boundary.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 6654,
+   "path": "imports/astral-neuron/protocols/132-neuron-level-causal-lane-v50-protocol.md",
+   "sha256": "216b050aae14a84ad96ba0e4c14ecce201c65ea08adfb9f8912b34ed75742d5e",
+   "source_path": "docs/research/astral-self-modeling/132-neuron-level-causal-lane-v50-protocol.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 4268,
+   "path": "imports/astral-neuron/protocols/133-neuron-level-causal-lane-v51-protocol.md",
+   "sha256": "05c0ac4b9ac72dfda67d575b8154b93531330f4b4f49ea8bac3c7ab91f2bd378",
+   "source_path": "docs/research/astral-self-modeling/133-neuron-level-causal-lane-v51-protocol.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1647,
+   "path": "imports/astral-neuron/protocols/134-neuron-level-causal-lane-v52-protocol.md",
+   "sha256": "386a0a17a554845dd9cd4b909c52daa81cf94f4fae1ea6cb27e4d59e50055b2e",
+   "source_path": "docs/research/astral-self-modeling/134-neuron-level-causal-lane-v52-protocol.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1817,
+   "path": "imports/astral-neuron/protocols/135-neuron-level-causal-lane-v53-protocol.md",
+   "sha256": "edbf5ae218048d8991f00d709785a583914477533aae9fc3cb4cb326890b984c",
+   "source_path": "docs/research/astral-self-modeling/135-neuron-level-causal-lane-v53-protocol.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2351,
+   "path": "imports/astral-neuron/protocols/136-neuron-level-causal-lane-v54-protocol.md",
+   "sha256": "d34e653123d475c8a2bf412e05fe15ad57e7495613ee6b3ac4916dfc9225f813",
+   "source_path": "docs/research/astral-self-modeling/136-neuron-level-causal-lane-v54-protocol.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2014,
+   "path": "imports/astral-neuron/protocols/137-neuron-level-causal-lane-v55-protocol.md",
+   "sha256": "fb17d9de01942c4ef8901f9741d11c3888ef758e0d517ddf8a2478ee11926504",
+   "source_path": "docs/research/astral-self-modeling/137-neuron-level-causal-lane-v55-protocol.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2032,
+   "path": "imports/astral-neuron/protocols/138-neuron-level-causal-lane-v56-protocol.md",
+   "sha256": "50db3815005d356fa74bfd9ac8219ab5303e054ee00ee07bad00f945f019eff6",
+   "source_path": "docs/research/astral-self-modeling/138-neuron-level-causal-lane-v56-protocol.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2127,
+   "path": "imports/astral-neuron/protocols/139-neuron-level-causal-lane-v57-protocol.md",
+   "sha256": "ed989c085acfa4775c9af079f5186825c910dc62fa8feec5ecaa5dd1d65227b1",
+   "source_path": "docs/research/astral-self-modeling/139-neuron-level-causal-lane-v57-protocol.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2783,
+   "path": "imports/astral-neuron/protocols/140-neuron-level-causal-lane-v58-protocol.md",
+   "sha256": "55f00066f85ae49ef2bc778f69e10b1e449b6c7e6e28a12b65c316b7e0b34d82",
+   "source_path": "docs/research/astral-self-modeling/140-neuron-level-causal-lane-v58-protocol.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 4264,
+   "path": "imports/astral-neuron/protocols/141-neuron-level-causal-lane-v59-protocol.md",
+   "sha256": "0906b0688eaf23435bd766e1a133b5cdf8c5b4d0f8d0aa7154658b9a8590eeec",
+   "source_path": "docs/research/astral-self-modeling/141-neuron-level-causal-lane-v59-protocol.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 4401,
+   "path": "imports/astral-neuron/protocols/200-neuron-level-causal-lane-v60-protocol.md",
+   "sha256": "2ca271350814996450e93477efb98339e4d4171f6f0f1f47e1c25bf9290e0373",
+   "source_path": "docs/research/astral-self-modeling/200-neuron-level-causal-lane-v60-protocol.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3274,
+   "path": "imports/astral-neuron/protocols/201-neuron-level-causal-lane-v61-local-protocol.md",
+   "sha256": "9a2f59be8d75e089b11c80d50d61372bd677374895a80e0a976956b12639af9c",
+   "source_path": "docs/research/astral-self-modeling/201-neuron-level-causal-lane-v61-local-protocol.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3397,
+   "path": "imports/astral-neuron/protocols/201-neuron-level-causal-lane-v61-protocol.md",
+   "sha256": "df4523d33e10c843455adaf6c20d4c6cd6e1edc6cce01c29d0c6975ec53a7e7c",
+   "source_path": "docs/research/astral-self-modeling/201-neuron-level-causal-lane-v61-protocol.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2549,
+   "path": "imports/astral-neuron/protocols/202-neuron-level-causal-lane-v62-robustness-protocol.md",
+   "sha256": "1bd150b53c8ecdf7b656a3228d46d770e738f719ce990f78f55bed924f7da796",
+   "source_path": "docs/research/astral-self-modeling/202-neuron-level-causal-lane-v62-robustness-protocol.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 6305,
+   "path": "imports/astral-neuron/runs/neuron-v53-v56-review-packet/REVIEW_PACKET.md",
+   "sha256": "58f3b74b8887e74ee3c27e59cbc3eb529306adc89ff79612df7691ce92cc52b9",
+   "source_path": "docs/research/astral-self-modeling/neuron-v53-v56-review-packet/REVIEW_PACKET.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2889,
+   "path": "imports/astral-neuron/runs/neuron-v53-v56-review-packet/build_manifest.py",
+   "sha256": "bbda136e0181d2d8084e73d91a0b195e671f27b1c44eabe1c6011cdd4a19563c",
+   "source_path": "docs/research/astral-self-modeling/neuron-v53-v56-review-packet/build_manifest.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 37150,
+   "path": "imports/astral-neuron/runs/neuron-v53-v56-review-packet/manifest.json",
+   "sha256": "9a997ec5db0f61d0542ad3003aade66b844b9d73557d88e39f82279c70f539b7",
+   "source_path": "docs/research/astral-self-modeling/neuron-v53-v56-review-packet/manifest.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 223,
+   "path": "imports/astral-neuron/runs/neuron-v53-v56-review-packet/review-decision-template.json",
+   "sha256": "0b4e7f0bf26dd67ab316a570856de9d89971abcba63a1dde442c4b305ed4ef57",
+   "source_path": "docs/research/astral-self-modeling/neuron-v53-v56-review-packet/review-decision-template.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 804,
+   "path": "imports/astral-neuron/runs/v49-run/accepted-ledger/README.md",
+   "sha256": "bb61c5114514c4580650f849f07e6da1a08f7e8e5492d09ca6bd86fd6a64d672",
+   "source_path": "docs/research/astral-self-modeling/v49-run/accepted-ledger/README.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3902,
+   "path": "imports/astral-neuron/runs/v49-run/accepted-ledger/build_owner_attested_entry.rs.txt",
+   "sha256": "e40dc1900ac4c5b10ba2991922038d9cacb354e03b6964295372087ce73793fa",
+   "source_path": "docs/research/astral-self-modeling/v49-run/accepted-ledger/build_owner_attested_entry.rs.txt",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1886,
+   "path": "imports/astral-neuron/runs/v49-run/accepted-ledger/owner-self-attested-ledger.json",
+   "sha256": "fee44a3cc33806a548c54d762731515b814b45db5b2a2f0edacd13e4dbfa7227",
+   "source_path": "docs/research/astral-self-modeling/v49-run/accepted-ledger/owner-self-attested-ledger.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1892,
+   "path": "imports/astral-neuron/runs/v49-run/b1.json",
+   "sha256": "9d75f831ec8d376655a4554c8e893436ea10de59dc417cbffc6b945c7e893bc0",
+   "source_path": "docs/research/astral-self-modeling/v49-run/b1.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1895,
+   "path": "imports/astral-neuron/runs/v49-run/b2.json",
+   "sha256": "fa8540e1b3d44c9886268d7dcb1512c8d70300a983fe9ca9bc68888612a34215",
+   "source_path": "docs/research/astral-self-modeling/v49-run/b2.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2874,
+   "path": "imports/astral-neuron/runs/v49-run/balanced-natural-text-record.md",
+   "sha256": "5c425f03b90a852c10d2dc23403f18c8b1ddffa19af0bd50ad093e3be55fd6f6",
+   "source_path": "docs/research/astral-self-modeling/v49-run/balanced-natural-text-record.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1914,
+   "path": "imports/astral-neuron/runs/v49-run/c1.json",
+   "sha256": "989623b8dfb7c3b6bab5068a7c90e00055efad6c66a2a7d5e15fb6e7406fcd16",
+   "source_path": "docs/research/astral-self-modeling/v49-run/c1.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3216,
+   "path": "imports/astral-neuron/runs/v49-run/cd.json",
+   "sha256": "bba2919fd2f56c1a641719bd4a1f17bee8251f723b9be1c83c5fdd552d5b56a9",
+   "source_path": "docs/research/astral-self-modeling/v49-run/cd.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1757,
+   "path": "imports/astral-neuron/runs/v49-run/execution-record-r1.md",
+   "sha256": "4b87528e4838ab4288a9a52d864e48a7d9687f789dfb40c1d02c913cc4ddb290",
+   "source_path": "docs/research/astral-self-modeling/v49-run/execution-record-r1.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1818,
+   "path": "imports/astral-neuron/runs/v49-run/execution-record-r2.md",
+   "sha256": "e56b2b9d05e364a1b88825191897dafaede7385e2b25a2e773543fee4c45a0ee",
+   "source_path": "docs/research/astral-self-modeling/v49-run/execution-record-r2.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1647,
+   "path": "imports/astral-neuron/runs/v49-run/execution-record-r3.md",
+   "sha256": "c2f9b749e16b43e943dd67d4ae11084b3add4a6437280ae37324f2a2c850b733",
+   "source_path": "docs/research/astral-self-modeling/v49-run/execution-record-r3.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1932,
+   "path": "imports/astral-neuron/runs/v49-run/execution-record-r4.md",
+   "sha256": "ffa963148ee0672ff76e6196577549e7b17fb6c2ac732026f94c6f4571664048",
+   "source_path": "docs/research/astral-self-modeling/v49-run/execution-record-r4.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1903,
+   "path": "imports/astral-neuron/runs/v49-run/g1.json",
+   "sha256": "5cc54c9cb94124fc4744f00a48f887baca3dbe17410a2fb21b7e227ac81e7f55",
+   "source_path": "docs/research/astral-self-modeling/v49-run/g1.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1894,
+   "path": "imports/astral-neuron/runs/v49-run/g2.json",
+   "sha256": "ff82409aa6d5ac887e75ee7cee38cb39efb2ded70957b2b12cddde7254b9f71d",
+   "source_path": "docs/research/astral-self-modeling/v49-run/g2.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3421,
+   "path": "imports/astral-neuron/runs/v49-run/generalization-and-lanes-cd-record.md",
+   "sha256": "75195751988a854274de8fe3965f8c08fafef1ef0a411c1876c2a347ccc6124c",
+   "source_path": "docs/research/astral-self-modeling/v49-run/generalization-and-lanes-cd-record.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 871,
+   "path": "imports/astral-neuron/runs/v49-run/laneb-r2.json",
+   "sha256": "7420b2a604b68df2658d0a7d1db862d9aabb7c7a370c32b9d3338b0418ad98e7",
+   "source_path": "docs/research/astral-self-modeling/v49-run/laneb-r2.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1581,
+   "path": "imports/astral-neuron/runs/v49-run/laneb-record-r2.md",
+   "sha256": "5cbf5fc223b084c20d82dac9c03dacde56b645f257a206822729daf3065ce7b0",
+   "source_path": "docs/research/astral-self-modeling/v49-run/laneb-record-r2.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2504,
+   "path": "imports/astral-neuron/runs/v49-run/natural-text-second-family-record.md",
+   "sha256": "f030b151a2c5f53d11226a4e4cd6d9383268c31ab46fbddfc89c00f3062751af",
+   "source_path": "docs/research/astral-self-modeling/v49-run/natural-text-second-family-record.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1915,
+   "path": "imports/astral-neuron/runs/v49-run/r3.json",
+   "sha256": "cbe450b5dc0d6ae431a0afb92f4286336babf414622d224ed12b3fdbcf8395d8",
+   "source_path": "docs/research/astral-self-modeling/v49-run/r3.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1895,
+   "path": "imports/astral-neuron/runs/v49-run/r4.json",
+   "sha256": "a417052f8318893e668f8d79a8311ddc830d4045aca8fb2d6e90c2bb82809277",
+   "source_path": "docs/research/astral-self-modeling/v49-run/r4.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1214,
+   "path": "imports/astral-neuron/runs/v49-run/result-r1.json",
+   "sha256": "f9338e92e90716241b2f7534a4bbef1d51704487690fab1d49874434c71f42f9",
+   "source_path": "docs/research/astral-self-modeling/v49-run/result-r1.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1234,
+   "path": "imports/astral-neuron/runs/v49-run/result-r2.json",
+   "sha256": "36af8a3b0c1a0e562d4d31b30fdf3b677fb281f7a2b05ac1d37da0f64e419ddb",
+   "source_path": "docs/research/astral-self-modeling/v49-run/result-r2.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2290,
+   "path": "imports/astral-neuron/runs/v49-run/review-packet/REVIEW_PACKET.md",
+   "sha256": "8ba142dbd678c4f0fdfcb23922be55d58fa927279f30a4c4a7b3827e306c7aca",
+   "source_path": "docs/research/astral-self-modeling/v49-run/review-packet/REVIEW_PACKET.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 11960,
+   "path": "imports/astral-neuron/runs/v49-run/review-packet/manifest.json",
+   "sha256": "accf60050bc7b1c9b45af0cf4a251620ebcf3fdaf7d598bbd9e973285b53fec1",
+   "source_path": "docs/research/astral-self-modeling/v49-run/review-packet/manifest.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1292,
+   "path": "imports/astral-neuron/runs/v49-run/review-packet/owner-attestation.md",
+   "sha256": "8d3c89a910c694e08d822b0ba6e1c9598d9e01c8fbb2f431ca6e7a4e5c235b19",
+   "source_path": "docs/research/astral-self-modeling/v49-run/review-packet/owner-attestation.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 223,
+   "path": "imports/astral-neuron/runs/v49-run/review-packet/review-decision-template.json",
+   "sha256": "072be2e2e71679e474c8cf664ba7fe5e7208cdfe58bee43b8d3a6449e2a1e509",
+   "source_path": "docs/research/astral-self-modeling/v49-run/review-packet/review-decision-template.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 930,
+   "path": "imports/astral-neuron/runs/v50-run/README.md",
+   "sha256": "1e8cec51be03bdb6a060271321b0830b229379895ba1354ec8b5e4aabf57d962",
+   "source_path": "docs/research/astral-self-modeling/v50-run/README.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1164,
+   "path": "imports/astral-neuron/runs/v50-run/corpus/README.md",
+   "sha256": "97aad5aee30e1df7352c9df63b7405719ee17fc873aa7412a0852625551823c8",
+   "source_path": "docs/research/astral-self-modeling/v50-run/corpus/README.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 13122,
+   "path": "imports/astral-neuron/runs/v50-run/corpus/corpus-public.json",
+   "sha256": "5bb1cb3c6bf68956bd5f31b210e058c22ae415d5d54dcd34912dde71fcade870",
+   "source_path": "docs/research/astral-self-modeling/v50-run/corpus/corpus-public.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 4635,
+   "path": "imports/astral-neuron/runs/v50-run/corpus/label-audit.json",
+   "sha256": "91e87ea7f234529ea4361a4133e951762157e50a37db910b06fd870c9ac52629",
+   "source_path": "docs/research/astral-self-modeling/v50-run/corpus/label-audit.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 374,
+   "path": "imports/astral-neuron/runs/v50-run/full-run-allocation-receipt.json",
+   "sha256": "f4adb53711a6ac604a9e539afef392b50540eecaf07719d80f926f77d854b234",
+   "source_path": "docs/research/astral-self-modeling/v50-run/full-run-allocation-receipt.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3287,
+   "path": "imports/astral-neuron/runs/v50-run/packet.json",
+   "sha256": "7080c490da3d2cff3e9b602c1936cb9c3277491e6ccc4280f4dc33831aa5c419",
+   "source_path": "docs/research/astral-self-modeling/v50-run/packet.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1201,
+   "path": "imports/astral-neuron/runs/v50-run/results/README.md",
+   "sha256": "6e5b3eb946ff4247252a1ce9adc7b7f95f103371e4971fddbc0daa83493475e2",
+   "source_path": "docs/research/astral-self-modeling/v50-run/results/README.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1583,
+   "path": "imports/astral-neuron/runs/v50-run/results/out_1.4b.json",
+   "sha256": "781d2090659e3a0625ec26f698ea79220b23f389c6124271dc73d38adbda3631",
+   "source_path": "docs/research/astral-self-modeling/v50-run/results/out_1.4b.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1570,
+   "path": "imports/astral-neuron/runs/v50-run/results/out_2.8b.json",
+   "sha256": "567d453270b11ccf5eda31dc6a686d4f58f5c3824585abc9e0f8760300cbb5bb",
+   "source_path": "docs/research/astral-self-modeling/v50-run/results/out_2.8b.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 768,
+   "path": "imports/astral-neuron/runs/v50-run/smoke/README.md",
+   "sha256": "20a27452e2a1f94f119a607e9440f04d028cf59212a2f0092230294087538786",
+   "source_path": "docs/research/astral-self-modeling/v50-run/smoke/README.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 342,
+   "path": "imports/astral-neuron/runs/v50-run/smoke/allocation-receipt.json",
+   "sha256": "19efa5d6703b9e6b8f17a587842b96f6c62a2e3d22f4e24bf9c5b478ab6b4eb2",
+   "source_path": "docs/research/astral-self-modeling/v50-run/smoke/allocation-receipt.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 943,
+   "path": "imports/astral-neuron/runs/v50-run/smoke/smoke_pythia-1.4b.json",
+   "sha256": "420143b79db2c429bb1d4d3948171f0637aaeaa85f10e7c583503e3edca22aee",
+   "source_path": "docs/research/astral-self-modeling/v50-run/smoke/smoke_pythia-1.4b.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 946,
+   "path": "imports/astral-neuron/runs/v50-run/smoke/smoke_pythia-2.8b.json",
+   "sha256": "debf4361ee1c4fdb27c9abdc18938880d80c89b76803d032ac802d75b8ccf887",
+   "source_path": "docs/research/astral-self-modeling/v50-run/smoke/smoke_pythia-2.8b.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 333,
+   "path": "imports/astral-neuron/runs/v51-run/README.md",
+   "sha256": "414b003e98cb6ff5a0f190f969910793eb45f7a5fa7c14a4a0b40d2aa61e65f2",
+   "source_path": "docs/research/astral-self-modeling/v51-run/README.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 335,
+   "path": "imports/astral-neuron/runs/v51-run/allocation-receipt.json",
+   "sha256": "b0b70ac3183a2cd300ad051fe971a8b60e39b01665139065e64417e81b153009",
+   "source_path": "docs/research/astral-self-modeling/v51-run/allocation-receipt.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 589,
+   "path": "imports/astral-neuron/runs/v51-run/attempt-1-failure.md",
+   "sha256": "4a38410f9a4c10ddb2acca16c0db8d585b7e5a65cf8fcd706bd0aab7bd4062f8",
+   "source_path": "docs/research/astral-self-modeling/v51-run/attempt-1-failure.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1143,
+   "path": "imports/astral-neuron/runs/v51-run/attempt-2-budget-stop.md",
+   "sha256": "61e72d58091306175192ddf777ef1f39e82e1e8bde2e4efc1d0f2a9b89905f52",
+   "source_path": "docs/research/astral-self-modeling/v51-run/attempt-2-budget-stop.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 7433,
+   "path": "imports/astral-neuron/runs/v51-run/corpus-public.json",
+   "sha256": "9eb74811fcb6ffb5c11914e1585003406362734c0d97f074645213f7dbd862e0",
+   "source_path": "docs/research/astral-self-modeling/v51-run/corpus-public.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1463,
+   "path": "imports/astral-neuron/runs/v52-run/README.md",
+   "sha256": "32e73c043d9a0b0111c4145c965fcc57e8fa6e6594aa808614da4aa5fc471c92",
+   "source_path": "docs/research/astral-self-modeling/v52-run/README.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 346,
+   "path": "imports/astral-neuron/runs/v52-run/allocation-receipt.json",
+   "sha256": "f19f57942037de7fd7997a5e02148daf30e4ac95d83d045e35c751f9634a86b5",
+   "source_path": "docs/research/astral-self-modeling/v52-run/allocation-receipt.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2266,
+   "path": "imports/astral-neuron/runs/v52-run/results/out_v52.json",
+   "sha256": "6f2f327b9eb5213d4237b4d7e7bcc613d9c4aeae0b4a661eec08072c9766d80e",
+   "source_path": "docs/research/astral-self-modeling/v52-run/results/out_v52.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 197106,
+   "path": "imports/astral-neuron/runs/v52-run/results/out_v52.json.jsonl",
+   "sha256": "e3e034b027e437c3a954b545a98a1a5c9290ade0f7525b34b9a11dcc4e7ce617",
+   "source_path": "docs/research/astral-self-modeling/v52-run/results/out_v52.json.jsonl",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1525,
+   "path": "imports/astral-neuron/runs/v53-run/README.md",
+   "sha256": "db103a597ad14023beb01100bb6ce51419597e237de30516134a2eca1dbe3e82",
+   "source_path": "docs/research/astral-self-modeling/v53-run/README.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 812,
+   "path": "imports/astral-neuron/runs/v53-run/accepted-ledger/README.md",
+   "sha256": "3a42e6fa6c2f16cb98ee74f27e3f5e91358acc940ab090c8bc2deccb5f48dd2b",
+   "source_path": "docs/research/astral-self-modeling/v53-run/accepted-ledger/README.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3888,
+   "path": "imports/astral-neuron/runs/v53-run/accepted-ledger/build_owner_attested_entry.rs.txt",
+   "sha256": "040276d9179039a9fce05b86aaf2f18edd30f76b855c5e3fd251bd3a7a6fa371",
+   "source_path": "docs/research/astral-self-modeling/v53-run/accepted-ledger/build_owner_attested_entry.rs.txt",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1885,
+   "path": "imports/astral-neuron/runs/v53-run/accepted-ledger/owner-self-attested-ledger.json",
+   "sha256": "e5727a38eb29e089578242dd80c761728902255046f01f1deb14735f08b4dbd9",
+   "source_path": "docs/research/astral-self-modeling/v53-run/accepted-ledger/owner-self-attested-ledger.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 353,
+   "path": "imports/astral-neuron/runs/v53-run/allocation-receipt.json",
+   "sha256": "4214bffabb0e745f26bb00f3f6a0eecd38ae511317aa31e0ad4385c8906f5290",
+   "source_path": "docs/research/astral-self-modeling/v53-run/allocation-receipt.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2390,
+   "path": "imports/astral-neuron/runs/v53-run/results/out_v53.json",
+   "sha256": "686a34c70648ed0ee472cfab50f6a494504f3cbd968b7dd2392241bd5b8796c8",
+   "source_path": "docs/research/astral-self-modeling/v53-run/results/out_v53.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 304244,
+   "path": "imports/astral-neuron/runs/v53-run/results/out_v53.json.jsonl",
+   "sha256": "b19012a4155fb22e72ab56e498f0b03bae72db69959525f28b0d999bc6056378",
+   "source_path": "docs/research/astral-self-modeling/v53-run/results/out_v53.json.jsonl",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2281,
+   "path": "imports/astral-neuron/runs/v54-run/README.md",
+   "sha256": "5c117fed170ff1daf8d40e52cff753e50c9aa8389230d071e4434dff1fabaadf",
+   "source_path": "docs/research/astral-self-modeling/v54-run/README.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 564,
+   "path": "imports/astral-neuron/runs/v54-run/accepted-ledger/README.md",
+   "sha256": "5a369bd4804d245906118672fdc1c161ae4990b38cea8110d674effdb1f32957",
+   "source_path": "docs/research/astral-self-modeling/v54-run/accepted-ledger/README.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3888,
+   "path": "imports/astral-neuron/runs/v54-run/accepted-ledger/build_owner_attested_entry.rs.txt",
+   "sha256": "079c21737291d2c1863de602a8686fefc1f6348e0062248ce62dc3dd4f287d01",
+   "source_path": "docs/research/astral-self-modeling/v54-run/accepted-ledger/build_owner_attested_entry.rs.txt",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1885,
+   "path": "imports/astral-neuron/runs/v54-run/accepted-ledger/owner-self-attested-ledger.json",
+   "sha256": "38a27049758ebeafc822fd491a80d4f933844e2678b18419645771fd138d4b18",
+   "source_path": "docs/research/astral-self-modeling/v54-run/accepted-ledger/owner-self-attested-ledger.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 356,
+   "path": "imports/astral-neuron/runs/v54-run/allocation-receipt.json",
+   "sha256": "f0c0ba3f7a0332853f20c34db0b5b7adef90baa568e57fbf1ad4e9888abe78e6",
+   "source_path": "docs/research/astral-self-modeling/v54-run/allocation-receipt.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 12770,
+   "path": "imports/astral-neuron/runs/v54-run/corpus-public.json",
+   "sha256": "aedf33557efdf17683ba70261dc5bd51c043c0cc78e5807ca5788ded426ce878",
+   "source_path": "docs/research/astral-self-modeling/v54-run/corpus-public.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 4077,
+   "path": "imports/astral-neuron/runs/v54-run/label-audit.json",
+   "sha256": "99b00ad173bb61b21f4fc800b5b39a8a82e94ae529d9aa421384b9bffe81720d",
+   "source_path": "docs/research/astral-self-modeling/v54-run/label-audit.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2415,
+   "path": "imports/astral-neuron/runs/v54-run/results/out_v54.json",
+   "sha256": "7f583b720a51d2200a952bd8adf58f7adb7a10112f31d68792f2d3bca0553c73",
+   "source_path": "docs/research/astral-self-modeling/v54-run/results/out_v54.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 797389,
+   "path": "imports/astral-neuron/runs/v54-run/results/out_v54.json.jsonl",
+   "sha256": "9ee17e12e8048c7f7d2aec490d08c47f9dd6329105c08fb68fe2c0358a7cb091",
+   "source_path": "docs/research/astral-self-modeling/v54-run/results/out_v54.json.jsonl",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1638,
+   "path": "imports/astral-neuron/runs/v55-run/README.md",
+   "sha256": "699beea6615201e80e916677365d2857668483f0d4fc30812bd55fcd86c06957",
+   "source_path": "docs/research/astral-self-modeling/v55-run/README.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 362,
+   "path": "imports/astral-neuron/runs/v55-run/allocation-receipt.json",
+   "sha256": "63cb24ff6d9a01bacd6d81fdce3e362ee26a31e4e1ca47a86e542d98980c8390",
+   "source_path": "docs/research/astral-self-modeling/v55-run/allocation-receipt.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2440,
+   "path": "imports/astral-neuron/runs/v55-run/results/out_v55.json",
+   "sha256": "96d0451027297994c183c5b2d3529792088ca9f3e454ff79c0a13d33e27da136",
+   "source_path": "docs/research/astral-self-modeling/v55-run/results/out_v55.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 196239,
+   "path": "imports/astral-neuron/runs/v55-run/results/out_v55.json.jsonl",
+   "sha256": "ac6076c3ae939446167a8b7c71c60c547a669bffd8f93fd479edd4eb12158f36",
+   "source_path": "docs/research/astral-self-modeling/v55-run/results/out_v55.json.jsonl",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1592,
+   "path": "imports/astral-neuron/runs/v56-run/README.md",
+   "sha256": "bf5f070783a7595b2979898d25ae736f26d1960d8666a7cd57db61fc86529b37",
+   "source_path": "docs/research/astral-self-modeling/v56-run/README.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 368,
+   "path": "imports/astral-neuron/runs/v56-run/allocation-receipt.json",
+   "sha256": "0099a77a9429c66f2cca304a57c4a1ede148229cdb7038fd72dcd3fe031f6651",
+   "source_path": "docs/research/astral-self-modeling/v56-run/allocation-receipt.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 739,
+   "path": "imports/astral-neuron/runs/v56-run/results/out_v56.json",
+   "sha256": "747555d98669cf379d620e8561f6564de6f709c0976ab7c0a1850ecb90c4b080",
+   "source_path": "docs/research/astral-self-modeling/v56-run/results/out_v56.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 684447,
+   "path": "imports/astral-neuron/runs/v56-run/results/out_v56.json.jsonl",
+   "sha256": "be0ca3d4dcc7ddacea8368ba956f5934c941401d2506f187ca4aaf25b7d68c94",
+   "source_path": "docs/research/astral-self-modeling/v56-run/results/out_v56.json.jsonl",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1995,
+   "path": "imports/astral-neuron/runs/v57-run/README.md",
+   "sha256": "97d77bca28972d635603b4cbf43fd1907f48cdba2db78f5bd2819a585a580def",
+   "source_path": "docs/research/astral-self-modeling/v57-run/README.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 392,
+   "path": "imports/astral-neuron/runs/v57-run/allocation-receipt.json",
+   "sha256": "c6ec37072f3a0c6dd4eb7cf5bcaaaef5865dca2f105ea18a323c0f4769d213b4",
+   "source_path": "docs/research/astral-self-modeling/v57-run/allocation-receipt.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1770,
+   "path": "imports/astral-neuron/runs/v57-run/results/out_v57.json",
+   "sha256": "1d1d80c6dd18928cd1af896d943c481dcd1e67f881b28b05745c3f977e2d38d9",
+   "source_path": "docs/research/astral-self-modeling/v57-run/results/out_v57.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 45985,
+   "path": "imports/astral-neuron/runs/v57-run/results/out_v57.json.jsonl",
+   "sha256": "f31a34aee22d8660ebee954da29a9038774228457d5771cc0d5ef41410a3273e",
+   "source_path": "docs/research/astral-self-modeling/v57-run/results/out_v57.json.jsonl",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2979,
+   "path": "imports/astral-neuron/runs/v58-run/README.md",
+   "sha256": "4d0b0b2b7374483a2303a1740b5270633bacdb43a12423875f856758cfbacb2a",
+   "source_path": "docs/research/astral-self-modeling/v58-run/README.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 397,
+   "path": "imports/astral-neuron/runs/v58-run/allocation-receipt.json",
+   "sha256": "af72471d56fba893905d12fbe0e41c3e6fea59641823fc656c76edb0c49a9371",
+   "source_path": "docs/research/astral-self-modeling/v58-run/allocation-receipt.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 14674,
+   "path": "imports/astral-neuron/runs/v58-run/results/out_v58.json",
+   "sha256": "1d7a7d912a24ef16b9fd27122689aa5c2a4be72a65ad0777d4726a09759a0d50",
+   "source_path": "docs/research/astral-self-modeling/v58-run/results/out_v58.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 27939,
+   "path": "imports/astral-neuron/runs/v58-run/results/out_v58.json.jsonl",
+   "sha256": "42fe3e2d683da9610090e3e3a54928b27f923fb3e58d20f14d62e5aa3502e00d",
+   "source_path": "docs/research/astral-self-modeling/v58-run/results/out_v58.json.jsonl",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2699,
+   "path": "imports/astral-neuron/runs/v59-run/README.md",
+   "sha256": "6cc1c8bb4c8ed0cedf3034e486b008325f47e1f3e844001a85d7fc496a41fe1d",
+   "source_path": "docs/research/astral-self-modeling/v59-run/README.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 398,
+   "path": "imports/astral-neuron/runs/v59-run/allocation-receipt.json",
+   "sha256": "d1354b128649ece21b41d00e100a4f4f18929da980d74e779ea87d62e8d79864",
+   "source_path": "docs/research/astral-self-modeling/v59-run/allocation-receipt.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2502,
+   "path": "imports/astral-neuron/runs/v59-run/refl-public.json",
+   "sha256": "aa850eeb36e141960dbb8a4612c82dfd7fbe6ab093d539c3eb8761e5ceb7c143",
+   "source_path": "docs/research/astral-self-modeling/v59-run/refl-public.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 818,
+   "path": "imports/astral-neuron/runs/v59-run/results/out_v59.json",
+   "sha256": "81ec8f20817bec48cdc78773192ee6f410a6a20d046fb93ad882ebec76968ba7",
+   "source_path": "docs/research/astral-self-modeling/v59-run/results/out_v59.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 19421,
+   "path": "imports/astral-neuron/runs/v59-run/results/out_v59.json.jsonl",
+   "sha256": "e3f373bf19d03a01ed6f24c6e8f15d181b37e905a93c0b26c2aab52eddf89984",
+   "source_path": "docs/research/astral-self-modeling/v59-run/results/out_v59.json.jsonl",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3427,
+   "path": "imports/astral-neuron/runs/v60-run/README.md",
+   "sha256": "f8fb179e7cb3bd6334397f092f3f99a2d2107e686b0237e75efd7c8b9bcf642f",
+   "source_path": "docs/research/astral-self-modeling/v60-run/README.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 399,
+   "path": "imports/astral-neuron/runs/v60-run/allocation-receipt.json",
+   "sha256": "5f09d025944b979c934535e17d4f60fad2b28c8e8db13ed133e092af32444588",
+   "source_path": "docs/research/astral-self-modeling/v60-run/allocation-receipt.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 12508,
+   "path": "imports/astral-neuron/runs/v60-run/corpus54-rebuild-public.json",
+   "sha256": "dd88f56dced4100e46d8602daaa3338526054bd6616fa42f27e0bf819524a5bc",
+   "source_path": "docs/research/astral-self-modeling/v60-run/corpus54-rebuild-public.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 291,
+   "path": "imports/astral-neuron/runs/v60-run/local-receipt.json",
+   "sha256": "2da8a1ddfd50573d2ce5708310f544670b751234b565879c5169366e56f376d8",
+   "source_path": "docs/research/astral-self-modeling/v60-run/local-receipt.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1069,
+   "path": "imports/astral-neuron/runs/v60-run/results/out_v60.json",
+   "sha256": "3281fb4ed1f91d39fe536bd288821aca082b3afe9cfa6a69d5c5e4deb992fec2",
+   "source_path": "docs/research/astral-self-modeling/v60-run/results/out_v60.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 25828,
+   "path": "imports/astral-neuron/runs/v60-run/results/out_v60.json.jsonl",
+   "sha256": "49d1e7fe36c442d8d72084cecd370e745677f19bcd74cb7a4e5c975673c67571",
+   "source_path": "docs/research/astral-self-modeling/v60-run/results/out_v60.json.jsonl",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1719,
+   "path": "imports/astral-neuron/runs/v61-local-run/README.md",
+   "sha256": "8a061f943752f030325ff322907855510670b2ad9604ac0b4947e8d432057a8a",
+   "source_path": "docs/research/astral-self-modeling/v61-local-run/README.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 291,
+   "path": "imports/astral-neuron/runs/v61-local-run/local-receipt.json",
+   "sha256": "2da8a1ddfd50573d2ce5708310f544670b751234b565879c5169366e56f376d8",
+   "source_path": "docs/research/astral-self-modeling/v61-local-run/local-receipt.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2288,
+   "path": "imports/astral-neuron/runs/v61-local-run/results/out_v61_local.json",
+   "sha256": "514a6ae8c7b0dca70466e76db6e7c1e4dd3bcb86247514042f6c84c9bed56000",
+   "source_path": "docs/research/astral-self-modeling/v61-local-run/results/out_v61_local.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 50510,
+   "path": "imports/astral-neuron/runs/v61-local-run/results/out_v61_local.json.jsonl",
+   "sha256": "b643bda967652dfa7e24b40a1116e9e602d776270fb18ee38d586a1fbb734e9b",
+   "source_path": "docs/research/astral-self-modeling/v61-local-run/results/out_v61_local.json.jsonl",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2151,
+   "path": "imports/astral-neuron/runs/v61-run/README.md",
+   "sha256": "2a2ad4ef45bd4f13934d91f7b81d676f18824440cabf6fd35af41edd8b678994",
+   "source_path": "docs/research/astral-self-modeling/v61-run/README.md",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 377,
+   "path": "imports/astral-neuron/runs/v61-run/allocation-receipt.json",
+   "sha256": "e9d47855095528cd52aa7f5f88a2f3ada5db44b1c5c1017dd79db4e33e968a7f",
+   "source_path": "docs/research/astral-self-modeling/v61-run/allocation-receipt.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 791,
+   "path": "imports/astral-neuron/runs/v61-run/results/out_v61.json",
+   "sha256": "0cd7d696647387a068e29d832e9d92c21c12359b4103461ecf6e751922ca5713",
+   "source_path": "docs/research/astral-self-modeling/v61-run/results/out_v61.json",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 11712,
+   "path": "imports/astral-neuron/runs/v61-run/results/out_v61.json.jsonl",
+   "sha256": "5d6233e64b9f215195285667c207d06a285a45d7bc6c562e2d0c94594f3b9881",
+   "source_path": "docs/research/astral-self-modeling/v61-run/results/out_v61.json.jsonl",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3027,
+   "path": "imports/astral-neuron/scripts/gen_neuron_certificate_v61.py",
+   "sha256": "b9d9d114dd287dd788050b92bdb864df853cb033113fc68e2c8c32cdfe132f20",
+   "source_path": "scripts/gen_neuron_certificate_v61.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 813,
+   "path": "imports/astral-neuron/scripts/verify_neuron_gate_formal_v1.sh",
+   "sha256": "b3aac49471db16ea55a6df02fe82a6eab9e18986ac6b0b80558f65ca553f45d3",
+   "source_path": "scripts/verify_neuron_gate_formal_v1.sh",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1453,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v49/build_corpus.py",
+   "sha256": "c45bf7181997df55c6fbc718e76aa69dfa0201944e01bdbd886b514c98f1a833",
+   "source_path": "tools/astral-neuron-level-causal-lane-v49/build_corpus.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1236,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v49/build_corpus_balanced.py",
+   "sha256": "71abb81661ffe3922bcedf3c6a3748951544210621f1f2c01e2ac65f13d4413a",
+   "source_path": "tools/astral-neuron-level-causal-lane-v49/build_corpus_balanced.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 4538,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v49/run_cd.py",
+   "sha256": "de305d9610eb2d06fc1c14eb3f8e2f36d4b1a028200377c9a280c21de00df024",
+   "source_path": "tools/astral-neuron-level-causal-lane-v49/run_cd.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 5509,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v49/run_corpus.py",
+   "sha256": "c68ca656e02f0de0f6968f4ab24ece28200ee88815c8aa913e621b03d52a0755",
+   "source_path": "tools/astral-neuron-level-causal-lane-v49/run_corpus.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 5544,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v49/run_corpus_bal.py",
+   "sha256": "abf686db39066e377cd9209475b4a23fed887526959d54d151561d38bebea307",
+   "source_path": "tools/astral-neuron-level-causal-lane-v49/run_corpus_bal.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 5016,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v49/run_gen.py",
+   "sha256": "511fe505686cf80b9a1d1a25891d22f40cbdd40749d8081a8ddcfcbc4dbde274",
+   "source_path": "tools/astral-neuron-level-causal-lane-v49/run_gen.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3938,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v49/run_laneb.py",
+   "sha256": "a828f3bf427f4e2276cbcf28cf974e8c76a848a89dea1ceb165bc5a96a8fc371",
+   "source_path": "tools/astral-neuron-level-causal-lane-v49/run_laneb.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 654,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v49/run_node.py",
+   "sha256": "8fca7236bfa74c4662f4fd5ce5530850771f24d6a0297cab01049000d131e908",
+   "source_path": "tools/astral-neuron-level-causal-lane-v49/run_node.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 4303,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v49/run_r3.py",
+   "sha256": "178f24dd316b9496d596ecadcfc378a5a3bcc7ee4481c810e6efb6f5d856e5d3",
+   "source_path": "tools/astral-neuron-level-causal-lane-v49/run_r3.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 4477,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v49/run_r4.py",
+   "sha256": "37ce621db0debf737db3e44f5b9cf839dc56d2aa736032c4133695b1267f23fe",
+   "source_path": "tools/astral-neuron-level-causal-lane-v49/run_r4.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2829,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v49/tests/test_v49.py",
+   "sha256": "7ec7343139fed374842de3d21202289c40247511ad84f00de266e3c5cfe4d3e6",
+   "source_path": "tools/astral-neuron-level-causal-lane-v49/tests/test_v49.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 7679,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v49/torch_backend.py",
+   "sha256": "314d256efd83760d9637df6c34ad37aebd28487f79510d6e83df990b93fa06f2",
+   "source_path": "tools/astral-neuron-level-causal-lane-v49/torch_backend.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 6667,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v49/v49.py",
+   "sha256": "f76d695d4494c4ec5fe4291f6c79b72c1e79afa2f2f9ba06b48fd527626fb14f",
+   "source_path": "tools/astral-neuron-level-causal-lane-v49/v49.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 4090,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v50/packet.py",
+   "sha256": "d42fc364bb0950e6af15341cf72b3fc6160e8cf708fe03a33290ddd83fd61cc8",
+   "source_path": "tools/astral-neuron-level-causal-lane-v50/packet.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 5029,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v50/prepare_corpus.py",
+   "sha256": "57a780c67f8885c98fcf8bce32e4a9ccb9786ecdaa4695015c12b090267ac4ac",
+   "source_path": "tools/astral-neuron-level-causal-lane-v50/prepare_corpus.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 13028,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v50/pythia_backend.py",
+   "sha256": "4568ac791180881f09cb12e42c33980aa99939484d2a3faaca27631e4b7b5d09",
+   "source_path": "tools/astral-neuron-level-causal-lane-v50/pythia_backend.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1427,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v50/pythia_plan.py",
+   "sha256": "e9e8cfc85ea67eae9baa7972e053cbf73982e5e64ba256c1b63a1cd7c6c560b4",
+   "source_path": "tools/astral-neuron-level-causal-lane-v50/pythia_plan.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3081,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v50/run_v50_node.py",
+   "sha256": "b42cb9acdf8ebee27ebf81730088f73c1983c54576925bad2450f80bdc0d2f8a",
+   "source_path": "tools/astral-neuron-level-causal-lane-v50/run_v50_node.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 4078,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v50/smoke_v50.py",
+   "sha256": "82917721305e0c5514e7cff9f7f6e972ac62707c36928568e7095de1a3db3af3",
+   "source_path": "tools/astral-neuron-level-causal-lane-v50/smoke_v50.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 7951,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v50/tests/test_packet_runner.py",
+   "sha256": "95145dd2b52f683414e0a8c1052d4e9deb6a3f6b7a133e6c0e69fecd9a34559e",
+   "source_path": "tools/astral-neuron-level-causal-lane-v50/tests/test_packet_runner.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 5428,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v50/tests/test_v50.py",
+   "sha256": "124eb957f8bc743bb66c9f3c0319db1954fa8ba8a6b5ef9f25a0945654ea9906",
+   "source_path": "tools/astral-neuron-level-causal-lane-v50/tests/test_v50.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 7188,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v50/tests/test_v50_corpus.py",
+   "sha256": "eaa6aa518b88693fe89aaf16a3ee3630e41372fdff3ce65826e528ec88bdf6f1",
+   "source_path": "tools/astral-neuron-level-causal-lane-v50/tests/test_v50_corpus.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 9720,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v50/v50.py",
+   "sha256": "19b0bf21ebe3a534fed340a18e0270838117e9b7ce8b66818ad537a59f24d69f",
+   "source_path": "tools/astral-neuron-level-causal-lane-v50/v50.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 7512,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v50/v50_corpus.py",
+   "sha256": "8eef96a08baa4d259981fd82525be159f115bf79a57a20e79e2edd6ef6a96916",
+   "source_path": "tools/astral-neuron-level-causal-lane-v50/v50_corpus.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3131,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v51/build_corpus_v51.py",
+   "sha256": "dabe73f1d51163a4afdaa3911118fee676c83038f4fb74a92b286618b14d76bd",
+   "source_path": "tools/astral-neuron-level-causal-lane-v51/build_corpus_v51.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2612,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v51/run_v51_node.py",
+   "sha256": "02c5958cf9a9ef59adfeecdf1cda040bd90d1241fbf4b3e364e3997b1f836c5b",
+   "source_path": "tools/astral-neuron-level-causal-lane-v51/run_v51_node.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1509,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v51/tests/test_v51.py",
+   "sha256": "c304a8ff21a3c13828d689e4f9dcd1ac50dcfbf82fb00cebad38bcf84945882e",
+   "source_path": "tools/astral-neuron-level-causal-lane-v51/tests/test_v51.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3583,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v51/v51.py",
+   "sha256": "d6a0c147c3ba7357f31ba30ba74fb0e1d27e6ee9a2fa64d1cd695aafa6380e56",
+   "source_path": "tools/astral-neuron-level-causal-lane-v51/v51.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2639,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v52/run_v52_node.py",
+   "sha256": "585ea319e5de756bef3b6826853b3561f189d85036d7ed3b626f4b2969d7e059",
+   "source_path": "tools/astral-neuron-level-causal-lane-v52/run_v52_node.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1140,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v52/tests/test_v52.py",
+   "sha256": "0aa7ca8ce9d3801597d2579855d1a70d101107fdf36cec0344903b7e4a3633b9",
+   "source_path": "tools/astral-neuron-level-causal-lane-v52/tests/test_v52.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1694,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v52/v52.py",
+   "sha256": "994f9a76d280b5de5900e36c3390e3001f3f09d8f1617bbc66c66d1e556efb50",
+   "source_path": "tools/astral-neuron-level-causal-lane-v52/v52.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2375,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v53/run_v53_node.py",
+   "sha256": "f137b5e6113a9678e03ba443431ad4240338d12a991597a849ead5b02e5219bb",
+   "source_path": "tools/astral-neuron-level-causal-lane-v53/run_v53_node.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1650,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v53/tests/test_v53.py",
+   "sha256": "726575aa1468c897103b8ba74692c0934e4184f4fb7b429753899fe7084cbb23",
+   "source_path": "tools/astral-neuron-level-causal-lane-v53/tests/test_v53.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3017,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v53/v53.py",
+   "sha256": "6152943a1e5ba28001a3a1d83b854389866a5168f16fa1192dcd5d04874cead1",
+   "source_path": "tools/astral-neuron-level-causal-lane-v53/v53.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1572,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v54/books_v54.py",
+   "sha256": "13d64be6dfa91d11ad49076fae7d64be885e8f7134cedbe59a9cebd022ddeabb",
+   "source_path": "tools/astral-neuron-level-causal-lane-v54/books_v54.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3999,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v54/build_corpus_v54.py",
+   "sha256": "46c35e862494f42ae16b96dab6d53e0f2d0e08859f22d1a0a6b32cba8486deed",
+   "source_path": "tools/astral-neuron-level-causal-lane-v54/build_corpus_v54.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2362,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v54/run_v54_node.py",
+   "sha256": "0e6e9ac6d3f550d122459834b26d375948c37b7c84a6d280c14e38e5da8d60d5",
+   "source_path": "tools/astral-neuron-level-causal-lane-v54/run_v54_node.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 774,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v54/tests/test_v54.py",
+   "sha256": "e5368895dbdd85da74e3640dae094e4c9b2855f2df42405d1d51ff86b3fc909f",
+   "source_path": "tools/astral-neuron-level-causal-lane-v54/tests/test_v54.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 779,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v54/v54.py",
+   "sha256": "4aed35e47d2f524df4643a3d702b61a4da0bbf2789cfd310b90a10856368bbcb",
+   "source_path": "tools/astral-neuron-level-causal-lane-v54/v54.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2363,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v55/run_v55_node.py",
+   "sha256": "cec08174ddb2948fa7ada815e420f8e201ef7b8abf1a9484e0b63d603937f0ea",
+   "source_path": "tools/astral-neuron-level-causal-lane-v55/run_v55_node.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 487,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v55/tests/test_v55.py",
+   "sha256": "7ac48866a3e26bef3d045cd219f0f1ba9a48b68232a9f89994291b49eed2693a",
+   "source_path": "tools/astral-neuron-level-causal-lane-v55/tests/test_v55.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 871,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v55/v55.py",
+   "sha256": "ec2b33563c14d9ff2b7339621f360bbe6fcbb93a50873d1e80a2454192fc435e",
+   "source_path": "tools/astral-neuron-level-causal-lane-v55/v55.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2314,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v56/run_v56_node.py",
+   "sha256": "c40186bb110bb80b656c7785d5e03ec8e7a1d9838f24dbce514e2153e2f03959",
+   "source_path": "tools/astral-neuron-level-causal-lane-v56/run_v56_node.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1033,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v56/tests/test_v56.py",
+   "sha256": "06b3d085ae5bb138e1ca18bbc533ad02579c6863686e03bf8d2dc90439d7d19b",
+   "source_path": "tools/astral-neuron-level-causal-lane-v56/tests/test_v56.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3158,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v56/v56.py",
+   "sha256": "0668920f78db5143eabcaf0747b11a29d66af54b748e8c2d2ca5d6de387caa74",
+   "source_path": "tools/astral-neuron-level-causal-lane-v56/v56.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2338,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v57/run_v57_node.py",
+   "sha256": "13b589e274e15ed7c5218a5afc46fc99bddd76aa6be0a7298ea79e2cfe342d3f",
+   "source_path": "tools/astral-neuron-level-causal-lane-v57/run_v57_node.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1348,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v57/tests/test_v57.py",
+   "sha256": "abc7c676bfcd80bd45b6dcf274eb1c7d21afbfc68286c421dbae74a79e0e0c67",
+   "source_path": "tools/astral-neuron-level-causal-lane-v57/tests/test_v57.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 5079,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v57/v57.py",
+   "sha256": "5525f4d86ac26b7f4d5d03f2359ad8aa4bc83d21cc90aeb8269a6ea5bb194800",
+   "source_path": "tools/astral-neuron-level-causal-lane-v57/v57.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2361,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v58/run_v58_node.py",
+   "sha256": "3b73c4120c0629313f519200d587a5da21c5a5d29adf5ad61299ba7012647fed",
+   "source_path": "tools/astral-neuron-level-causal-lane-v58/run_v58_node.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1550,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v58/tests/test_v58.py",
+   "sha256": "0f78fdaaf671d94022bbc5bb8f26e3e49fcd237ad95c7b64b4fe8c2b83d88057",
+   "source_path": "tools/astral-neuron-level-causal-lane-v58/tests/test_v58.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 8196,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v58/v58.py",
+   "sha256": "b611a4f82d410ebb2bf0e69d5dc7355e4ee5916af42b38063de63bfdbc381f9a",
+   "source_path": "tools/astral-neuron-level-causal-lane-v58/v58.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 4486,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v59/build_refl_v59.py",
+   "sha256": "222297a96af867677a322d24ead75825698f99f96218d9e359fe4b3b60ba3e47",
+   "source_path": "tools/astral-neuron-level-causal-lane-v59/build_refl_v59.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2461,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v59/run_v59_node.py",
+   "sha256": "07ca88543bb9c8a2bab9b01c5b524d0a733434257ae3aca99a7aa27786da3308",
+   "source_path": "tools/astral-neuron-level-causal-lane-v59/run_v59_node.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3113,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v59/tests/test_v59.py",
+   "sha256": "196a270b91c593f8f5e053326caf16388fa01993fe2c52a6d6ed8d4b54092687",
+   "source_path": "tools/astral-neuron-level-causal-lane-v59/tests/test_v59.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 7315,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v59/v59.py",
+   "sha256": "8be526da849df8b0f061f17344e1e0d9f3dba1e820e71f717de5f9c597b923d6",
+   "source_path": "tools/astral-neuron-level-causal-lane-v59/v59.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 523,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v60/run_v60_local.py",
+   "sha256": "d599bd5448f812fcefc25b757c2c8f52595afc8d4f05ddbfe6c572d3f5f8ea6a",
+   "source_path": "tools/astral-neuron-level-causal-lane-v60/run_v60_local.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2398,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v60/run_v60_node.py",
+   "sha256": "751365c60318b2b2f685a2fe43e0987a4f5fa3cfa5609c5c8602ad4b73747681",
+   "source_path": "tools/astral-neuron-level-causal-lane-v60/run_v60_node.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2597,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v60/tests/test_v60.py",
+   "sha256": "31cdb31c30556475d4b5d6fc0d52ca0cb772ae8268c49cfdf31ba4fe460798b4",
+   "source_path": "tools/astral-neuron-level-causal-lane-v60/tests/test_v60.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 9440,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v60/v60.py",
+   "sha256": "956b8d62cf2d3cd2e8c87e36133dd08ee7657e229967308bbbab205f57241f72",
+   "source_path": "tools/astral-neuron-level-causal-lane-v60/v60.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1970,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v61-local/run_v61_local.py",
+   "sha256": "4d3b9ebc3940775d2b42dce264283e96e19213bd696663ae148c02cbe7d760d6",
+   "source_path": "tools/astral-neuron-level-causal-lane-v61-local/run_v61_local.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1956,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v61-local/tests/test_v61.py",
+   "sha256": "b22ac787b048daea7f38aa8a640b0141381f22d094e27b1d668eb9402c28f2df",
+   "source_path": "tools/astral-neuron-level-causal-lane-v61-local/tests/test_v61.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 4186,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v61-local/v61.py",
+   "sha256": "986d3fbda944ef27f3c8901953b017dd7761df357892588fdddef0e5f209766a",
+   "source_path": "tools/astral-neuron-level-causal-lane-v61-local/v61.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 2492,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v61/run_v61_node.py",
+   "sha256": "9c2c508c4e3b94c67eb074856f777faa8b83a528c2228fd50855bd8aac4c9c97",
+   "source_path": "tools/astral-neuron-level-causal-lane-v61/run_v61_node.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 3390,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v61/tests/test_v61.py",
+   "sha256": "d5f66baa2ac2dfb7f96ad657643ef90cb7ee6172710f8ef6bf68ab6f91b13fdb",
+   "source_path": "tools/astral-neuron-level-causal-lane-v61/tests/test_v61.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 6200,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v61/v61.py",
+   "sha256": "0cdc259d7d44639e1feb6070856933bd263c9f0fdf42dafc4b66c243aa474e5c",
+   "source_path": "tools/astral-neuron-level-causal-lane-v61/v61.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 815,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v62/run_all.sh",
+   "sha256": "a8acf7162652c1190d2af7d27bed42b2502ea0f1ca49246a3e4577401d4a989b",
+   "source_path": "tools/astral-neuron-level-causal-lane-v62/run_all.sh",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1229,
+   "path": "imports/astral-neuron/tools/astral-neuron-level-causal-lane-v62/run_v62.py",
+   "sha256": "f8a298d317aaf6e0b3c91dd911c2f60b5cfd0a7eb2eb07a5a81db811654ecd23",
+   "source_path": "tools/astral-neuron-level-causal-lane-v62/run_v62.py",
+   "source_repo": "composed-zk-benchmark-os"
+  },
+  {
+   "bytes": 1891,
+   "path": "imports/interpretability-lab-sandbox/AGENTS.md",
+   "sha256": "28d3b1b3e824e0892a82bf4ea35fe82f1d5c46ad183150a052735fa8f3dc16b7",
+   "source_path": "AGENTS.md",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 12323,
+   "path": "imports/interpretability-lab-sandbox/README.md",
+   "sha256": "73b8432115c39c5c3a0dcec96c08565216d71287a457156aeab1e3c766aa4ae6",
+   "source_path": "README.md",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 7495,
+   "path": "imports/interpretability-lab-sandbox/configs/gemma3-27b-heldout-causal-retention-v10-design-only.json",
+   "sha256": "a7da3b67134f2d222489a421d0503a16f85f6e2159108a1bb5767fc61db02c97",
+   "source_path": "configs/gemma3-27b-heldout-causal-retention-v10-design-only.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 4333,
+   "path": "imports/interpretability-lab-sandbox/configs/gemma3-27b-reconstruction-v9-design-only.json",
+   "sha256": "48f322d934b35d906ec2226e6ce6c86723161d988880eb31d4138d7129087de1",
+   "source_path": "configs/gemma3-27b-reconstruction-v9-design-only.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 4265,
+   "path": "imports/interpretability-lab-sandbox/configs/gpt2-resid-mid-assessment-v1.json",
+   "sha256": "4374a03d075c40baa0136bfc115b5d64622c2b7827b564443fdd6f347b1dbf59",
+   "source_path": "configs/gpt2-resid-mid-assessment-v1.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 1936,
+   "path": "imports/interpretability-lab-sandbox/configs/internal-real-gpt2-resid-mid.json",
+   "sha256": "469cce5717d76f30c0efc44f9e91ce694dcab47451086e0d05294daddcbdb7f4",
+   "source_path": "configs/internal-real-gpt2-resid-mid.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 1495,
+   "path": "imports/interpretability-lab-sandbox/configs/internal-real-gpt2.json",
+   "sha256": "eb6116cc9f43fd1a41ccc520d91d737cab2f6805e686722552764c6d6ecd58c6",
+   "source_path": "configs/internal-real-gpt2.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 2366,
+   "path": "imports/interpretability-lab-sandbox/configs/internal-real-qwen38-v2.json",
+   "sha256": "6b154992fb72d387168b6f7fe4c4f3cad1d7675619085e60d7a3d44e342c35fe",
+   "source_path": "configs/internal-real-qwen38-v2.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 2549,
+   "path": "imports/interpretability-lab-sandbox/configs/internal-real-qwen38-v3.json",
+   "sha256": "71ed73d322c902153895cd18400412461ddab6b2d2cbd6d4f390f23fb81da395",
+   "source_path": "configs/internal-real-qwen38-v3.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 2572,
+   "path": "imports/interpretability-lab-sandbox/configs/internal-real-qwen38-v4-stage1.json",
+   "sha256": "c091699e0c9f77ead3fdb14396ffe362cf7a311e4d4f1c1382c88bf0baf35f61",
+   "source_path": "configs/internal-real-qwen38-v4-stage1.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 2262,
+   "path": "imports/interpretability-lab-sandbox/configs/internal-real-qwen38.json",
+   "sha256": "827c09d81c2f181e019532964211690a54d8db45a48836c6e4d2c4693dce6835",
+   "source_path": "configs/internal-real-qwen38.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 4860,
+   "path": "imports/interpretability-lab-sandbox/configs/qwen3.8-27b-assessment-v1.json",
+   "sha256": "575857d36bcd1a494bd36d7c1c087bfa14480b4c1e39821ec0cd7b7b70140bd0",
+   "source_path": "configs/qwen3.8-27b-assessment-v1.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 4830,
+   "path": "imports/interpretability-lab-sandbox/configs/qwen3.8-27b-internal-qualification-v1.json",
+   "sha256": "fd475d3a0477a12a973f21520091df0b74754090c281f198811c6dd516b36369",
+   "source_path": "configs/qwen3.8-27b-internal-qualification-v1.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 5041,
+   "path": "imports/interpretability-lab-sandbox/configs/qwen3.8-27b-internal-qualification-v2.json",
+   "sha256": "31b61ddd965a27d13289d1bf230d557d904d5657c0ca95384a63d124b87fce0c",
+   "source_path": "configs/qwen3.8-27b-internal-qualification-v2.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 5215,
+   "path": "imports/interpretability-lab-sandbox/configs/qwen3.8-27b-internal-qualification-v3-corrected.json",
+   "sha256": "73485a48b269b68beb6e754523de7f22ba1475d2557e9b55326fb757ef4089f6",
+   "source_path": "configs/qwen3.8-27b-internal-qualification-v3-corrected.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 5208,
+   "path": "imports/interpretability-lab-sandbox/configs/qwen3.8-27b-internal-qualification-v3.json",
+   "sha256": "f45ef389d42cae78385279d10c11831a0dbc7d5b09223c05ff0757d35ad319e0",
+   "source_path": "configs/qwen3.8-27b-internal-qualification-v3.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 5226,
+   "path": "imports/interpretability-lab-sandbox/configs/qwen3.8-27b-internal-qualification-v4-stage1.json",
+   "sha256": "ad529aa8bbc6d00ad97a21e7feafa0af1afc398a9ca9c2d06149aaabb476d75d",
+   "source_path": "configs/qwen3.8-27b-internal-qualification-v4-stage1.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 3239,
+   "path": "imports/interpretability-lab-sandbox/configs/qwen3.8-27b-reconstruction-v5-design-only.json",
+   "sha256": "c3b997b864584523626f186063f4881ceea71d87a098ac7051f33261908851cd",
+   "source_path": "configs/qwen3.8-27b-reconstruction-v5-design-only.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 3333,
+   "path": "imports/interpretability-lab-sandbox/configs/qwen3.8-27b-reconstruction-v5-layer33-design-only.json",
+   "sha256": "d1168878f65a33a2e77208ad31a7c1b310d478d1e48cd598d260d58fdf89b13c",
+   "source_path": "configs/qwen3.8-27b-reconstruction-v5-layer33-design-only.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 3436,
+   "path": "imports/interpretability-lab-sandbox/configs/qwen3.8-27b-reconstruction-v6-transformers-main-design-only.json",
+   "sha256": "a1452f589bf5919857ea77a42153e47c818f8c16ac46394b9bf4abb76e93a0ff",
+   "source_path": "configs/qwen3.8-27b-reconstruction-v6-transformers-main-design-only.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 3509,
+   "path": "imports/interpretability-lab-sandbox/configs/qwen3.8-27b-reconstruction-v7-vision-runtime-design-only.json",
+   "sha256": "43be771224271e12db5bac13d9b4e1e92ac52d9b1cf4e998a07a6730be85aa8b",
+   "source_path": "configs/qwen3.8-27b-reconstruction-v7-vision-runtime-design-only.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 992,
+   "path": "imports/interpretability-lab-sandbox/configs/sandbox.json",
+   "sha256": "f4d4ef73e8432b82e5dd5da598244aba3741cca72cacbb874589b8f8cf8c385f",
+   "source_path": "configs/sandbox.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 1081,
+   "path": "imports/interpretability-lab-sandbox/docs/ARCHITECTURE.md",
+   "sha256": "63256bf9acbe7cb37c0b518f54af9fd4c768d6f36f8cd6ef7f08aac05c1f7d3a",
+   "source_path": "docs/ARCHITECTURE.md",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 4530,
+   "path": "imports/interpretability-lab-sandbox/docs/ASSESSMENT_PLAN.md",
+   "sha256": "867888dd4cd7828b24343ab84330ba1a6bc149fec69e32994ae6626aa741f411",
+   "source_path": "docs/ASSESSMENT_PLAN.md",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 1100,
+   "path": "imports/interpretability-lab-sandbox/docs/EXPERIMENT_PLAN.md",
+   "sha256": "4cf85736cd421899b3406bad1ccb5c5786146009ae3a39ae1f5438bb4eaecb58",
+   "source_path": "docs/EXPERIMENT_PLAN.md",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 3892,
+   "path": "imports/interpretability-lab-sandbox/docs/GEMMA3_INTERNAL_V9_RESULT.md",
+   "sha256": "af4c87a967d30befc8e69893acb6414e4c055fd785608e8e75483f3a8c88d674",
+   "source_path": "docs/GEMMA3_INTERNAL_V9_RESULT.md",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 3468,
+   "path": "imports/interpretability-lab-sandbox/docs/GEMMA3_V10_ASSESSMENT_PLAN.md",
+   "sha256": "57cf351a906f5fd40c95732a6ea692318235bd3701cf99052493d9c6eb4b228d",
+   "source_path": "docs/GEMMA3_V10_ASSESSMENT_PLAN.md",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 1053,
+   "path": "imports/interpretability-lab-sandbox/docs/GEMMA3_V10_SYNTHETIC_READINESS.md",
+   "sha256": "9f4edabd2a330c5d22318a1845daf5ac1387e4297c21af99c0a48884439f11ba",
+   "source_path": "docs/GEMMA3_V10_SYNTHETIC_READINESS.md",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 1262,
+   "path": "imports/interpretability-lab-sandbox/docs/GEMMA3_V9_WECO_RESULT.md",
+   "sha256": "91c715e5a6b586330b2a72b6c5705494cc3f27d324839a4ea5d86b08cb24ea2a",
+   "source_path": "docs/GEMMA3_V9_WECO_RESULT.md",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 2462,
+   "path": "imports/interpretability-lab-sandbox/docs/INTERNAL_RUN.md",
+   "sha256": "ee0e257b7be1ed827548d422aea4773a7fc1bc92d00e4a164332d403c6684282",
+   "source_path": "docs/INTERNAL_RUN.md",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 3213,
+   "path": "imports/interpretability-lab-sandbox/docs/QWEN38_INTERNAL_V3_RESULT.md",
+   "sha256": "fd182d271460c95fdf71b43a1b30d89ed685d76f49c06436a18f9e312a0b7e73",
+   "source_path": "docs/QWEN38_INTERNAL_V3_RESULT.md",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 2543,
+   "path": "imports/interpretability-lab-sandbox/docs/QWEN38_INTERNAL_V4_RESULT.md",
+   "sha256": "450933a5700060afd05f013d9cbfdc110063966b8e063746b0f84ed285bc613b",
+   "source_path": "docs/QWEN38_INTERNAL_V4_RESULT.md",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 1629,
+   "path": "imports/interpretability-lab-sandbox/docs/QWEN38_INTERNAL_V8_RESULT.md",
+   "sha256": "001841d06e83929cd555bdf67744000315f2ce3e7641c18f35ccf30e71ffc8af",
+   "source_path": "docs/QWEN38_INTERNAL_V8_RESULT.md",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 4797,
+   "path": "imports/interpretability-lab-sandbox/docs/QWEN38_PLAN.md",
+   "sha256": "bac0bb3fd5a21bd341650ab91bd9ad566df3b26f7b5d6130ec55115e07c89707",
+   "source_path": "docs/QWEN38_PLAN.md",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 6446,
+   "path": "imports/interpretability-lab-sandbox/docs/QWEN38_RECONSTRUCTION_V5.md",
+   "sha256": "18ab718028fd5e7466460f1ed7f2b6339ea5d69b09652722626d817573ce7823",
+   "source_path": "docs/QWEN38_RECONSTRUCTION_V5.md",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 3002,
+   "path": "imports/interpretability-lab-sandbox/docs/QWEN38_RECONSTRUCTION_V5_RUNTIME_BLOCK.md",
+   "sha256": "d9ec3be3d2abad4602964aff81f7370c5c0530a7e103d5cfe4c705b1854d86e5",
+   "source_path": "docs/QWEN38_RECONSTRUCTION_V5_RUNTIME_BLOCK.md",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 5754,
+   "path": "imports/interpretability-lab-sandbox/docs/QWEN38_V9_COMPATIBILITY_AUDIT.md",
+   "sha256": "5159492ef7f90c5664b23ac9f7ea4a398264e606a37e22f6b32fbe9004ec05b2",
+   "source_path": "docs/QWEN38_V9_COMPATIBILITY_AUDIT.md",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 1187,
+   "path": "imports/interpretability-lab-sandbox/docs/REAL_CONTINUATION.md",
+   "sha256": "31806330f85b66ba51a99875f357feb4ad0b3d2225b8a812ad3d316a6cb1eec4",
+   "source_path": "docs/REAL_CONTINUATION.md",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 1398,
+   "path": "imports/interpretability-lab-sandbox/docs/REAL_RUN.md",
+   "sha256": "ed4a82323fd2988f4a7d08d1f0b0a3056bb3e8676765e365fc633004f7c69b5c",
+   "source_path": "docs/REAL_RUN.md",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 1689,
+   "path": "imports/interpretability-lab-sandbox/docs/review/GEMMA3_V10_REVIEW_HANDOFF.md",
+   "sha256": "0b2e9cf9bb38a31aa54cf00378697607966d7d2660d518823bbf419ae240c385",
+   "source_path": "docs/review/GEMMA3_V10_REVIEW_HANDOFF.md",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 1664,
+   "path": "imports/interpretability-lab-sandbox/docs/review/gemma3-v10-review-packet.json",
+   "sha256": "53084883870663b96e0bfd6e2ee725b50497beb0a5038a473acecf1b2773ee2c",
+   "source_path": "docs/review/gemma3-v10-review-packet.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 1422,
+   "path": "imports/interpretability-lab-sandbox/docs/review/gemma3-v9-review-packet.json",
+   "sha256": "32a28b9f318d002968e88e9a0509417d0938bc537be71250de1183fbb4b7f1ac",
+   "source_path": "docs/review/gemma3-v9-review-packet.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 335,
+   "path": "imports/interpretability-lab-sandbox/pyproject.toml",
+   "sha256": "986794f1c4fffe4c16632dba3020bcf982eb445f4c5c41a77a431a3b85ce43c6",
+   "source_path": "pyproject.toml",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 7899,
+   "path": "imports/interpretability-lab-sandbox/scripts/assemble_assessment_packet.py",
+   "sha256": "ed7987d4f23f5a34d3df988424b8b99d7f1561c05db8fbd794ccc3761b642ca5",
+   "source_path": "scripts/assemble_assessment_packet.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 12675,
+   "path": "imports/interpretability-lab-sandbox/scripts/assemble_gemma3_v10_packet.py",
+   "sha256": "32ec097aa1db550eecf211d64ed61c1fdc98abc10f7d92f487d337d2af30940e",
+   "source_path": "scripts/assemble_gemma3_v10_packet.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 5554,
+   "path": "imports/interpretability-lab-sandbox/scripts/check_assessment_gate.py",
+   "sha256": "a894ab7c0a82b7fb20d5f8ae897ff73d745ba663cd4f9df9b377bd18e778df11",
+   "source_path": "scripts/check_assessment_gate.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 9796,
+   "path": "imports/interpretability-lab-sandbox/scripts/check_gemma3_v10_gate.py",
+   "sha256": "8bb418bfa2875628ae88b373caa91253baca6471ca1b951e431a8e3eeeec68c2",
+   "source_path": "scripts/check_gemma3_v10_gate.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 1588,
+   "path": "imports/interpretability-lab-sandbox/scripts/check_internal_gate.py",
+   "sha256": "2d8f207b34e54f8611a425fd8187f39ea56b908515cfe14e9eacf07569c0ba69",
+   "source_path": "scripts/check_internal_gate.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 3740,
+   "path": "imports/interpretability-lab-sandbox/scripts/freeze_gemma3_v10_review_packet.py",
+   "sha256": "51d00397b6bf904886e22463411aefa481359a34734774bedd42ec71c3f06f71",
+   "source_path": "scripts/freeze_gemma3_v10_review_packet.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 5616,
+   "path": "imports/interpretability-lab-sandbox/scripts/freeze_gemma3_v9_packet.py",
+   "sha256": "62c90d63eab77e1e93e63d53412db1b6d4268472451fffa15ad558074d07da3f",
+   "source_path": "scripts/freeze_gemma3_v9_packet.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 3101,
+   "path": "imports/interpretability-lab-sandbox/scripts/freeze_gemma3_v9_review_packet.py",
+   "sha256": "4a1ce81c0b028fff2183c992b7f566ae1ce81bca8f94cc705c3b0f869cca8f48",
+   "source_path": "scripts/freeze_gemma3_v9_review_packet.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 5209,
+   "path": "imports/interpretability-lab-sandbox/scripts/freeze_internal_qwen38_packet.py",
+   "sha256": "f863e5acc41b1b25c837c5a3ecbb2e80027d703022a4d9c2be95fc8dc5fdea9c",
+   "source_path": "scripts/freeze_internal_qwen38_packet.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 1734,
+   "path": "imports/interpretability-lab-sandbox/scripts/freeze_qwen38_reconstruction_v5.py",
+   "sha256": "16b83c9688f4e281a883587e393ab76eb6eb1d0471e046d9075fac9823161644",
+   "source_path": "scripts/freeze_qwen38_reconstruction_v5.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 2392,
+   "path": "imports/interpretability-lab-sandbox/scripts/generate_gemma3_v9_corpus.py",
+   "sha256": "f486aaf97d31326ea966d21fb447921c9cd2900419425841627d0bd19070b25b",
+   "source_path": "scripts/generate_gemma3_v9_corpus.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 2480,
+   "path": "imports/interpretability-lab-sandbox/scripts/generate_qwen38_reconstruction_v5_corpus.py",
+   "sha256": "7b4ef937f1ed64fcf29dbd6f2431d079f65a79ab24e6feed07bbda26ae413a6e",
+   "source_path": "scripts/generate_qwen38_reconstruction_v5_corpus.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 5544,
+   "path": "imports/interpretability-lab-sandbox/scripts/prepare_and_run_gemma3_v9.py",
+   "sha256": "81361b240094dade62591e6474c0c3b268e2e061b668bf74cc84d5882b8e65f8",
+   "source_path": "scripts/prepare_and_run_gemma3_v9.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 7780,
+   "path": "imports/interpretability-lab-sandbox/scripts/prepare_and_run_qwen38_reconstruction_v5.py",
+   "sha256": "33a498f899192658e6a75db3ecce1a04572c44992fa4095bc9829f6efa6d72cf",
+   "source_path": "scripts/prepare_and_run_qwen38_reconstruction_v5.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 14163,
+   "path": "imports/interpretability-lab-sandbox/scripts/run_assessment.py",
+   "sha256": "93b63a3e8128c86369553b9d8c57880262a24dbe4d6f94651bdfb23f86012385",
+   "source_path": "scripts/run_assessment.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 15126,
+   "path": "imports/interpretability-lab-sandbox/scripts/run_real_gemma3_reconstruction_v9.py",
+   "sha256": "af37d6c3521f6c30e3a7c6182d872fa3291aa696480511e1d8d52dced64ab8bf",
+   "source_path": "scripts/run_real_gemma3_reconstruction_v9.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 11178,
+   "path": "imports/interpretability-lab-sandbox/scripts/run_real_gpt2.py",
+   "sha256": "b4846c544d5023786dccc2d97518c1a2ae1ce6abc4848f52c22bb1181772a0c1",
+   "source_path": "scripts/run_real_gpt2.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 12172,
+   "path": "imports/interpretability-lab-sandbox/scripts/run_real_gpt2_resid_mid.py",
+   "sha256": "1c4977a40e206af2f771f3f23a85121ce2fe6475bd020083238e1874710ed52a",
+   "source_path": "scripts/run_real_gpt2_resid_mid.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 14398,
+   "path": "imports/interpretability-lab-sandbox/scripts/run_real_qwen38.py",
+   "sha256": "46e1abb5de5f649ada0b7c35b18434a9c6f320439de8a2bb0f421e32ba2de478",
+   "source_path": "scripts/run_real_qwen38.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 18111,
+   "path": "imports/interpretability-lab-sandbox/scripts/run_real_qwen38_reconstruction_v5.py",
+   "sha256": "29ad7a370df459d65d243bdab2a21756f94ef4bc50edfd9b1edb45fd4bae985c",
+   "source_path": "scripts/run_real_qwen38_reconstruction_v5.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 540,
+   "path": "imports/interpretability-lab-sandbox/scripts/run_synthetic.py",
+   "sha256": "ac3ca77598e7cb45c012bed576e629cfc00191c66359fb036f4f99a19f1d81d9",
+   "source_path": "scripts/run_synthetic.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 3227,
+   "path": "imports/interpretability-lab-sandbox/scripts/run_synthetic_assessment.py",
+   "sha256": "46da7e4a304716112315cabe433c6f490d32afbc9a3eb50e8daa5625e0a80f40",
+   "source_path": "scripts/run_synthetic_assessment.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 1907,
+   "path": "imports/interpretability-lab-sandbox/scripts/validate_assessment.py",
+   "sha256": "4ccaede20a0421009e2f731e3fa88540c8c82cea853344219f5894af07000801",
+   "source_path": "scripts/validate_assessment.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 761,
+   "path": "imports/interpretability-lab-sandbox/scripts/validate_continual.py",
+   "sha256": "15f76e6e0b815785382dc0dd1497e5aae1a039c8de2b96d2ffccb95122f4c9da",
+   "source_path": "scripts/validate_continual.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 3718,
+   "path": "imports/interpretability-lab-sandbox/scripts/write_internal_custody_manifest.py",
+   "sha256": "5b3609ca9441f87dd6de4f2fdb1cdb36b0205ed9c9e70769d64a102619658c79",
+   "source_path": "scripts/write_internal_custody_manifest.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 684,
+   "path": "imports/interpretability-lab-sandbox/src/interp_lab/__init__.py",
+   "sha256": "2c90f615ebce922b449f82873ca95ac5d33bb76fd0453253e22445e72c77cf60",
+   "source_path": "src/interp_lab/__init__.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 3377,
+   "path": "imports/interpretability-lab-sandbox/src/interp_lab/adapters.py",
+   "sha256": "c555974dcd2ea3125fe66c003f7f41bc9d38f3f9468eb18a1a5514363cef5b6d",
+   "source_path": "src/interp_lab/adapters.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 9254,
+   "path": "imports/interpretability-lab-sandbox/src/interp_lab/assessment.py",
+   "sha256": "a2772823f24e0882fe2ba35fed3954af45b37d4076b2c416ded1eea3ea6b9059",
+   "source_path": "src/interp_lab/assessment.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 6318,
+   "path": "imports/interpretability-lab-sandbox/src/interp_lab/assessment_validator.py",
+   "sha256": "fd281c9b530fc67e0e33e5e54bf856367f2dde41f764679ba8c42e47bf63494f",
+   "source_path": "src/interp_lab/assessment_validator.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 583,
+   "path": "imports/interpretability-lab-sandbox/src/interp_lab/canonical.py",
+   "sha256": "9e21095dda198306f3f484570ef09fbbeb75c206e994fa8f17f9e1ef131cc3ae",
+   "source_path": "src/interp_lab/canonical.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 7232,
+   "path": "imports/interpretability-lab-sandbox/src/interp_lab/continual.py",
+   "sha256": "ba78d67607b18caae795fd246101e6baae012e07d163c6a369076293277b5753",
+   "source_path": "src/interp_lab/continual.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 7206,
+   "path": "imports/interpretability-lab-sandbox/src/interp_lab/continual_validator.py",
+   "sha256": "df6912b987bf390f5be2d76aad71b08e1147a8692c37eaff326036c07e517afb",
+   "source_path": "src/interp_lab/continual_validator.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 5503,
+   "path": "imports/interpretability-lab-sandbox/src/interp_lab/contracts.py",
+   "sha256": "961c2c3de287eae50b53f9bedd20bb59e16bb4b1a18e71b0e611e71d13ac5d22",
+   "source_path": "src/interp_lab/contracts.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 6352,
+   "path": "imports/interpretability-lab-sandbox/src/interp_lab/custody.py",
+   "sha256": "59fd67d16a716f801abd8da06526321ea0af375afb932e4ff915200a429fb349",
+   "source_path": "src/interp_lab/custody.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 6903,
+   "path": "imports/interpretability-lab-sandbox/src/interp_lab/execution.py",
+   "sha256": "89e51f8eac103b3d507ac66bb983e05a8c85d6474965144f6cd68848dd63e826",
+   "source_path": "src/interp_lab/execution.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 1386,
+   "path": "imports/interpretability-lab-sandbox/src/interp_lab/metrics.py",
+   "sha256": "a5354d75e928f1c04ec30075af85281f151e37dc0e31113f9c64f1599ddeb31c",
+   "source_path": "src/interp_lab/metrics.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 4536,
+   "path": "imports/interpretability-lab-sandbox/src/interp_lab/qualification.py",
+   "sha256": "87820096ff273a53291217851de4ac695b24a957e78d927ac7363b3976a74fc5",
+   "source_path": "src/interp_lab/qualification.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 41523,
+   "path": "imports/interpretability-lab-sandbox/src/interp_lab/real_adapters.py",
+   "sha256": "dc7ca500a316e9fe0d39b9bced5807d14d6337a979cbb74aa8d6713da3915824",
+   "source_path": "src/interp_lab/real_adapters.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 4409,
+   "path": "imports/interpretability-lab-sandbox/src/interp_lab/reconstruction.py",
+   "sha256": "10a9a5e689a335873b31b42b72e7b6feb7faa3be77d866754dad05631662a57b",
+   "source_path": "src/interp_lab/reconstruction.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 13098,
+   "path": "imports/interpretability-lab-sandbox/src/interp_lab/reconstruction_packet.py",
+   "sha256": "20a6ab016f8a3137ff073e3b52d8f64746af7ab164313bae2e6d5d3ff68cad89",
+   "source_path": "src/interp_lab/reconstruction_packet.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 4555,
+   "path": "imports/interpretability-lab-sandbox/src/interp_lab/review.py",
+   "sha256": "8f2a0e1ad15dd1d8b7fb9c8adf5f5e94812f5318eb05b7a474a1732c1c7b9513",
+   "source_path": "src/interp_lab/review.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 9499,
+   "path": "imports/interpretability-lab-sandbox/tests/test_assessment.py",
+   "sha256": "fe56667830c356b7d2505c2a20572a646e7ea87c8b3efef52ccf81a21fba07cf",
+   "source_path": "tests/test_assessment.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 928,
+   "path": "imports/interpretability-lab-sandbox/tests/test_contracts.py",
+   "sha256": "3f162430c183684a53611b21b13fd27ef8c66ef066dde476d7b66c0d4a8c9840",
+   "source_path": "tests/test_contracts.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 13737,
+   "path": "imports/interpretability-lab-sandbox/tests/test_execution.py",
+   "sha256": "356a69743724529d5f13b46d8bab8d613c5f62075e4034ad2dd1bde62cd03ec5",
+   "source_path": "tests/test_execution.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 3599,
+   "path": "imports/interpretability-lab-sandbox/tests/test_gemma3_v10_design.py",
+   "sha256": "8fbd6723f47303163032dd2b5982ff5b3890b8c111f6793decef96593134e307",
+   "source_path": "tests/test_gemma3_v10_design.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 5365,
+   "path": "imports/interpretability-lab-sandbox/tests/test_gemma3_v10_intake.py",
+   "sha256": "1ec6e0856102f7ec8f69cfb8f6c0a974c3335e93248976014285927cc3d93c64",
+   "source_path": "tests/test_gemma3_v10_intake.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 3108,
+   "path": "imports/interpretability-lab-sandbox/tests/test_gemma3_v9_design.py",
+   "sha256": "c60e24667697080e1b20c59055fa501f70b587711e3f167be549815f6b307a78",
+   "source_path": "tests/test_gemma3_v9_design.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 1255,
+   "path": "imports/interpretability-lab-sandbox/tests/test_qualification.py",
+   "sha256": "117e2d13e440d4b2ef51937228bf2f0baec06ee98aabc32b18f844da0f110c48",
+   "source_path": "tests/test_qualification.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 1291,
+   "path": "imports/interpretability-lab-sandbox/tests/test_qwen38_corpus.py",
+   "sha256": "2ed9556c75a8e1b66eaeeb46d3402a22922fade708dc10a1e655679fe777d47d",
+   "source_path": "tests/test_qwen38_corpus.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 7139,
+   "path": "imports/interpretability-lab-sandbox/tests/test_real_adapters.py",
+   "sha256": "9e9f9519ef25d063b65a93637d0a714b89f1cc70799660461f989c0a2efc6f39",
+   "source_path": "tests/test_real_adapters.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 1472,
+   "path": "imports/interpretability-lab-sandbox/tests/test_reconstruction.py",
+   "sha256": "1a3edd52716ac7018f717fa259fc257bbf6b4cc7f30923e52821c24d6874d1ed",
+   "source_path": "tests/test_reconstruction.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 11110,
+   "path": "imports/interpretability-lab-sandbox/tests/test_reconstruction_packet.py",
+   "sha256": "6bd82c515aa2d7abb5fe359a862f4007ed33d5058c911a1be35e7e17b31c988a",
+   "source_path": "tests/test_reconstruction_packet.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 2799,
+   "path": "imports/interpretability-lab-sandbox/tests/test_review.py",
+   "sha256": "2358bcbc12b2202c9a40dc78b9deeb8bca6f25d7b54f3533a060283a7344c262",
+   "source_path": "tests/test_review.py",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 3336,
+   "path": "imports/interpretability-lab-sandbox/third_party/UPSTREAMS.lock.json",
+   "sha256": "5d42c98f29435410f6b1723e11e3d04d1fa2e576ac1f7088b3297e20a1c2d7be",
+   "source_path": "third_party/UPSTREAMS.lock.json",
+   "source_repo": "interpretability-lab-sandbox"
+  },
+  {
+   "bytes": 815,
+   "path": "imports/theseus-lab/AGENTS.md",
+   "sha256": "351813acbf88f039eb03e41c5a937e101ded708707e4578b4a42932ba164bf58",
+   "source_path": "AGENTS.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 33834,
+   "path": "imports/theseus-lab/NOTES.md",
+   "sha256": "70e0667c263b819f21ed8d5ae354d0664cba1367e897858ea28399fc96ac6847",
+   "source_path": "NOTES.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 33590,
+   "path": "imports/theseus-lab/README.md",
+   "sha256": "1936bf6a122fcc4b02a446e823ced69f3d1873c48813d266e0c6c47f92ddc192",
+   "source_path": "README.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4927,
+   "path": "imports/theseus-lab/RESEARCH.md",
+   "sha256": "58fe60f3a81846500cee18f2ecbf094b7d3069ca1141f97b4beb4b71a9f35040",
+   "source_path": "RESEARCH.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 8057,
+   "path": "imports/theseus-lab/docs/additive-module-theorem.md",
+   "sha256": "74c864323a160a4fd816f400e816429e98ca46d79c995f883efac77767c90963",
+   "source_path": "docs/additive-module-theorem.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1105,
+   "path": "imports/theseus-lab/docs/additive-module-validity-v1-freeze.json",
+   "sha256": "fdb6e5839efb06575e784e7d0bf9dd13bd5bcc257296130306b0d526dea55938",
+   "source_path": "docs/additive-module-validity-v1-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5026,
+   "path": "imports/theseus-lab/docs/additive-module-validity-v1-results.md",
+   "sha256": "af7ac43d016fa44afa79be9d775bc7a478b83a496e1b16782058bc439a09d465",
+   "source_path": "docs/additive-module-validity-v1-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6204,
+   "path": "imports/theseus-lab/docs/causal-effect-identifiability-boundary-v1.md",
+   "sha256": "32f54b5d1af9ee52980b19bd1385ac9bedee303b99bbce599f0d45f0aedae784",
+   "source_path": "docs/causal-effect-identifiability-boundary-v1.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1446,
+   "path": "imports/theseus-lab/docs/checkpoint-exposure-v1-freeze.json",
+   "sha256": "bff1e9d1ebf223ac8662f719533a09253a0f4779e3ccdeb5e13c065152378875",
+   "source_path": "docs/checkpoint-exposure-v1-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1648,
+   "path": "imports/theseus-lab/docs/checkpoint-exposure-v1-results.json",
+   "sha256": "530a9452294e51e1ce475cf6ff7004125a195845a69cbd69191024aa61cbb9ba",
+   "source_path": "docs/checkpoint-exposure-v1-results.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2214,
+   "path": "imports/theseus-lab/docs/checkpoint-exposure-v1-results.md",
+   "sha256": "439b25e171463a8fec326575fd361ef841f0609b90465746fe895d2c12dbb11d",
+   "source_path": "docs/checkpoint-exposure-v1-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3181,
+   "path": "imports/theseus-lab/docs/checkpoint-exposure-v1.md",
+   "sha256": "d80b6701cb1776ae53f44ac8ed7275316878bf95516c911ee57fdee5b4ebaf6e",
+   "source_path": "docs/checkpoint-exposure-v1.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 946,
+   "path": "imports/theseus-lab/docs/gpt2-visible-target-audit-v1-freeze.json",
+   "sha256": "d1b8fa3d28e144671c0737bb5739180482c6652e93af9dc1acf44c2eb3951f66",
+   "source_path": "docs/gpt2-visible-target-audit-v1-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2263,
+   "path": "imports/theseus-lab/docs/gpt2-visible-target-audit-v1-results.md",
+   "sha256": "699a3c78ed7fcd647ba3bf86b359f91f0b6d5a860e51e241d6956f2735665cbb",
+   "source_path": "docs/gpt2-visible-target-audit-v1-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2588,
+   "path": "imports/theseus-lab/docs/gpt2-visible-target-audit-v1.md",
+   "sha256": "838f796aee2f673ac13c0146395b3b4d5c5fa5958ddbeb916226c2aeed7e6aa8",
+   "source_path": "docs/gpt2-visible-target-audit-v1.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1145,
+   "path": "imports/theseus-lab/docs/public-release-slices.md",
+   "sha256": "eb91245f18d5d485eb0c3b4c8821d5f9008e3fb3f687b731c96145f63183d444",
+   "source_path": "docs/public-release-slices.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1840,
+   "path": "imports/theseus-lab/docs/qualification-gates.md",
+   "sha256": "95e195467759e076c77dfec3d7bf70f9f39dd0a3db6dd0a57845e5d9373b059b",
+   "source_path": "docs/qualification-gates.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 19306,
+   "path": "imports/theseus-lab/docs/qwen38-local-assessment.md",
+   "sha256": "26a721c06f4cd18a6ea5bc8f7841903135579d61402d591ac733d8fac3ca64fa",
+   "source_path": "docs/qwen38-local-assessment.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6671,
+   "path": "imports/theseus-lab/docs/replacement-loss-not-comparison-readiness-v1.md",
+   "sha256": "6548fafb1572550e3cc8058e5fc9c1112c219cb382f16aad9fc136279f689d3a",
+   "source_path": "docs/replacement-loss-not-comparison-readiness-v1.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6032,
+   "path": "imports/theseus-lab/docs/replacement-loss-prior-art-v1.md",
+   "sha256": "1463b4804ac8e664ab52f689f89fecadb273955c269eefaf5fc2f4f86c123006",
+   "source_path": "docs/replacement-loss-prior-art-v1.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 12585,
+   "path": "imports/theseus-lab/docs/replacement-loss-prior-art-v2.md",
+   "sha256": "8211f4866a7645927a9cbb72e71cdf7738d5c4ca372e93d2a11617795087f8f3",
+   "source_path": "docs/replacement-loss-prior-art-v2.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2283,
+   "path": "imports/theseus-lab/docs/replacement-loss-protocol.md",
+   "sha256": "3888d4b43aced921d45d81c03ac3ad12b90e1918af8d39172724a1ade7422906",
+   "source_path": "docs/replacement-loss-protocol.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2197,
+   "path": "imports/theseus-lab/docs/replacement-loss-v10-freeze.json",
+   "sha256": "6e12cebeb3f2b1f9b1766c748b59b0233d3b249575f629d1c5ad4ce2254fcd74",
+   "source_path": "docs/replacement-loss-v10-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3762,
+   "path": "imports/theseus-lab/docs/replacement-loss-v10-results.md",
+   "sha256": "ae3e1e2203f3d94eb6fe639cfa3974bce44e9c064cc2b350b8af063c6620b464",
+   "source_path": "docs/replacement-loss-v10-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 8670,
+   "path": "imports/theseus-lab/docs/replacement-loss-v10.md",
+   "sha256": "32e5fc3683c761e3173fdc1135ae832be355279f67fa763bd988ffff66e807c2",
+   "source_path": "docs/replacement-loss-v10.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4282,
+   "path": "imports/theseus-lab/docs/replacement-loss-v11-freeze.json",
+   "sha256": "f3a16e77f778c5c82d40e4c5234440b1b614abc746a06243042cefa253f41d41",
+   "source_path": "docs/replacement-loss-v11-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6417,
+   "path": "imports/theseus-lab/docs/replacement-loss-v11-results.md",
+   "sha256": "bd89600f5adb4c94b88fdfa493a7ad308af61a74c3fb901bfbaf72ee0f8e7307",
+   "source_path": "docs/replacement-loss-v11-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5307,
+   "path": "imports/theseus-lab/docs/replacement-loss-v11.md",
+   "sha256": "0042dc858797eb6c64e63c330c55a353faafb4059cad691065f6f13078f9bb06",
+   "source_path": "docs/replacement-loss-v11.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6422,
+   "path": "imports/theseus-lab/docs/replacement-loss-v12-freeze.json",
+   "sha256": "b89eac0884bd7022c3e4836263cbd03d4379c5aa59b64f3681994b63d2bffc29",
+   "source_path": "docs/replacement-loss-v12-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6454,
+   "path": "imports/theseus-lab/docs/replacement-loss-v12-replication-results.md",
+   "sha256": "ef106e78cbcc81776e9ba262de7632c2a1bc1afd1dc7f8abe5fa6cfaa7f5b4fe",
+   "source_path": "docs/replacement-loss-v12-replication-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5358,
+   "path": "imports/theseus-lab/docs/replacement-loss-v12-replication.md",
+   "sha256": "26e9477e1bbd0e0204dc5c0e530752b1f804182628a3d953d774f78ff47a65cc",
+   "source_path": "docs/replacement-loss-v12-replication.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6398,
+   "path": "imports/theseus-lab/docs/replacement-loss-v13-freeze.json",
+   "sha256": "3cece104ef48d410b8e412f77fb3a694f3c9ed94494ccbfca3d5d7bcfadfaae0",
+   "source_path": "docs/replacement-loss-v13-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5860,
+   "path": "imports/theseus-lab/docs/replacement-loss-v13-results.md",
+   "sha256": "6a8e7318c4c5e5f4a1b9572b7857b31de36c3cc4c25774cbc522cbcdac0d50c4",
+   "source_path": "docs/replacement-loss-v13-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 7718,
+   "path": "imports/theseus-lab/docs/replacement-loss-v13.md",
+   "sha256": "ff1ef7d4c19dcf5cb0945908610e34998ae649d09a0e8d94619d4e310150874f",
+   "source_path": "docs/replacement-loss-v13.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 8117,
+   "path": "imports/theseus-lab/docs/replacement-loss-v14-freeze.json",
+   "sha256": "c3421e9e983650acbdf095b4620fca6f5a01b391691ad3c796b116f6e21e344b",
+   "source_path": "docs/replacement-loss-v14-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 7798,
+   "path": "imports/theseus-lab/docs/replacement-loss-v14-results.md",
+   "sha256": "286dee4efc8605e06acac6eb95ef71ff5b64b72f486e8e30062ae0ec5bba660e",
+   "source_path": "docs/replacement-loss-v14-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6004,
+   "path": "imports/theseus-lab/docs/replacement-loss-v14.md",
+   "sha256": "450cd1d81865757a345165eb72aab55438696583ae6119fb3d8a11b42916d8e9",
+   "source_path": "docs/replacement-loss-v14.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5658,
+   "path": "imports/theseus-lab/docs/replacement-loss-v15-capacity-optimization-diagnostic.md",
+   "sha256": "3c4c4d3b462fff8c9fb40b7e50518efd814e0652d331fdb25d47bdaa1a56719f",
+   "source_path": "docs/replacement-loss-v15-capacity-optimization-diagnostic.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 8386,
+   "path": "imports/theseus-lab/docs/replacement-loss-v15-freeze.json",
+   "sha256": "7921b40e0263ab66324e5d2b316ab1bbeae2a0eb6673c683dbcb6a03dbdd7a37",
+   "source_path": "docs/replacement-loss-v15-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2550,
+   "path": "imports/theseus-lab/docs/replacement-loss-v15-results.md",
+   "sha256": "ffcce9488270b0e7b223388786ac4932e7bfe25557656223fab496cac0dcdef5",
+   "source_path": "docs/replacement-loss-v15-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4378,
+   "path": "imports/theseus-lab/docs/replacement-loss-v15b-capacity-optimization-diagnostic.md",
+   "sha256": "5bfd9b5fbef5134e9d3f0b610e25908e0d130ceb4b9b0bdfb8ccda4e78411f82",
+   "source_path": "docs/replacement-loss-v15b-capacity-optimization-diagnostic.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 10012,
+   "path": "imports/theseus-lab/docs/replacement-loss-v15b-freeze.json",
+   "sha256": "759789e67a08f388c136c70132c142af4969d6e2db49c22872455d52b5de5267",
+   "source_path": "docs/replacement-loss-v15b-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2353,
+   "path": "imports/theseus-lab/docs/replacement-loss-v15b-results.md",
+   "sha256": "3bb77ec99647eadf7484707559902e26ea9dfd27cc62b946e84c94468144e1c8",
+   "source_path": "docs/replacement-loss-v15b-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4259,
+   "path": "imports/theseus-lab/docs/replacement-loss-v15c-capacity-optimization-diagnostic.md",
+   "sha256": "74236292416dc75ebe68e5259dc2e97912432e846fd71dae7274b1181bc059dd",
+   "source_path": "docs/replacement-loss-v15c-capacity-optimization-diagnostic.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 11271,
+   "path": "imports/theseus-lab/docs/replacement-loss-v15c-freeze.json",
+   "sha256": "ba2736b01e8c191c0e483b3338acff320f0f588520851337b9adc9244795b606",
+   "source_path": "docs/replacement-loss-v15c-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5180,
+   "path": "imports/theseus-lab/docs/replacement-loss-v15c-results.md",
+   "sha256": "196fc298aaa8ae263e8ce5183106693a676dc69ef58032dd2f43360731b4fdc8",
+   "source_path": "docs/replacement-loss-v15c-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2999,
+   "path": "imports/theseus-lab/docs/replacement-loss-v16-freeze.json",
+   "sha256": "d5e4e73e3240c01ba0c93e7cad29889a3b01ff928553306f5042f2d465c3508d",
+   "source_path": "docs/replacement-loss-v16-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6618,
+   "path": "imports/theseus-lab/docs/replacement-loss-v16-results.md",
+   "sha256": "d0c0b89eb7d1af0e7655d539b20257b78a1ebafd16958389492898bd1ad804e3",
+   "source_path": "docs/replacement-loss-v16-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 8034,
+   "path": "imports/theseus-lab/docs/replacement-loss-v16-whole-mlp.md",
+   "sha256": "fbc70a91e7e27ab9a70cce2af0dc0ba22e1a36b5cdc028b07d5e4235882de8ef",
+   "source_path": "docs/replacement-loss-v16-whole-mlp.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6298,
+   "path": "imports/theseus-lab/docs/replacement-loss-v17-causal-supervision.md",
+   "sha256": "053e9a328190914bf2d9ee0ed8eee99b128496379ad168b8910cbee0e3564274",
+   "source_path": "docs/replacement-loss-v17-causal-supervision.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3275,
+   "path": "imports/theseus-lab/docs/replacement-loss-v17-freeze.json",
+   "sha256": "3fb1103db160d95f81f12b2d623bf37a06bc70490270a900a85c653514903224",
+   "source_path": "docs/replacement-loss-v17-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 7111,
+   "path": "imports/theseus-lab/docs/replacement-loss-v17-results.md",
+   "sha256": "d36a9a7ceb3155654650511b8a59354dcb75a551201f971fb0af9c6c3cd4de9c",
+   "source_path": "docs/replacement-loss-v17-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4354,
+   "path": "imports/theseus-lab/docs/replacement-loss-v18-freeze.json",
+   "sha256": "4da47f238cf1e64b32e7b1d67a49a0c53e66a60714b34549b47716390afc4c26",
+   "source_path": "docs/replacement-loss-v18-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6921,
+   "path": "imports/theseus-lab/docs/replacement-loss-v18-projected-causal-refinement.md",
+   "sha256": "5571b584daff91b6e88c7c3dd5243fc9e7cb91b6af3f526e00d2c7702ba6b54d",
+   "source_path": "docs/replacement-loss-v18-projected-causal-refinement.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 7530,
+   "path": "imports/theseus-lab/docs/replacement-loss-v18-results.md",
+   "sha256": "326305a09ed302a2c2d68999b5cc2dc0fcfad055d5c03fe38a7705aa48d92115",
+   "source_path": "docs/replacement-loss-v18-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3895,
+   "path": "imports/theseus-lab/docs/replacement-loss-v19-confirmatory.md",
+   "sha256": "ef1f1ce6a368a345833f8b7cbb997d26eb8330c8788a459d211d7272699f576a",
+   "source_path": "docs/replacement-loss-v19-confirmatory.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3359,
+   "path": "imports/theseus-lab/docs/replacement-loss-v19-development-freeze.json",
+   "sha256": "f7b4f689b91dda411b4e4375053c1fc7613695b0960488bb0d1821251cf57fd1",
+   "source_path": "docs/replacement-loss-v19-development-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3041,
+   "path": "imports/theseus-lab/docs/replacement-loss-v19-development-replication.json",
+   "sha256": "e041cf30c24668dff371bd69c9032cfdf1b2198a13aeb38128070982a3f8e2da",
+   "source_path": "docs/replacement-loss-v19-development-replication.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5202,
+   "path": "imports/theseus-lab/docs/replacement-loss-v19-development-results.json",
+   "sha256": "b8c31c7e675afea7ea6abc41de3400054ea4aa810a788f730c6c77772b9c1385",
+   "source_path": "docs/replacement-loss-v19-development-results.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3639,
+   "path": "imports/theseus-lab/docs/replacement-loss-v19-development-results.md",
+   "sha256": "bf2e140f1332fe0f94a8a804f00291a7f1140d4d09924c85492ded13547e3cd0",
+   "source_path": "docs/replacement-loss-v19-development-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4831,
+   "path": "imports/theseus-lab/docs/replacement-loss-v19-development.md",
+   "sha256": "a6a10704bd5f5cd747535d2dc77963f5d04f4746efb5d27ff7d92d9ff0f68def",
+   "source_path": "docs/replacement-loss-v19-development.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 7468,
+   "path": "imports/theseus-lab/docs/replacement-loss-v20-development-freeze.json",
+   "sha256": "fbb90096bccd39af09eef7b44482d42853045c4796dc49b8de39868e12198e8d",
+   "source_path": "docs/replacement-loss-v20-development-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6308,
+   "path": "imports/theseus-lab/docs/replacement-loss-v20-low-rank-causal-residual.md",
+   "sha256": "5aa14eadd0c1a32b5ef61a1117d0d4892e8316e1de4c1a4db90b339a99cc6d99",
+   "source_path": "docs/replacement-loss-v20-low-rank-causal-residual.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6167,
+   "path": "imports/theseus-lab/docs/replacement-loss-v20b-development-freeze.json",
+   "sha256": "25912df9fb0d442c165e28cea1299a8451cb2a29f7a5223a1731efbd019d8f16",
+   "source_path": "docs/replacement-loss-v20b-development-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3035,
+   "path": "imports/theseus-lab/docs/replacement-loss-v20b-development-replication.json",
+   "sha256": "fc13d3a332ad9c4b3bfb6d2503f1451ef5d0119944cdd9a4206f445b323682e9",
+   "source_path": "docs/replacement-loss-v20b-development-replication.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 7215,
+   "path": "imports/theseus-lab/docs/replacement-loss-v20b-development-results.json",
+   "sha256": "538992bc6bc8afd0c26455892a5b4956cf1976f56f6b7c58ecc9bb078af00df2",
+   "source_path": "docs/replacement-loss-v20b-development-results.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1983,
+   "path": "imports/theseus-lab/docs/replacement-loss-v20b-development-results.md",
+   "sha256": "c3688cfdbe4c0e0b65bc75a42f4811bb566252bfeb521f361419d731a97f0432",
+   "source_path": "docs/replacement-loss-v20b-development-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2992,
+   "path": "imports/theseus-lab/docs/replacement-loss-v20b-low-rank-causal-residual.md",
+   "sha256": "36c6e2d5df2dbf31107c08d7b99dc98b21d15bf4a0b1a9526abfc79a5b47fc7e",
+   "source_path": "docs/replacement-loss-v20b-low-rank-causal-residual.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6426,
+   "path": "imports/theseus-lab/docs/replacement-loss-v21-development-freeze.json",
+   "sha256": "5ad56e499664722fe244558b39b6263e85a03497fa443c8e80e4a371cdc73f9a",
+   "source_path": "docs/replacement-loss-v21-development-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3025,
+   "path": "imports/theseus-lab/docs/replacement-loss-v21-development-replication.json",
+   "sha256": "f50a7d0ebab679566addc458f5031bcb9b053cc0af3175a5d12acafaa98d1e42",
+   "source_path": "docs/replacement-loss-v21-development-replication.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 7003,
+   "path": "imports/theseus-lab/docs/replacement-loss-v21-development-results.json",
+   "sha256": "59b83278e63e075337751953d1ac3d758afebafc08a01ae720a3706b03cb9c11",
+   "source_path": "docs/replacement-loss-v21-development-results.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1803,
+   "path": "imports/theseus-lab/docs/replacement-loss-v21-development-results.md",
+   "sha256": "9b0ceaac564e743a295cea779316d87b2a4cb7b483bf86e271c017b36245425d",
+   "source_path": "docs/replacement-loss-v21-development-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3404,
+   "path": "imports/theseus-lab/docs/replacement-loss-v21-fit-diagnostic.md",
+   "sha256": "2ee4cc15b589bbfbcccb4e0b81e1c6ae53350be69db1e58376cff5a5c55f7ef5",
+   "source_path": "docs/replacement-loss-v21-fit-diagnostic.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6233,
+   "path": "imports/theseus-lab/docs/replacement-loss-v21-paired-endpoint-supervision.md",
+   "sha256": "993c6300f240d9e1f84c949864be09da00b0f6de733cd373ba783f356c103977",
+   "source_path": "docs/replacement-loss-v21-paired-endpoint-supervision.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 8008,
+   "path": "imports/theseus-lab/docs/replacement-loss-v21b-recovery-freeze.json",
+   "sha256": "70a8cf7515202ff954c40bfb9f93c6d2886fe9cfac485172131d1d7c0f975b6b",
+   "source_path": "docs/replacement-loss-v21b-recovery-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1193,
+   "path": "imports/theseus-lab/docs/replacement-loss-v21b-run-recovery.md",
+   "sha256": "a89f63eecd83d528c28c7f653c77037ea004dc154344ae3a1d62e83bd96ef43f",
+   "source_path": "docs/replacement-loss-v21b-run-recovery.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2411,
+   "path": "imports/theseus-lab/docs/replacement-loss-v22-freeze.json",
+   "sha256": "8bfdcc32bf36ea6923f5fa769649dcda2abe0f3428170d0d54ed9f0f6091da9f",
+   "source_path": "docs/replacement-loss-v22-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4180,
+   "path": "imports/theseus-lab/docs/replacement-loss-v22-fresh-checkpoint-replication.md",
+   "sha256": "d13e091302a9b815efb6692e3068820a393a8927baab602b9563cef78d3f5151",
+   "source_path": "docs/replacement-loss-v22-fresh-checkpoint-replication.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3021,
+   "path": "imports/theseus-lab/docs/replacement-loss-v22-fresh-checkpoint-results.md",
+   "sha256": "0d6dd9b0df4540b271528ba1cd7f3d733bd4b856eca788b0e190f35771c9a07f",
+   "source_path": "docs/replacement-loss-v22-fresh-checkpoint-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2765,
+   "path": "imports/theseus-lab/docs/replacement-loss-v23-freeze.json",
+   "sha256": "3af092b802580e36d24310c765e18effd7e8bb26a33e674baf3367083e32bd7c",
+   "source_path": "docs/replacement-loss-v23-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4564,
+   "path": "imports/theseus-lab/docs/replacement-loss-v23-public-checkpoint-acquisition.md",
+   "sha256": "d20bee069964a069772b4e4ff23d303d42e96d83ff3a0f300cabbe36870f3e63",
+   "source_path": "docs/replacement-loss-v23-public-checkpoint-acquisition.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1839,
+   "path": "imports/theseus-lab/docs/replacement-loss-v23-results.md",
+   "sha256": "18d5f1c9e8f7d7ebd9f4b145235bf3aaebd2a04f616a88a9b6757af03a1cb102",
+   "source_path": "docs/replacement-loss-v23-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3760,
+   "path": "imports/theseus-lab/docs/replacement-loss-v24-freeze.json",
+   "sha256": "caa82b873077c5789133d14c2ddf668cb2eaacf1e566a792822dda9f8444350c",
+   "source_path": "docs/replacement-loss-v24-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4784,
+   "path": "imports/theseus-lab/docs/replacement-loss-v24-public-checkpoint-acquisition.md",
+   "sha256": "5166c55c62587a2e9228573a32eb20c93469ef3368f47852573dcd9c3a196dc0",
+   "source_path": "docs/replacement-loss-v24-public-checkpoint-acquisition.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3440,
+   "path": "imports/theseus-lab/docs/replacement-loss-v24-results.md",
+   "sha256": "2716ebdce9713e5196764cc4b2a3f511f9717dba6427ec94c0f0d31e51a4fd92",
+   "source_path": "docs/replacement-loss-v24-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4368,
+   "path": "imports/theseus-lab/docs/replacement-loss-v25-freeze.json",
+   "sha256": "dd390686548604c2d492e4657bc14ff0e3ea0e6d91037ce987d75ae0d293f4ba",
+   "source_path": "docs/replacement-loss-v25-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3973,
+   "path": "imports/theseus-lab/docs/replacement-loss-v25-metadata-complete-acquisition.md",
+   "sha256": "c3f3c67175aaaad5960037da020dcc8a9f8e62d843b5223c6cc8d50ca326e9a3",
+   "source_path": "docs/replacement-loss-v25-metadata-complete-acquisition.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3221,
+   "path": "imports/theseus-lab/docs/replacement-loss-v25-results.md",
+   "sha256": "82f9b9908ef2c37d41663c697c5c2574c1f2ff7e651da2065046038365f31999",
+   "source_path": "docs/replacement-loss-v25-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 7190,
+   "path": "imports/theseus-lab/docs/replacement-loss-v26-freeze.json",
+   "sha256": "98d2a96986ddfde323d51f17aafaa635a638c198345dffb9eb6ac0a8c8897137",
+   "source_path": "docs/replacement-loss-v26-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4544,
+   "path": "imports/theseus-lab/docs/replacement-loss-v26-fresh-checkpoint-recovery.md",
+   "sha256": "07321e0792ac8d5ae3c1820177f3e6275ba90c1d11b254bc9cd1473ef4589c88",
+   "source_path": "docs/replacement-loss-v26-fresh-checkpoint-recovery.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 9463,
+   "path": "imports/theseus-lab/docs/replacement-loss-v27-freeze.json",
+   "sha256": "ca3184d946562d4ba70a15e7ba578e4daf1aba4a7f752ea1afd294526da591ba",
+   "source_path": "docs/replacement-loss-v27-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4795,
+   "path": "imports/theseus-lab/docs/replacement-loss-v27-fresh-checkpoint-recovery.md",
+   "sha256": "0997188813a8edb599d7ba2de225f7c78c077e290526eff3227218c4419fb2e6",
+   "source_path": "docs/replacement-loss-v27-fresh-checkpoint-recovery.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 9005,
+   "path": "imports/theseus-lab/docs/replacement-loss-v28-freeze.json",
+   "sha256": "37baf1685f792a771c9e2d2a9ab90d05fb6a6d82f2dbec3635d409462584b71c",
+   "source_path": "docs/replacement-loss-v28-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4261,
+   "path": "imports/theseus-lab/docs/replacement-loss-v28-fresh-checkpoint-recovery.md",
+   "sha256": "d62537bd2d4cdf87722a1bbcaf837fefa5a4001d86ce32aec79a77ae22997039",
+   "source_path": "docs/replacement-loss-v28-fresh-checkpoint-recovery.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5859,
+   "path": "imports/theseus-lab/docs/replacement-loss-v28-results.md",
+   "sha256": "fea7c1ca2ef31cb0243bac31558906d522ee2e15401865b06c71e85dda23f6fb",
+   "source_path": "docs/replacement-loss-v28-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3057,
+   "path": "imports/theseus-lab/docs/replacement-loss-v29-freeze.json",
+   "sha256": "ff218d3c9689cfee224e319abb96f425c9635ec240094a052d945d7460476a26",
+   "source_path": "docs/replacement-loss-v29-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4109,
+   "path": "imports/theseus-lab/docs/replacement-loss-v29-nonlinear-synthetic.md",
+   "sha256": "7ee1a89339e186b17ee91a73b6a56cf94dc74d8be1ed3b2e189974bca01d5ed7",
+   "source_path": "docs/replacement-loss-v29-nonlinear-synthetic.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1566,
+   "path": "imports/theseus-lab/docs/replacement-loss-v29-results.md",
+   "sha256": "62059657d9829d5e7c076923a70205072c6cd3cab8521a345db06ae5f1f0eb65",
+   "source_path": "docs/replacement-loss-v29-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2980,
+   "path": "imports/theseus-lab/docs/replacement-loss-v3-failure-analysis.md",
+   "sha256": "a01969994c5152502ab82eed93e3019fa2dd9030440fe19aa11f5ac5c7b86990",
+   "source_path": "docs/replacement-loss-v3-failure-analysis.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1464,
+   "path": "imports/theseus-lab/docs/replacement-loss-v3-freeze.json",
+   "sha256": "6cdca458e70338ca6ad59caef0d02aa47786b61ff504defcf64953055c74aa2f",
+   "source_path": "docs/replacement-loss-v3-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4234,
+   "path": "imports/theseus-lab/docs/replacement-loss-v3-results.md",
+   "sha256": "d8df4a7477125e8ea0f354761951ef1033064874a7088c6ac9c93b2ec1eab13c",
+   "source_path": "docs/replacement-loss-v3-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 16985,
+   "path": "imports/theseus-lab/docs/replacement-loss-v3.md",
+   "sha256": "9ad83df229bc3f168193f47af35c885a21fb7b562fc46ad92b76af5d9c8d0ca7",
+   "source_path": "docs/replacement-loss-v3.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2012,
+   "path": "imports/theseus-lab/docs/replacement-loss-v30-float32-recovery.md",
+   "sha256": "dca80504bd01d4f51cb681cc8db913ef2b12673a765e7bcb920556d53eb1b468",
+   "source_path": "docs/replacement-loss-v30-float32-recovery.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4041,
+   "path": "imports/theseus-lab/docs/replacement-loss-v30-freeze.json",
+   "sha256": "abf65c152b86ec498338c70d7ca01bce109b6844edc14ca2d56044739ea51d03",
+   "source_path": "docs/replacement-loss-v30-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3888,
+   "path": "imports/theseus-lab/docs/replacement-loss-v30-results.md",
+   "sha256": "eda259d95d4b48aa34f32775ae30009c1874e21fad37a11d80160a63e0e319f3",
+   "source_path": "docs/replacement-loss-v30-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1618,
+   "path": "imports/theseus-lab/docs/replacement-loss-v31-freeze.json",
+   "sha256": "de0d1bbdb9bb2e5da697ca7915d1c81d49d788d3d710aaf58c497e5429b03130",
+   "source_path": "docs/replacement-loss-v31-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6298,
+   "path": "imports/theseus-lab/docs/replacement-loss-v31-results.md",
+   "sha256": "b206f28df29a138aa3e5f43655c93db1f455c81a24d59232e83926ab9e2df0bb",
+   "source_path": "docs/replacement-loss-v31-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 8918,
+   "path": "imports/theseus-lab/docs/replacement-loss-v31-scm-interchange.md",
+   "sha256": "3f01c8d346dd3235c486a2a45666f4f26e7ea3f3e7419e5139f2639f8940b39a",
+   "source_path": "docs/replacement-loss-v31-scm-interchange.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 10237,
+   "path": "imports/theseus-lab/docs/replacement-loss-v32-causal-ladder.md",
+   "sha256": "f8a3dc296ec1f743a1ddf9bde114307108d4191f41273c35c2900281e0d630e4",
+   "source_path": "docs/replacement-loss-v32-causal-ladder.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2195,
+   "path": "imports/theseus-lab/docs/replacement-loss-v32-freeze.json",
+   "sha256": "ad051b45cc8ccc9ee6f1e2d329c8684290542a819cd70d1411b6cde45409066e",
+   "source_path": "docs/replacement-loss-v32-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6479,
+   "path": "imports/theseus-lab/docs/replacement-loss-v32-results.json",
+   "sha256": "820f1cb33052d25edcd56e0d29aaaea1bdf48e6098e261d3f9511a188e4832a4",
+   "source_path": "docs/replacement-loss-v32-results.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 10967,
+   "path": "imports/theseus-lab/docs/replacement-loss-v32-results.md",
+   "sha256": "e2339a23b3481f7d10f6524cdebe4ce99a123f578db891474697da9c73e40eb1",
+   "source_path": "docs/replacement-loss-v32-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5973,
+   "path": "imports/theseus-lab/docs/replacement-loss-v32-row-overlap-audit-v1.json",
+   "sha256": "b152582ab263e855beaf7db191bbdf5934a7c9b7c21c64f4f4355c5471220a7f",
+   "source_path": "docs/replacement-loss-v32-row-overlap-audit-v1.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2042,
+   "path": "imports/theseus-lab/docs/replacement-loss-v32-row-overlap-audit-v1.md",
+   "sha256": "f3516be2d4ddc87d0e6da95d6fc21db049607ad13df3da2590d070b0494a5544",
+   "source_path": "docs/replacement-loss-v32-row-overlap-audit-v1.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3048,
+   "path": "imports/theseus-lab/docs/replacement-loss-v33-freeze.json",
+   "sha256": "fc3769f2329adc4829624fcaf86f493e36068dfe9ea4324313549df6082cb797",
+   "source_path": "docs/replacement-loss-v33-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1912,
+   "path": "imports/theseus-lab/docs/replacement-loss-v33-input-exclusion.json",
+   "sha256": "bca240d0eb6d8a8e42bf99c13bc7ae6c887a386889f6f576bf8db36694539135",
+   "source_path": "docs/replacement-loss-v33-input-exclusion.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 10012,
+   "path": "imports/theseus-lab/docs/replacement-loss-v33-relu-geometry.md",
+   "sha256": "cdb4aa3193e9577e2ad878bf8e48e41826769cc1936dc7e0bde5d16d398b0eb0",
+   "source_path": "docs/replacement-loss-v33-relu-geometry.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2544,
+   "path": "imports/theseus-lab/docs/replacement-loss-v33-results.md",
+   "sha256": "4b59fbca0b9911ce55bb13cf72b36638c8913375ae22b9a3fb97c1c27637d746",
+   "source_path": "docs/replacement-loss-v33-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4090,
+   "path": "imports/theseus-lab/docs/replacement-loss-v33r1-freeze.json",
+   "sha256": "0d049329ac3fec939182f2d7dc0a5fec32ebfa9d6e8f60053cd5afa530101088",
+   "source_path": "docs/replacement-loss-v33r1-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2528,
+   "path": "imports/theseus-lab/docs/replacement-loss-v33r1-input-exclusion.json",
+   "sha256": "c761016154498806a3e1562cce276c56fbe981f20c3452b15f21577523f9aec7",
+   "source_path": "docs/replacement-loss-v33r1-input-exclusion.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 781,
+   "path": "imports/theseus-lab/docs/replacement-loss-v33r1-loss-audit-freeze.json",
+   "sha256": "707c13f37650872c925ebb8bb9160bdbe53242280091ce30647fc8e1f1723fd3",
+   "source_path": "docs/replacement-loss-v33r1-loss-audit-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 9926,
+   "path": "imports/theseus-lab/docs/replacement-loss-v33r1-loss-audit-results.json",
+   "sha256": "0a646ad62508809bdca13556de9240df2b1e60d93dda5329dae991d0fcba8dbd",
+   "source_path": "docs/replacement-loss-v33r1-loss-audit-results.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4913,
+   "path": "imports/theseus-lab/docs/replacement-loss-v33r1-loss-audit-results.md",
+   "sha256": "436828f555d199d23a881d5efeacc640a5f1b6c3b8effb465ffd2e8ca7107492",
+   "source_path": "docs/replacement-loss-v33r1-loss-audit-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1904,
+   "path": "imports/theseus-lab/docs/replacement-loss-v33r1-loss-audit.md",
+   "sha256": "ef6a8aec9d6e435d988b1593307039ff44cfee0094284c50b5d66991c0a9782e",
+   "source_path": "docs/replacement-loss-v33r1-loss-audit.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 11011,
+   "path": "imports/theseus-lab/docs/replacement-loss-v33r1-relu-geometry.md",
+   "sha256": "d81e02db72b8b0dbc97172890697a9abc607050e0f6b19ec8f22042d4876c6e3",
+   "source_path": "docs/replacement-loss-v33r1-relu-geometry.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 18858,
+   "path": "imports/theseus-lab/docs/replacement-loss-v33r1-results.json",
+   "sha256": "25ca5b8d46067f769bca4d094774edb84138b5738796cb6df2588ffa7eba299c",
+   "source_path": "docs/replacement-loss-v33r1-results.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 9863,
+   "path": "imports/theseus-lab/docs/replacement-loss-v33r1-results.md",
+   "sha256": "0763694e2305691e2253801e4a490cd94dc70a7a0b933639faaf2590e3f7ec45",
+   "source_path": "docs/replacement-loss-v33r1-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6662,
+   "path": "imports/theseus-lab/docs/replacement-loss-v34-derivative-audit.md",
+   "sha256": "714548e70dbf085e67b420e2e95402dcc230c84b8c1afd5395bb83da0f0a6bad",
+   "source_path": "docs/replacement-loss-v34-derivative-audit.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6246,
+   "path": "imports/theseus-lab/docs/replacement-loss-v34-derivative-freeze.json",
+   "sha256": "df2782b07c35a83c5585ecb9ee4b4900c4245e83b97722ff53256b03f14957cd",
+   "source_path": "docs/replacement-loss-v34-derivative-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6128,
+   "path": "imports/theseus-lab/docs/replacement-loss-v34-derivative-inputs.json",
+   "sha256": "b198ddafb2be62d4255b42f2fdc165507b2411bef1f7613dac246efb0c18d597",
+   "source_path": "docs/replacement-loss-v34-derivative-inputs.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6547,
+   "path": "imports/theseus-lab/docs/replacement-loss-v34-derivative-results.json",
+   "sha256": "0aea25e2164cad9c279a06f39ab3a5377b73b65b5fbe76277c8bd1e7c8592332",
+   "source_path": "docs/replacement-loss-v34-derivative-results.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4859,
+   "path": "imports/theseus-lab/docs/replacement-loss-v34-derivative-results.md",
+   "sha256": "46cf405605c8cbcc3d573462b8abc2469cb898b54bae1ae2a52c1f346187ae17",
+   "source_path": "docs/replacement-loss-v34-derivative-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5827,
+   "path": "imports/theseus-lab/docs/replacement-loss-v34-freeze.json",
+   "sha256": "7b5b869ac99595e5d3e9bfd037908c9c3c95d16b861be99c27703a2522e49779",
+   "source_path": "docs/replacement-loss-v34-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 12963,
+   "path": "imports/theseus-lab/docs/replacement-loss-v34-gradient-balance.md",
+   "sha256": "cf02ef6a1e95f84cab40ee994c0ca0228faa959683acd69570d57deea3aeef19",
+   "source_path": "docs/replacement-loss-v34-gradient-balance.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3264,
+   "path": "imports/theseus-lab/docs/replacement-loss-v34-input-exclusion.json",
+   "sha256": "6d10fc00c30f04f507993e852f408d1ec32744c3ad58cf37fa9516a906cf91b0",
+   "source_path": "docs/replacement-loss-v34-input-exclusion.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 16997,
+   "path": "imports/theseus-lab/docs/replacement-loss-v34-results.json",
+   "sha256": "604140a623ee92529b0bd47ef68316857dfe8a80bf19fb5b2072a494a8666a31",
+   "source_path": "docs/replacement-loss-v34-results.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 10130,
+   "path": "imports/theseus-lab/docs/replacement-loss-v34-results.md",
+   "sha256": "d9d8fbb367bb66af27816652685f402af3000f5e576a4f0bfd5c50e82af07a1f",
+   "source_path": "docs/replacement-loss-v34-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 907,
+   "path": "imports/theseus-lab/docs/replacement-loss-v35-confirmation-freeze.json",
+   "sha256": "e58f96fa57c39b523087602227c475ecbdbcd05b6f38b88de259b51d2f73f72c",
+   "source_path": "docs/replacement-loss-v35-confirmation-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 7923,
+   "path": "imports/theseus-lab/docs/replacement-loss-v35-freeze.json",
+   "sha256": "af4ebfd06f3b3e2c5481307fa5c0d344f3d61d8c29b9af5a0a50fe2d48c88b86",
+   "source_path": "docs/replacement-loss-v35-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1956,
+   "path": "imports/theseus-lab/docs/replacement-loss-v35-input-exclusion.json",
+   "sha256": "17a6c0aff07452a1704d93f8b27d8b066f57866a00c2937e7614a6bfe66fedc2",
+   "source_path": "docs/replacement-loss-v35-input-exclusion.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 50408,
+   "path": "imports/theseus-lab/docs/replacement-loss-v35-results.json",
+   "sha256": "6ae54cad83c7b8a193e191b86c94395bed6ebed2c50dc47d4c1a985644ff9b7a",
+   "source_path": "docs/replacement-loss-v35-results.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 16524,
+   "path": "imports/theseus-lab/docs/replacement-loss-v35-results.md",
+   "sha256": "ea2c510c2132c0717323175e39b792e2badcd192b4daceb96f081567ef9b6152",
+   "source_path": "docs/replacement-loss-v35-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 12024,
+   "path": "imports/theseus-lab/docs/replacement-loss-v35-secant-jacobian.md",
+   "sha256": "7336c5dc2b94c16a1be2ac82690710f82bf25be6d058823f9de9675f0036f1ec",
+   "source_path": "docs/replacement-loss-v35-secant-jacobian.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3124,
+   "path": "imports/theseus-lab/docs/replacement-loss-v36-freeze.json",
+   "sha256": "c6a8b44ed472e4c5fa82effad5ea514865242eb280d62910ffe79ab66de32739",
+   "source_path": "docs/replacement-loss-v36-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 14637,
+   "path": "imports/theseus-lab/docs/replacement-loss-v36-pretrained-transfer.md",
+   "sha256": "86ab6d980802c36ac3a861e3a6b228a4fa7be60b89fec9614c168e76f17a184f",
+   "source_path": "docs/replacement-loss-v36-pretrained-transfer.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 12425,
+   "path": "imports/theseus-lab/docs/replacement-loss-v36-readiness.json",
+   "sha256": "24eabe4ed3723d97c46119a4b5be83bf3230cb917584d61839614012a8f92c1a",
+   "source_path": "docs/replacement-loss-v36-readiness.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 8395,
+   "path": "imports/theseus-lab/docs/replacement-loss-v36-readiness.md",
+   "sha256": "12a6c562212d0c36c45f568cb1c1630eb5de0f94485f5a792ee83af376c7b2f8",
+   "source_path": "docs/replacement-loss-v36-readiness.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2604,
+   "path": "imports/theseus-lab/docs/replacement-loss-v36-results.json",
+   "sha256": "8ff62d1797fdb3c86898d71dfa820fd1ca8d626c8c03dd6f35bfea4544f3e0c6",
+   "source_path": "docs/replacement-loss-v36-results.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2202,
+   "path": "imports/theseus-lab/docs/replacement-loss-v36-results.md",
+   "sha256": "70f0b1de6857b3fa3fb918e3ea696c3835085dfa8bcc9c1fdd2d44209d81f603",
+   "source_path": "docs/replacement-loss-v36-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 913,
+   "path": "imports/theseus-lab/docs/replacement-loss-v36r1-catalog-contract-audit.json",
+   "sha256": "6210cafb914511beb57b198deb0925241299349258b1552284a699b4fc08e6a0",
+   "source_path": "docs/replacement-loss-v36r1-catalog-contract-audit.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 8640,
+   "path": "imports/theseus-lab/docs/replacement-loss-v36r1-continuation.md",
+   "sha256": "3532213e62a7534a03a461e411382ed26f97b7a34a4188bf786ccc4b5f50ea31",
+   "source_path": "docs/replacement-loss-v36r1-continuation.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4363,
+   "path": "imports/theseus-lab/docs/replacement-loss-v36r1-freeze.json",
+   "sha256": "1459fef1a60951e36e35338a2e14f13a33c05cf0ec9ec06be55a864413b94a99",
+   "source_path": "docs/replacement-loss-v36r1-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1913,
+   "path": "imports/theseus-lab/docs/replacement-loss-v36r1-results.json",
+   "sha256": "7339b1e66a8b7a499014d928ee4b79a092581f26c8652d36dbbbbeb891de0878",
+   "source_path": "docs/replacement-loss-v36r1-results.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1590,
+   "path": "imports/theseus-lab/docs/replacement-loss-v36r1-results.md",
+   "sha256": "6a99e1a76124e82101d9d2d0dc17740a87d2a2779b0af245e54bc064a00cd2b7",
+   "source_path": "docs/replacement-loss-v36r1-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4144,
+   "path": "imports/theseus-lab/docs/replacement-loss-v36r2-catalog-continuation.md",
+   "sha256": "0ddc63d568630327c2ef7dd84e620f043475720808afc085ec10ede8ac36403e",
+   "source_path": "docs/replacement-loss-v36r2-catalog-continuation.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5310,
+   "path": "imports/theseus-lab/docs/replacement-loss-v36r2-freeze.json",
+   "sha256": "109b5ba4d39c94405157c0f2b373d5add1e60c0d69b2390ed8d4b953eca43f81",
+   "source_path": "docs/replacement-loss-v36r2-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4997,
+   "path": "imports/theseus-lab/docs/replacement-loss-v36r2-results.json",
+   "sha256": "4ba8aa4d81172fc8f045b7c70fdcb2b7c9b24c2bfeb45f75734cd8cfdad16530",
+   "source_path": "docs/replacement-loss-v36r2-results.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6088,
+   "path": "imports/theseus-lab/docs/replacement-loss-v36r2-results.md",
+   "sha256": "9260e36b4c10884e99a317ad8a2f4e7832894479a11d2ac09dddd64bea3f1439",
+   "source_path": "docs/replacement-loss-v36r2-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 7282,
+   "path": "imports/theseus-lab/docs/replacement-loss-v37-development-transfer.md",
+   "sha256": "2a65508832ebb649943a8f3bacfa7ebc60336a41406a5165275d3bd5dee40913",
+   "source_path": "docs/replacement-loss-v37-development-transfer.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5014,
+   "path": "imports/theseus-lab/docs/replacement-loss-v37-freeze.json",
+   "sha256": "0ad1161820fc0c562d57b38a9a4d2dc7fa2cae2f589e8e0d2f7d905608c8ba1e",
+   "source_path": "docs/replacement-loss-v37-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 53422,
+   "path": "imports/theseus-lab/docs/replacement-loss-v37-metadata-cache-v1.json",
+   "sha256": "244956d31ec8ce2be14a3d907ea1cc9f3f82cb02995d3c6d199c39c89ba291b6",
+   "source_path": "docs/replacement-loss-v37-metadata-cache-v1.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1880,
+   "path": "imports/theseus-lab/docs/replacement-loss-v37-results.json",
+   "sha256": "6534fb7fd4c27b1805d915f824931178541b0de2ddaa32390dc2f0f7a29a0095",
+   "source_path": "docs/replacement-loss-v37-results.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2781,
+   "path": "imports/theseus-lab/docs/replacement-loss-v37-results.md",
+   "sha256": "78cef47dd44c37fbaeda6dfc7b917256ed2a04b331d674f4f55a6a9d5d4c8bcb",
+   "source_path": "docs/replacement-loss-v37-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2989,
+   "path": "imports/theseus-lab/docs/replacement-loss-v37r1-cache-continuation.md",
+   "sha256": "acc67afb4208a32e5ae46ecf696c64212665bc3ed6d8f884f3286197d0d030d5",
+   "source_path": "docs/replacement-loss-v37r1-cache-continuation.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6007,
+   "path": "imports/theseus-lab/docs/replacement-loss-v37r1-freeze.json",
+   "sha256": "9d667dd54ac878ab55cea1f3ff9a41d5329dce94ebd113f3ff734d09f2fd4a9d",
+   "source_path": "docs/replacement-loss-v37r1-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3481,
+   "path": "imports/theseus-lab/docs/replacement-loss-v37r1-results.json",
+   "sha256": "cda83eb0a1a2a355bd994ec01a7bb9f3031ed903cf7209ce7df387da7926a590",
+   "source_path": "docs/replacement-loss-v37r1-results.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2993,
+   "path": "imports/theseus-lab/docs/replacement-loss-v37r1-results.md",
+   "sha256": "59a3b8049e9139feb9c19e77178514b5a136419bcf6fc0d121260f9cd19b1a0a",
+   "source_path": "docs/replacement-loss-v37r1-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 7372,
+   "path": "imports/theseus-lab/docs/replacement-loss-v38-freeze.json",
+   "sha256": "0d43bdd69b113404bf89cffcc9cd95baf6a83fbaa9b55b6a224339a340630be3",
+   "source_path": "docs/replacement-loss-v38-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6267,
+   "path": "imports/theseus-lab/docs/replacement-loss-v38-results.json",
+   "sha256": "a2614c36a24ac83bfd27174d2b5024c8c479d74e50ea2bc7b7e5168158fd4a3b",
+   "source_path": "docs/replacement-loss-v38-results.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6397,
+   "path": "imports/theseus-lab/docs/replacement-loss-v38-results.md",
+   "sha256": "b3b5ce9b2df985d87cfc7030b5e89c32b5b2652915b473f3e87f9792273435e1",
+   "source_path": "docs/replacement-loss-v38-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4784,
+   "path": "imports/theseus-lab/docs/replacement-loss-v38-reused-early-ladder.md",
+   "sha256": "92384bf90ea9c68ca9e8bd63a722fd0f6d4bff1cad11f9ac58ea9c0ef5cda762",
+   "source_path": "docs/replacement-loss-v38-reused-early-ladder.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5827,
+   "path": "imports/theseus-lab/docs/replacement-loss-v39-all-token-ladder.md",
+   "sha256": "065985e0ee53826d5bff65c7161654789b14adb600ad95ac4dd980b563aef403",
+   "source_path": "docs/replacement-loss-v39-all-token-ladder.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 9502,
+   "path": "imports/theseus-lab/docs/replacement-loss-v39-freeze.json",
+   "sha256": "8ce3a8dde536c31bd7a04d1e72e4250a58c1f2309c7b522692a206f2ee5116b0",
+   "source_path": "docs/replacement-loss-v39-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 9036,
+   "path": "imports/theseus-lab/docs/replacement-loss-v39-results.json",
+   "sha256": "80c96a1dd4c3041ded2604eebdf7677634f6e4fd237194b90e1ec61259e86aa4",
+   "source_path": "docs/replacement-loss-v39-results.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5898,
+   "path": "imports/theseus-lab/docs/replacement-loss-v39-results.md",
+   "sha256": "714c75564112d3a59289463cb85096bc18531b27547b740cbafeb33f3964a83a",
+   "source_path": "docs/replacement-loss-v39-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2993,
+   "path": "imports/theseus-lab/docs/replacement-loss-v4-failure-analysis-results.md",
+   "sha256": "1f6fdf654c839859c79b01300d6bd2598887e719606866bf15ecf550aa300197",
+   "source_path": "docs/replacement-loss-v4-failure-analysis-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3028,
+   "path": "imports/theseus-lab/docs/replacement-loss-v4-failure-analysis.md",
+   "sha256": "9c2fdfeb334635c0af832b9965d894614a3fd8b602e6c029a1497e2ae5c5f502",
+   "source_path": "docs/replacement-loss-v4-failure-analysis.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2198,
+   "path": "imports/theseus-lab/docs/replacement-loss-v4-freeze.json",
+   "sha256": "07c49574ee347caa6bb60bd7fac93e1fd3151e363ddcad8b0c229b0c4a2b0ac7",
+   "source_path": "docs/replacement-loss-v4-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2704,
+   "path": "imports/theseus-lab/docs/replacement-loss-v4-results.md",
+   "sha256": "58fbcb6c9f6973933f3ac3f92404c78e5d72dbb625c18209b39beff2cad4c85b",
+   "source_path": "docs/replacement-loss-v4-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5063,
+   "path": "imports/theseus-lab/docs/replacement-loss-v4.md",
+   "sha256": "3e81ac5e83a7d4247dba73034377924584d9ddf562a68ad15975fc5a31780d66",
+   "source_path": "docs/replacement-loss-v4.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3055,
+   "path": "imports/theseus-lab/docs/replacement-loss-v5-freeze.json",
+   "sha256": "84fffa2ac4d46efa6673720543aa98474bd5c938fbb7a871857e2a877d5bebd9",
+   "source_path": "docs/replacement-loss-v5-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5084,
+   "path": "imports/theseus-lab/docs/replacement-loss-v5-results.md",
+   "sha256": "ac4b2263dc18e69ead112b21bfa2e9df97ee78b51ac9af5cec3e4725301224b2",
+   "source_path": "docs/replacement-loss-v5-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6720,
+   "path": "imports/theseus-lab/docs/replacement-loss-v5.md",
+   "sha256": "c420061e0df568827202d85f91e4471b8624c1c272629448176fa7d39c2ec4fe",
+   "source_path": "docs/replacement-loss-v5.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2644,
+   "path": "imports/theseus-lab/docs/replacement-loss-v6-freeze.json",
+   "sha256": "98af93852a1abeadf3d77315cd11a02a3f3d4a7325e69c1bb58f8e613e946f09",
+   "source_path": "docs/replacement-loss-v6-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2303,
+   "path": "imports/theseus-lab/docs/replacement-loss-v6-results.md",
+   "sha256": "e655d54bedf10e8e930663ec56604b2c687233ca2b2b5762193cde8ff28842ae",
+   "source_path": "docs/replacement-loss-v6-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 9007,
+   "path": "imports/theseus-lab/docs/replacement-loss-v6.md",
+   "sha256": "6d8c91402d3d3c4145ba320cd5c4f8c442a6acf42c3686007a632c0a4ef94a16",
+   "source_path": "docs/replacement-loss-v6.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3734,
+   "path": "imports/theseus-lab/docs/replacement-loss-v7-freeze.json",
+   "sha256": "0533f46a702731c4bf2e162c69fcf93bfba0ffa5eadb92c788e2a922172a6cbf",
+   "source_path": "docs/replacement-loss-v7-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6691,
+   "path": "imports/theseus-lab/docs/replacement-loss-v7-results.md",
+   "sha256": "648bb0a49f50291caa983fa608a490d5e3e207007a47e955ab47203d3fa9761f",
+   "source_path": "docs/replacement-loss-v7-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6425,
+   "path": "imports/theseus-lab/docs/replacement-loss-v7.md",
+   "sha256": "ab065d5a3d63af02b30b4e682dbce4d37ce3d610e86dc81554b159f23eb51c7a",
+   "source_path": "docs/replacement-loss-v7.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 10514,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-cloud-run-replay-v1.md",
+   "sha256": "89e85f51a7a413b236bdd208498a74d1f2457e66a53fe16d411bcd5e1fcf672f",
+   "source_path": "docs/replacement-loss-v8-cloud-run-replay-v1.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 10219,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-external-replication-handoff.md",
+   "sha256": "e6b81a4adb5b37ba34d8d6ab14477436c1e8c70619323c85a35218c31bc44867",
+   "source_path": "docs/replacement-loss-v8-external-replication-handoff.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4974,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-freeze.json",
+   "sha256": "9b1dc97081620fd4a85961186d026c675076788f8da5c40c4ab2f0f107dad66a",
+   "source_path": "docs/replacement-loss-v8-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6643,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-results.md",
+   "sha256": "d93e20a968ccacd5f6186e7331a99da57d9069584f809d99069644f6db7c1bec",
+   "source_path": "docs/replacement-loss-v8-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 56956,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-bandA-report.json",
+   "sha256": "8537df378409fde0ac44c9f0f090358b9e4f4ccb92ea9b1809fd308209739b98",
+   "source_path": "docs/replacement-loss-v8-scale-bandA-report.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 55868,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r2-C4-report.json",
+   "sha256": "2479797747dba1406ac5c24354347454f2fad2d0c68783849e9cc69f79709bc9",
+   "source_path": "docs/replacement-loss-v8-scale-r2-C4-report.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 57134,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r2-S1-report.json",
+   "sha256": "7c6fde94256af77ccfd2e116b27b1b2d90e68e7f83bd61971be185cca89e639c",
+   "source_path": "docs/replacement-loss-v8-scale-r2-S1-report.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 57206,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r2-S16-report.json",
+   "sha256": "ff21745ea481df4a75bcbc3e6db19e52d354f21ac16c43eb543875840e55493d",
+   "source_path": "docs/replacement-loss-v8-scale-r2-S16-report.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 57158,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r2-S4-report.json",
+   "sha256": "a862290521c36da12d56752b17f85da30f3950cdc7d41f47d73890832f3f5e6c",
+   "source_path": "docs/replacement-loss-v8-scale-r2-S4-report.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3702,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r2-results.md",
+   "sha256": "4679f600022018681bb0a443652127b1b7539f5b35c39d2096029f745cdfd25c",
+   "source_path": "docs/replacement-loss-v8-scale-r2-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3419,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r2.md",
+   "sha256": "0dcd421400ad8d8e13c4b241fcc1eb21689ee3c576b8feae351cea5d7f2a1361",
+   "source_path": "docs/replacement-loss-v8-scale-r2.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 56090,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r3-C2-report.json",
+   "sha256": "7a05192324a829b3518aadb676fbf24f31c8c084fa7d43384f8dd795de073c9c",
+   "source_path": "docs/replacement-loss-v8-scale-r3-C2-report.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 55893,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r3-C4-report.json",
+   "sha256": "39bb85740330a51479dc6e0f7c0f6d78a1737f51d049dd994998f5241e2652fc",
+   "source_path": "docs/replacement-loss-v8-scale-r3-C4-report.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2153,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r3-C4-vm-failed-attempt.log",
+   "sha256": "e0b95e3fc128411ba42adb01c9e7b0ec45dd224855974a85675f87d48ebbaf64",
+   "source_path": "docs/replacement-loss-v8-scale-r3-C4-vm-failed-attempt.log",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3846,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r3-results.md",
+   "sha256": "f976336d29ddf785b23282c6cb4b3a154caf603deca9940e24e55b8344ca0d93",
+   "source_path": "docs/replacement-loss-v8-scale-r3-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3258,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r3.md",
+   "sha256": "5fc00f5a2ecfc5887efebc334d84385aa0bb72c7fea9e088ff225ff94862611c",
+   "source_path": "docs/replacement-loss-v8-scale-r3.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 58084,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r4-R0-report.json",
+   "sha256": "9cabfdc9b63d80d05bade4829d74202a483a9671e41f8a3fd98e03dd216792dd",
+   "source_path": "docs/replacement-loss-v8-scale-r4-R0-report.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 57514,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r4-R2-report.json",
+   "sha256": "1b6f4e2f1c4f94cb8a3e16bddeab77c868d6176865edec23548114ecb62f425b",
+   "source_path": "docs/replacement-loss-v8-scale-r4-R2-report.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 57518,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r4-R4-report.json",
+   "sha256": "118a8227862cb92021c05358d8fcac4c69091422afb88a5015283953c561678e",
+   "source_path": "docs/replacement-loss-v8-scale-r4-R4-report.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 57323,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r4-R6-report.json",
+   "sha256": "6104453b6a9217f3344ee4acac0764a6ec26e211ce054d10508db91419243c61",
+   "source_path": "docs/replacement-loss-v8-scale-r4-R6-report.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3224,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r4-results.md",
+   "sha256": "76ffd4635da7463e8128002301bb006ca3c7593df0f0df0de486156e416cee1e",
+   "source_path": "docs/replacement-loss-v8-scale-r4-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3700,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r4.md",
+   "sha256": "f2e6aaee518eee455cb7c8046e322fd06a54004a35e8a389e52d5975795b8e18",
+   "source_path": "docs/replacement-loss-v8-scale-r4.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 56992,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r5-N128-report.json",
+   "sha256": "d003a968bf524348d30bc9c2207d82be78704f0a4865cebc8dbc447588b1742c",
+   "source_path": "docs/replacement-loss-v8-scale-r5-N128-report.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 55866,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r5-N256-report.json",
+   "sha256": "c19dccb88433af23eef607475d6c8d3fd15b9385c44d6b744dfcae4d78189d75",
+   "source_path": "docs/replacement-loss-v8-scale-r5-N256-report.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 55813,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r5-N512-report.json",
+   "sha256": "3286db7767412c95c8ae0da18a79db8421cda6a7f6626bbcfc0e75ba89c53154",
+   "source_path": "docs/replacement-loss-v8-scale-r5-N512-report.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 56056,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r5-T256-report.json",
+   "sha256": "7bc63b1b740058a8df8338bd258fc4436724a17e721cf180c596633280b993a7",
+   "source_path": "docs/replacement-loss-v8-scale-r5-T256-report.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4764,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r5-results.md",
+   "sha256": "cce0af30657c7ef15c4333be4d7eb8b00e3be1e8267c57672d728354b59ef363",
+   "source_path": "docs/replacement-loss-v8-scale-r5-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3274,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-r5.md",
+   "sha256": "ef1a1bc15fe1943396ababa63b7d23f28da3c9c6365f741e87795b72fc0f87c1",
+   "source_path": "docs/replacement-loss-v8-scale-r5.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3065,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale-results.md",
+   "sha256": "9cd4b6752356adbadae10bac751e5f34eb2551d4d162472ba015ef218c002d84",
+   "source_path": "docs/replacement-loss-v8-scale-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3058,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8-scale.md",
+   "sha256": "c3cea204ebf7e51e4e482771306d9b69a1f922191b6a7c19b23b802b3065a04e",
+   "source_path": "docs/replacement-loss-v8-scale.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5107,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8.md",
+   "sha256": "a1568874241ba4ddd609355857675ebad8e49f8d427a90e9029ce52f4750bfed",
+   "source_path": "docs/replacement-loss-v8.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5822,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8s-freeze.json",
+   "sha256": "3cac3f60b5bac0fb3a72dd05e1b305274ec3abf1a1a8ba0eb5c7d12972286069",
+   "source_path": "docs/replacement-loss-v8s-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6666,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8s2-freeze.json",
+   "sha256": "2023b394171cd905a15ddfc11828cb0134e4a9aef64bd8ce427efff2571606e2",
+   "source_path": "docs/replacement-loss-v8s2-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 7519,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8s3-freeze.json",
+   "sha256": "63f3063508c191549a017714d9c10864fa4d5341f3d39a296f66911f0d748318",
+   "source_path": "docs/replacement-loss-v8s3-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 8371,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8s4-freeze.json",
+   "sha256": "298bc6b672d75a4dc1be734b6ba682d8d8238f05470d18263deffdafb10f8ae2",
+   "source_path": "docs/replacement-loss-v8s4-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 9214,
+   "path": "imports/theseus-lab/docs/replacement-loss-v8s5-freeze.json",
+   "sha256": "e122f04d1ef00b540c3aee184fa1e76b63e79c6a88a47bacc5a8039057899e0d",
+   "source_path": "docs/replacement-loss-v8s5-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5568,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-cloud-reproduction-v1-freeze.json",
+   "sha256": "4abf613b27cb5e3b706815e4e8296322118657bd25c91ee39924e63b2dc2e77b",
+   "source_path": "docs/replacement-loss-v9-cloud-reproduction-v1-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4903,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-cloud-reproduction-v1-results.md",
+   "sha256": "f4d8b19a676e6519976d5d6961cc8387a9770224575e72cbd175d9278d86a8c5",
+   "source_path": "docs/replacement-loss-v9-cloud-reproduction-v1-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5323,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-cloud-reproduction-v1.md",
+   "sha256": "82b901c109504e5b9d7eb3424f4db6de0f634a40dca4e0f93dfd8895d545a85c",
+   "source_path": "docs/replacement-loss-v9-cloud-reproduction-v1.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2432,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-continuation-v2.md",
+   "sha256": "c6e3252ad594ac3704cf74718a47ec00166f1d0eacdcfe47fa32534bedf831a7",
+   "source_path": "docs/replacement-loss-v9-continuation-v2.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1969,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-continuation-v3.md",
+   "sha256": "7955835f3db70e6b56e355f26cf3644f7d6d9311c880ebb7a53ff2045917b558",
+   "source_path": "docs/replacement-loss-v9-continuation-v3.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2241,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-continuation.md",
+   "sha256": "bd68f6161fd5c338f544b084a11bc213fe07cfb4b06bd2c20b6df6dd97e31a8c",
+   "source_path": "docs/replacement-loss-v9-continuation.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1384,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-development.md",
+   "sha256": "a2bf6f04e89fb3669e653411f5a5fd2da4486ae95361fa3bb94a45c2df09ea0b",
+   "source_path": "docs/replacement-loss-v9-development.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 7780,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-external-review-readiness.md",
+   "sha256": "2cafad5e2429ee213a8b675b3a494937980b5aea9c24504341fc91061cae55cd",
+   "source_path": "docs/replacement-loss-v9-external-review-readiness.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6239,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-freeze.json",
+   "sha256": "45ba0c373b7f061ac54c4b04d217d2e80d42a5de193561d5a45245b7868ae4d6",
+   "source_path": "docs/replacement-loss-v9-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5924,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v3-freeze.json",
+   "sha256": "23d438959a674295239ebb465728434b0760fc70f4718679d58ffc5b7b0dd82c",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v3-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 7372,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v3-results.md",
+   "sha256": "665bb654c9bb701bda5c2a4aff53a4cd4be6b3eed8601d37dafc6cb49049478a",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v3-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3988,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v3.md",
+   "sha256": "5f4b4c9db26c68f2e818d0ca36a903cad5d7a1cf1a595cacd0dcafec2ed2591a",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v3.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 7230,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4-freeze.json",
+   "sha256": "13b5f1b2ae01c5af15a64221d739f1eceda4703b63406ce1d371adc8c8b87e5a",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4689,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4.md",
+   "sha256": "20fc02b2bc55143348eac3006b3f196fa33cad301343fee4c8499d4a93e50bd6",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 11680,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4b-freeze.json",
+   "sha256": "a53db3508caddb0c60ee5bb758d797196f40f7d960c8ad35be082bfd6d4facc1",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4b-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5359,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4b.md",
+   "sha256": "ff36180234fbfd40bfba404c0bec6c86b38bfa0ec99003b28200f6bbbff9d48a",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4b.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 13059,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4c-freeze.json",
+   "sha256": "ba3ec36bd38d3a463d64f3a8172e752c7e0bc67c4093c6941478daa64360308d",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4c-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5011,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4c-results.md",
+   "sha256": "c632ac3b406710344f52f368e62ef58f0eead63a6fa08543a0b0a82ce5f87719",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4c-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4120,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4c.md",
+   "sha256": "6550c887a81f7e942200c84422f8ef9db887dac241d1ec2e0a4c2b20972b8b8f",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4c.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 12825,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4d-freeze.json",
+   "sha256": "00316d8bb3cfed3adcf73c25b289ff2ef9a507f8c60bd4d2b1ebf015b7a452e6",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4d-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3798,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4d.md",
+   "sha256": "9a0f6ddfae603e42c6d402c5482dbf1ee55350e159d12c429b4617ba31cba9ff",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4d.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 15001,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4e-freeze.json",
+   "sha256": "44cfcbe29e5fdd000278304da8199c7910c858501c3ae3fcbd1ed3118c2ceb93",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4e-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1943,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4e-results.md",
+   "sha256": "5ec3ade5b74e641d9ebc5e4c9166938eb946607a963c11c352cdc678e8904b37",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4e-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4898,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4e.md",
+   "sha256": "29a38d3ba0af8537918f3df17fa7ac53778699d1988d05e81b9b2691cacdf45b",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4e.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 16572,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4f-freeze.json",
+   "sha256": "f22ce3ad629336995955e4a59eb273712f8636337724e29f2468ca430a5dda1f",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4f-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1488,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4f-results.md",
+   "sha256": "409cc30767720772f95608dce130bc09217a8dea59d3a31b832c85a3a2e798ca",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4f-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4546,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4f.md",
+   "sha256": "590aa2e0c604b05224c5cd74ef6afb9077eef80f281ae9da122f1b2793891955",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4f.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 18136,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4g-freeze.json",
+   "sha256": "e8e018bd6946bfd5a33c80ab758664ed048fec69adddf69ac12ff8a590101992",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4g-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2947,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4g-results.md",
+   "sha256": "4c6a25734f6bc7a97667fe04c8ade1a73f7a19775536652357cf0f07e315b3d7",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4g-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4571,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4g.md",
+   "sha256": "eef12831dc2663d96a83395acab76e94a1c37bde464ebc9abdee4e47b9d74de1",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4g.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 20453,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4h-freeze.json",
+   "sha256": "53f6335a50b0f83c19acfb85fe7be3dfd39484395d2f1e0e48ff2b81e69f8541",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4h-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4164,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4h-results.md",
+   "sha256": "ac5678b291b6d8fc417f51740be28e7d7f03f1d38fe37ded49f35fed0a541fdd",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4h-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1526,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4h-terminal.json",
+   "sha256": "0f7d282673bd3f90ae4e1b395211d004937cc856e58b7380cb8aa681b4b56033",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4h-terminal.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3751,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4h.md",
+   "sha256": "5259130ce6bff0127507dd95e7912b6a790c9a7746dab5946ba40ba77545fbd1",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4h.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 26597,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4i-freeze.json",
+   "sha256": "50336b8c717dc994a5e352146de1c481c6a06ed6eb7e27fbeafe3133a6740b41",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4i-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 20453,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4i-parent-v4h-freeze.json",
+   "sha256": "53f6335a50b0f83c19acfb85fe7be3dfd39484395d2f1e0e48ff2b81e69f8541",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4i-parent-v4h-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1988,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4i-results.md",
+   "sha256": "ec3b6a1797cf0acd79170e61f0974235d4ffff31ba6cbb8d043d1f45f97353b1",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4i-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1482,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4i-terminal.json",
+   "sha256": "ec1f1b08a9095b3da036299fa00a54a68f7d50e9760fa818ab0034cbc808fa4e",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4i-terminal.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4444,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4i.md",
+   "sha256": "ea31cf91160eb84d98a5d9d7f654b058cf4434bfe186e3266db3bda8986de8ac",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4i.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 28175,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4j-freeze.json",
+   "sha256": "873ba2f4d6048fb15452680ffd2b9bdb72175e4e013c1c492a9cccc74963ff03",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4j-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 20453,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4j-parent-v4h-freeze.json",
+   "sha256": "53f6335a50b0f83c19acfb85fe7be3dfd39484395d2f1e0e48ff2b81e69f8541",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4j-parent-v4h-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1526,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4j-parent-v4h-terminal.json",
+   "sha256": "0f7d282673bd3f90ae4e1b395211d004937cc856e58b7380cb8aa681b4b56033",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4j-parent-v4h-terminal.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 26597,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4j-parent-v4i-freeze.json",
+   "sha256": "50336b8c717dc994a5e352146de1c481c6a06ed6eb7e27fbeafe3133a6740b41",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4j-parent-v4i-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1482,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4j-parent-v4i-terminal.json",
+   "sha256": "ec1f1b08a9095b3da036299fa00a54a68f7d50e9760fa818ab0034cbc808fa4e",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4j-parent-v4i-terminal.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2174,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4j-results.md",
+   "sha256": "c42f8c525b7787b3b64439e264762b75f7d08df995c1373b5e44c8aa953ba174",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4j-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 568,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4j-run-stop.json",
+   "sha256": "f260755dea649a5db9422cb350435efcf1d82d714fc25eada71dcebe51dc9ada",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4j-run-stop.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1499,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4j-terminal.json",
+   "sha256": "a9062619b808b3883255dbd1771b92e9b527da8eb6e029a0e68220fc18b006ca",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4j-terminal.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5509,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4j.md",
+   "sha256": "0724b0bf8ec00c58990d3e58e9a101b3acc0ce476975b9d7856cf913960f5c56",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4j.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 29858,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4k-freeze.json",
+   "sha256": "4cba55f782ec45c845aee3ca11348c0e6ce12e9ac8de4e9fe7377d5418dcb4f0",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4k-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 20453,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4k-parent-v4h-freeze.json",
+   "sha256": "53f6335a50b0f83c19acfb85fe7be3dfd39484395d2f1e0e48ff2b81e69f8541",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4k-parent-v4h-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1526,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4k-parent-v4h-terminal.json",
+   "sha256": "0f7d282673bd3f90ae4e1b395211d004937cc856e58b7380cb8aa681b4b56033",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4k-parent-v4h-terminal.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 26597,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4k-parent-v4i-freeze.json",
+   "sha256": "50336b8c717dc994a5e352146de1c481c6a06ed6eb7e27fbeafe3133a6740b41",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4k-parent-v4i-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1482,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4k-parent-v4i-terminal.json",
+   "sha256": "ec1f1b08a9095b3da036299fa00a54a68f7d50e9760fa818ab0034cbc808fa4e",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4k-parent-v4i-terminal.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 28175,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4k-parent-v4j-freeze.json",
+   "sha256": "873ba2f4d6048fb15452680ffd2b9bdb72175e4e013c1c492a9cccc74963ff03",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4k-parent-v4j-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 568,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4k-parent-v4j-run-stop.json",
+   "sha256": "f260755dea649a5db9422cb350435efcf1d82d714fc25eada71dcebe51dc9ada",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4k-parent-v4j-run-stop.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1499,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4k-parent-v4j-terminal.json",
+   "sha256": "a9062619b808b3883255dbd1771b92e9b527da8eb6e029a0e68220fc18b006ca",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4k-parent-v4j-terminal.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2280,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4k-results.md",
+   "sha256": "e6ee303351f479ca89b4718eb86f773351980e787458cacabe0ed8b1ac260ec5",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4k-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 736,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4k-summary.json",
+   "sha256": "543cbdb4465d08d0844ce7f3f2d8b43cbe3b09fcd40a2e8536dd29f1b54f7a1a",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4k-summary.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1774,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4k-terminal.json",
+   "sha256": "eb251a5544f7d4262bed9c230c29af307201372e65ebb7c5eb8bd1f44a6de9fa",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4k-terminal.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5562,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-fresh-node-v4k.md",
+   "sha256": "da686bac63ecb2a7f8446670afba8145ec04130b6333208204c126db1942612b",
+   "source_path": "docs/replacement-loss-v9-gman-fresh-node-v4k.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5091,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-linux-runtime-v2-freeze.json",
+   "sha256": "8b588097cb3708240c902932de8272af843c6965c1a9adda3e16346a9e5f9a4f",
+   "source_path": "docs/replacement-loss-v9-gman-linux-runtime-v2-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2671,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-linux-runtime-v2-results.md",
+   "sha256": "58e1634ba1733ef985f5b18a3d248f01548cc2f33b656f3a551dcadd49e7894b",
+   "source_path": "docs/replacement-loss-v9-gman-linux-runtime-v2-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3919,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-linux-runtime-v2.md",
+   "sha256": "c5f73ebdc9a5c9bd21006da71a5bf27d8ee374d1460dba06db3991e6ca6cb0bd",
+   "source_path": "docs/replacement-loss-v9-gman-linux-runtime-v2.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 8487,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-gman-v4k-failure-audit-results.md",
+   "sha256": "84161e3d0514084a59c5cd0937644fbafe58b65d9786e4db4b3c40ee33844ff1",
+   "source_path": "docs/replacement-loss-v9-gman-v4k-failure-audit-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1372,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-replication-binding-v4.md",
+   "sha256": "0d9ed68d7e1bca5b942b74be0f88424031fc22c0be2ffe7671b28190ff8e406a",
+   "source_path": "docs/replacement-loss-v9-replication-binding-v4.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 9437,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9-results.md",
+   "sha256": "14fe646407cfdc56ca0a9120d14623ac9ba558de50a69fe94ca3d2fb0f5b2116",
+   "source_path": "docs/replacement-loss-v9-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 11245,
+   "path": "imports/theseus-lab/docs/replacement-loss-v9.md",
+   "sha256": "4f63fd5023653da8b5ef6971f8882c694d2c61e55e1b3969aa7d1f74ea995fa5",
+   "source_path": "docs/replacement-loss-v9.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5712,
+   "path": "imports/theseus-lab/docs/sequential-causal-replacement-bound-v1.md",
+   "sha256": "3ab060a34ec24409d96668b3b90bead9c7ae03d6390a9ff96ca99b35af1a67f1",
+   "source_path": "docs/sequential-causal-replacement-bound-v1.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 147706,
+   "path": "imports/theseus-lab/docs/theseus-all-runs-audit-v1.json",
+   "sha256": "c608dbcc1517daa37f11c2f1b6147e296a2e575c08fe7c0b45ed02512bf82f22",
+   "source_path": "docs/theseus-all-runs-audit-v1.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 8530,
+   "path": "imports/theseus-lab/docs/theseus-all-runs-audit-v1.md",
+   "sha256": "b95eaa07271fb2badaa7bb79619672327ed6877fc2bf2074da6029d9b2595cd2",
+   "source_path": "docs/theseus-all-runs-audit-v1.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 28597,
+   "path": "imports/theseus-lab/docs/theseus-evidence-ledger-v1.md",
+   "sha256": "ac3ce51f59b26b72c9fac34745f7640f8ab899a82db2e8ca95259f61a305e0f5",
+   "source_path": "docs/theseus-evidence-ledger-v1.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1120,
+   "path": "imports/theseus-lab/docs/v38-token-coverage-audit-v1-freeze.json",
+   "sha256": "6100a629272811073420d099f5d1171148c5b82d458ccf8063c039f4daebf1cf",
+   "source_path": "docs/v38-token-coverage-audit-v1-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3128,
+   "path": "imports/theseus-lab/docs/v38-token-coverage-audit-v1-results.json",
+   "sha256": "ab8c89b913c8287128b6c29a25b040062e091c696feba25649f5386333bfb268",
+   "source_path": "docs/v38-token-coverage-audit-v1-results.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2423,
+   "path": "imports/theseus-lab/docs/v38-token-coverage-audit-v1-results.md",
+   "sha256": "b2f1b6ea2fed673efeb995443b5f2afb15271b1742aa732fceea767c509fecdd",
+   "source_path": "docs/v38-token-coverage-audit-v1-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2744,
+   "path": "imports/theseus-lab/docs/v38-token-coverage-audit-v1.md",
+   "sha256": "7c24744f9a28c2e65e74e06208970a36d3fa4fe67a3624b8bc1ef197a3732e90",
+   "source_path": "docs/v38-token-coverage-audit-v1.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1790,
+   "path": "imports/theseus-lab/docs/v39-first-mlp-diagnosis-v1-freeze.json",
+   "sha256": "b79daf55a61e070af70bbb701f3d00b52154e5ccf64358ef8c8c9e08b0270d84",
+   "source_path": "docs/v39-first-mlp-diagnosis-v1-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6106,
+   "path": "imports/theseus-lab/docs/v39-first-mlp-diagnosis-v1-results.json",
+   "sha256": "d063d36637ebc54a0c4d035887a06141d76b3b80ec3912fa82e9d1056abdb33b",
+   "source_path": "docs/v39-first-mlp-diagnosis-v1-results.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4274,
+   "path": "imports/theseus-lab/docs/v39-first-mlp-diagnosis-v1-results.md",
+   "sha256": "286eea63b04de429a5e462cffc6e1c0f9bed8ab2d57410259a21ace768d55145",
+   "source_path": "docs/v39-first-mlp-diagnosis-v1-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 6978,
+   "path": "imports/theseus-lab/docs/v39-first-mlp-diagnosis-v1.md",
+   "sha256": "6a966983b3c98b7c4abcc3de0f94ed44e07a6264a9cb29a3aa247a7a4c843ea9",
+   "source_path": "docs/v39-first-mlp-diagnosis-v1.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 8289,
+   "path": "imports/theseus-lab/docs/v39-first-mlp-fit-factorial-v1-freeze.json",
+   "sha256": "b2b7909ace9d4a1967eab32d7f8c110d8040bacc5126ee9736371e984da32e0b",
+   "source_path": "docs/v39-first-mlp-fit-factorial-v1-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 4103,
+   "path": "imports/theseus-lab/docs/v39-first-mlp-fit-factorial-v1.md",
+   "sha256": "36d42a3a8b27a9a85ab74e719a78923519d89eda892091dfd8c1cddbafc6ae10",
+   "source_path": "docs/v39-first-mlp-fit-factorial-v1.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 9157,
+   "path": "imports/theseus-lab/docs/v39-first-mlp-fit-factorial-v2-freeze.json",
+   "sha256": "f523fd5cf2b5b0caa13c371859aabb0f56300f1c4df42778214d40a83fb48103",
+   "source_path": "docs/v39-first-mlp-fit-factorial-v2-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1507,
+   "path": "imports/theseus-lab/docs/v39-first-mlp-fit-factorial-v2-results.json",
+   "sha256": "2c296b64710bf51327ccdc5d730be5c0300cce5559b13391ddba07c07a2a3c09",
+   "source_path": "docs/v39-first-mlp-fit-factorial-v2-results.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1705,
+   "path": "imports/theseus-lab/docs/v39-first-mlp-fit-factorial-v2-results.md",
+   "sha256": "3eef9c7ee59e6d6c435afdbb091648db3f49a8586b6bbd3df5ee1b311e69f666",
+   "source_path": "docs/v39-first-mlp-fit-factorial-v2-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1919,
+   "path": "imports/theseus-lab/docs/v39-first-mlp-fit-factorial-v2.md",
+   "sha256": "9931982ef23a770c7ee59ca37921025c37e1ee8e2a74a648a9d7e5f7a222e788",
+   "source_path": "docs/v39-first-mlp-fit-factorial-v2.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 11155,
+   "path": "imports/theseus-lab/docs/v39-first-mlp-fit-factorial-v3-freeze.json",
+   "sha256": "99284da345255ce3a22321ca5041f14000e20a818aa9c246b883752855912d68",
+   "source_path": "docs/v39-first-mlp-fit-factorial-v3-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 9113,
+   "path": "imports/theseus-lab/docs/v39-first-mlp-fit-factorial-v3-results.json",
+   "sha256": "70ad4879515a61d422069f2eed898b56c6bc1fa46e47ced3488b27b1622f7a87",
+   "source_path": "docs/v39-first-mlp-fit-factorial-v3-results.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5261,
+   "path": "imports/theseus-lab/docs/v39-first-mlp-fit-factorial-v3-results.md",
+   "sha256": "26b8e05b6d0b7585aa3eb7b0541dbe4fa9835fef3a2c3544d79cc3c35669a1c9",
+   "source_path": "docs/v39-first-mlp-fit-factorial-v3-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2374,
+   "path": "imports/theseus-lab/docs/v39-first-mlp-fit-factorial-v3.md",
+   "sha256": "ae37fd4cec7effbcd4ef19763404e0b31b866db7046f477879f6b90c28a9618b",
+   "source_path": "docs/v39-first-mlp-fit-factorial-v3.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 1656,
+   "path": "imports/theseus-lab/docs/v39-training-probe-replay-v1-freeze.json",
+   "sha256": "41c6606ecadef99edb83acd4d732892490e910831adfe4443ab3f653b7dabce8",
+   "source_path": "docs/v39-training-probe-replay-v1-freeze.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 5973,
+   "path": "imports/theseus-lab/docs/v39-training-probe-replay-v1-results.json",
+   "sha256": "8dcffe0daada59504ce00553fea0f3750a1a7541fa0e938e89a4d5008230f772",
+   "source_path": "docs/v39-training-probe-replay-v1-results.json",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 3486,
+   "path": "imports/theseus-lab/docs/v39-training-probe-replay-v1-results.md",
+   "sha256": "5b5e5de4f2bf41276153cab79f9bed378f7d209d3562e756a822d935d699ab9b",
+   "source_path": "docs/v39-training-probe-replay-v1-results.md",
+   "source_repo": "theseus-lab"
+  },
+  {
+   "bytes": 2903,
+   "path": "imports/theseus-lab/docs/v39-training-probe-replay-v1.md",
+   "sha256": "ae43e11b4155da60211d2fe054bb6ff72bb59debbda15e5d6e8ae8246f9563dd",
+   "source_path": "docs/v39-training-probe-replay-v1.md",
+   "source_repo": "theseus-lab"
+  }
+ ],
+ "schema": "mech-interp-unified-import-manifest-v1",
+ "skipped": [],
+ "sources": {
+  "composed-zk-benchmark-os": {
+   "dirty_files": [],
+   "head": "b7e4a95b4b3edec134f01f90c34a1326d2d00f5b"
+  },
+  "interpretability-lab-sandbox": {
+   "dirty_files": [
+    "?? .DS_Store"
+   ],
+   "head": "4afd48133f6a4f86f27866886ff3b4bb3bd701b3"
+  },
+  "theseus-lab": {
+   "dirty_files": [],
+   "head": "e046ee478056e23706cb2e948f750dfa09d6e767"
+  }
+ }
+}

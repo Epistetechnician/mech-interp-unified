@@ -1,0 +1,59 @@
+{
+  "schema": "interp-lab.real-gpt2-resid-mid-config.v1",
+  "state_slice": "interpretability-lab-sandbox-v1",
+  "mode": "internal-real",
+  "execution": {
+    "real_model_enabled": true,
+    "network_during_model_execution": false,
+    "raw_retention_hours": 72,
+    "claim_ceiling": "LOCAL_INTERNAL_EXPLORATORY_ONLY",
+    "review_mode": "internal",
+    "internal_authorization_required": true,
+    "external_review_required": false
+  },
+  "model": {
+    "id": "openai-community/gpt2",
+    "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+    "canonical_path": "transformer.h[6].ln_2.input",
+    "hook": "resid_mid",
+    "dtype": "float32"
+  },
+  "feature_asset": {
+    "repository": "jbloom/GPT2-Small-OAI-v5-32k-resid-mid-SAEs",
+    "revision": "90ed829d1ea6b776c2f4af11184b6d43683e58bc",
+    "path": "v5_32k_layer_6",
+    "architecture": "standard",
+    "d_in": 768,
+    "d_sae": 32768,
+    "top_k": 32,
+    "normalize_activations": "layer_norm",
+    "published_explained_variance": 0.923336923122406
+  },
+  "corpus": {
+    "schema": "interp-lab.fresh-corpus.v2",
+    "rows": 18,
+    "splits": {"fit": 6, "tune": 6, "assessment": 6},
+    "identity": "resid-mid-continuation-20260915-r3"
+  },
+  "estimand": {
+    "reconstruction": "pooled_global_centered_nmse",
+    "reconstruction_denominator": "sum_squared_centered_targets",
+    "asset_quality_gate_basis": "published_explained_variance",
+    "asset_quality_gate": "pooled_nmse <= 0.10 over all 18 final-token activations"
+  },
+  "qualification": {
+    "parity_abs_tol": 0.0,
+    "repeatability_abs_tol": 0.0,
+    "no_op_abs_tol": 0.0,
+    "reconstruction_nmse_max": 0.10,
+    "intervention_min_abs_effect": 1e-09,
+    "stability_min_cosine": 0.8,
+    "scrub_min_abs_effect": 1e-09
+  },
+  "nonclaims": [
+    "no independent review or proof",
+    "no cross-checkpoint stability claim",
+    "no continual-learning retention claim",
+    "no alignment or production claim"
+  ]
+}

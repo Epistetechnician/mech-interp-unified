@@ -1,0 +1,102 @@
+{
+  "schema": "interp-lab.qwen38-reconstruction-protocol.v1",
+  "state_slice": "interpretability-lab-sandbox-v1",
+  "status": "DESIGN_ONLY_NO_MODEL_EXECUTION",
+  "purpose": "Predeclare a model-matched feature-asset qualification after the closed v3 and v4 reconstruction failures.",
+  "model": {
+    "id": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "hidden_width": 5120,
+    "layers": 64
+  },
+  "runtime": {
+    "python": "3.11.11",
+    "torch": "2.6.0",
+    "transformers": null,
+    "transformers_source": "https://github.com/huggingface/transformers.git",
+    "transformers_source_revision": null,
+    "safetensors": "0.8.0",
+    "cuda": "12.4",
+    "device_model": "NVIDIA H100",
+    "dtype": "bfloat16",
+    "determinism": {
+      "torch_deterministic_algorithms": true,
+      "cublas_workspace_config": ":4096:8",
+      "tf32": false,
+      "cudnn_benchmark": false
+    }
+  },
+  "execution": {
+    "mode": "internal-real",
+    "review_mode": "internal",
+    "real_model_enabled": false,
+    "internal_authorization_required": true,
+    "network_during_model_execution": false,
+    "hard_usd_ceiling": 333.0,
+    "raw_trace_retention_hours": 72
+  },
+  "hook_selection": {
+    "candidates": [
+      {
+        "id": "decoder_input",
+        "path_template": "model.language_model.layers[32]",
+        "capture": "forward_pre_hook:first_tensor"
+      },
+      {
+        "id": "decoder_output",
+        "path_template": "model.language_model.layers[32]",
+        "capture": "forward_hook:first_tensor"
+      }
+    ],
+    "selection_split": "fit",
+    "selection_rule": "choose the first candidate in declared order whose finite pooled FVU and row-wise coverage gates pass; never select from assessment",
+    "locked_before": "tune"
+  },
+  "feature_asset": {
+    "strategy": "train_model_matched_affine_topk_sae",
+    "repository": null,
+    "revision": null,
+    "path": null,
+    "input_width": 5120,
+    "feature_width": 40960,
+    "top_k": 50,
+    "normalization": "x_scaled_by_sqrt_d_over_mean_norm",
+    "decoder_rows": "unit_norm",
+    "asset_digest": null
+  },
+  "corpus": {
+    "identity": null,
+    "fresh": true,
+    "fit_families": 48,
+    "tune_families": 48,
+    "assessment_families": 48,
+    "document_disjoint": true,
+    "token_capture": "all_nonpadding_positions",
+    "corpus_digest": null
+  },
+  "reconstruction": {
+    "primary_metric": "pooled_fvu_global_centered",
+    "secondary_metric": "maximum_row_nmse",
+    "fit_pooled_fvu_max": 0.20,
+    "fit_max_row_nmse": 0.40,
+    "tune_pooled_fvu_max": 0.20,
+    "tune_max_row_nmse": 0.40,
+    "assessment_pooled_fvu_max": 0.20,
+    "assessment_max_row_nmse": 0.40,
+    "finite_required": true,
+    "zero_variance_policy": "exact_only"
+  },
+  "downstream": {
+    "causal_effects": "closed_until_reconstruction_and_independent_review",
+    "continual_learning": "closed_until_held_out_causal_assessment",
+    "publication": "aggregate_only_after_independent_validation"
+  },
+  "inputs_required_before_execution": [
+    "fresh_corpus_identity_and_digest",
+    "model_tree_digest",
+    "runtime_and_device_attestation",
+    "model_matched_asset_digest",
+    "packet_bound_custody_manifest",
+    "local_internal_authorization"
+  ]
+}

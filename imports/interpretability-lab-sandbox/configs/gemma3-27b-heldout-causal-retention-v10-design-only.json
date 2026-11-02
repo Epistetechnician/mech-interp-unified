@@ -1,0 +1,221 @@
+{
+  "schema": "interp-lab.assessment-packet.v1",
+  "state_slice": "interpretability-lab-sandbox-v1",
+  "protocol_id": "gemma3-27b-heldout-causal-retention-v10",
+  "status": "FROZEN_DESIGN_REQUIRES_EXTERNAL_REVIEW",
+  "purpose": "Held-out causal intervention and matched continual-learning assessment after the Gemma V9 internal qualification.",
+  "model": {
+    "id": "google/gemma-3-27b-pt",
+    "revision": "9fe3c4ebc93fbadb14913801536d022054ef11cc",
+    "architecture": "Gemma3ForConditionalGeneration",
+    "layers": 62,
+    "hidden_width": 5376,
+    "model_assets_external_only": true,
+    "checkpoints": {
+      "base": {
+        "identity": "gemma3-v10-base",
+        "manifest_digest": null,
+        "source": "fresh-owner-only-acquisition-required"
+      },
+      "post_update_1": {
+        "identity": "gemma3-v10-post-update-1",
+        "manifest_digest": null,
+        "source": "fresh-owner-only-acquisition-required"
+      }
+    }
+  },
+  "feature_asset": {
+    "repository": "google/gemma-scope-2-27b-pt",
+    "revision": "5bf702afc144f3ba57b65bb3f76b12616385a213",
+    "path": "transcoder/layer_31_width_65k_l0_small_affine",
+    "input_width": 5376,
+    "feature_width": 65536,
+    "activation": "jump_relu",
+    "normalization": "none_asset_native",
+    "orientation": "input_row_times_w_enc_plus_b_enc; feature_row_times_w_dec_plus_b_dec_plus_input_row_times_affine_skip_connection",
+    "hook_input": "model.layers.31.pre_feedforward_layernorm.output",
+    "hook_output": "model.layers.31.post_feedforward_layernorm.output",
+    "config_sha256": null,
+    "params_sha256": null,
+    "manifest_digest": null
+  },
+  "corpus": {
+    "identity": "fresh-gemma3-v10-heldout-causal-retention-20260917",
+    "source": "external-owner-only-acquisition-required",
+    "fresh": true,
+    "document_disjoint": true,
+    "family_disjoint": true,
+    "splits": {
+      "fit": 48,
+      "tune": 48,
+      "assessment": 48
+    },
+    "sha256": null,
+    "row_schema": [
+      "row_id",
+      "split",
+      "family",
+      "document_id",
+      "text",
+      "target_token_id",
+      "contrast_token_id",
+      "donor_row_id",
+      "shuffled_donor_row_id"
+    ],
+    "assessment_donors_from": ["fit", "tune"]
+  },
+  "selection": {
+    "feature_index": null,
+    "selection_source": "fit_only_locked_before_tune",
+    "rule": "select the first feature in declared rank order whose fit reconstruction and tune repeatability gates pass; assessment rows are never used for selection"
+  },
+  "estimand": {
+    "name": "paired_final_token_logit_margin_effect",
+    "intervention": "replace_selected_feature_with_locked_donor_value",
+    "scrubbing": "replace_selected_feature_with_zero_or_locked_baseline_donor",
+    "aggregation": "family_mean_signed_and_mean_absolute_effect",
+    "prediction_lock_before_assessment": true,
+    "paired_rows": true
+  },
+  "controls": [
+    "exact_copy",
+    "activation_only",
+    "text_only",
+    "shuffled",
+    "constant",
+    "matched"
+  ],
+  "qualification": {
+    "gate_order": [
+      "custody_and_runtime",
+      "native_instrumented_parity",
+      "deterministic_repeatability",
+      "exact_no_op",
+      "nonzero_intervention_reach",
+      "fit_reconstruction",
+      "cross_checkpoint_feature_stability",
+      "tune_prediction_lock",
+      "heldout_intervention",
+      "heldout_causal_scrubbing",
+      "fixed_controls",
+      "independent_aggregate_reproduction"
+    ],
+    "parity_abs_tol": 0.0,
+    "repeatability_abs_tol": 0.0,
+    "no_op_abs_tol": 0.0,
+    "intervention_min_abs_effect": 0.01,
+    "reconstruction_pooled_fvu_max": 0.05,
+    "reconstruction_max_row_nmse": 0.05,
+    "cross_checkpoint_min_cosine": 0.8,
+    "heldout_effect_min_abs": 0.01,
+    "heldout_sign_agreement_min": 0.8,
+    "scrub_min_abs_effect": 0.01,
+    "exact_copy_max_abs": 0.0,
+    "control_max_abs": 1.0,
+    "zero_attrition": true,
+    "holm_correction": "Holm"
+  },
+  "statistics": {
+    "alpha": 0.05,
+    "independent_unit": "family",
+    "icc_assumption": 0.5,
+    "minimum_standardized_effect": 0.5,
+    "multiplicity": "Holm",
+    "power_endpoints": 4,
+    "power_method": "two_sided_normal_icc_design_effect",
+    "power_scope": "single_comparison_approximation",
+    "power_target": 0.8,
+    "power_validation": "familywise_holm_power_unvalidated",
+    "repeats": 3,
+    "missingness": "fail_closed"
+  },
+  "update_recipe": {
+    "identity": "gemma3-v10-fixed-peft-update-v1",
+    "data_split": "fit",
+    "optimizer": "AdamW",
+    "learning_rate": 0.00001,
+    "weight_decay": 0.0,
+    "steps": 48,
+    "micro_batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "lora_rank": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.0,
+    "target_modules": ["q_proj", "v_proj"],
+    "seed": 20260917,
+    "network_during_execution": false
+  },
+  "continual_learning": {
+    "assessment_requires_causal_gates": true,
+    "controllers": ["sgd", "ewc", "behavioral_only", "causal_monitor"],
+    "ordered_streams_identical": true,
+    "matched_learning_progress": true,
+    "matched_total_compute": true,
+    "metrics": ["retention", "adaptation", "calibration_error", "monitoring_overhead_units"],
+    "primary_endpoint": "prior_retention_mean",
+    "superiority_min_abs": 0.05,
+    "adaptation_noninferiority_margin": 0.05,
+    "success_rule": "causal_monitor is superior to every comparator on prior_retention_mean while remaining noninferior on adaptation, with Holm-adjusted alpha 0.05",
+    "compute_accounting": "cheaper policies are padded to the causal_monitor total budget; monitoring units remain reported"
+  },
+  "runtime": {
+    "python": "3.11.11",
+    "torch": "2.6.0",
+    "transformers": "4.57.3",
+    "safetensors": "0.8.0",
+    "cuda": "12.4",
+    "dtype": "bfloat16",
+    "device_model": "NVIDIA H100",
+    "network_during_model_execution": false,
+    "determinism": {
+      "cublas_workspace_config": ":4096:8",
+      "cudnn_benchmark": false,
+      "tf32": false,
+      "torch_deterministic_algorithms": true
+    }
+  },
+  "custody": {
+    "root_required": true,
+    "owner_only_mode": "0700",
+    "raw_inputs_outside_git": true,
+    "raw_trace_retention_hours": 72,
+    "packet_bound_manifest_required": true,
+    "fresh_v10_root_required": true,
+    "v9_scientific_artifacts_as_inputs": false
+  },
+  "execution": {
+    "mode": "external-real",
+    "external_review_required": true,
+    "independent_validator_required": true,
+    "hard_usd_ceiling": 333.0,
+    "network_during_model_execution": false
+  },
+  "independent_review": {
+    "required": true,
+    "reviewer_id": null,
+    "public_key": null,
+    "receipt": null,
+    "operator_may_self_sign": false
+  },
+  "prediction_lock": {
+    "required": true,
+    "digest": null,
+    "reviewer": null,
+    "created_from": "fit_and_tune_only_before_assessment"
+  },
+  "downstream": {
+    "heldout_causal_effects": "closed_until_external_accept_and_prediction_lock",
+    "causal_scrubbing": "closed_until_external_accept_and_prediction_lock",
+    "continual_learning": "closed_until_heldout_causal_and_scrubbing_pass",
+    "publication": "aggregate_only_after_independent_validation"
+  },
+  "claim_ceiling": "LOCAL_DESIGN_ONLY",
+  "nonclaims": [
+    "no model execution authorization before external ACCEPT",
+    "no independent proof before reviewer validation",
+    "no causal validity claim before held-out effects and scrubbing",
+    "no continual-learning retention claim before matched real training",
+    "no alignment, benchmark, or production claim"
+  ],
+  "packet_digest": null
+}

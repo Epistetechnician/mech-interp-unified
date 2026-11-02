@@ -1,0 +1,37 @@
+{
+  "acceptance": {
+    "assessment_unlocks_only_after_signed_accept": true,
+    "local_signature_is_valid": false,
+    "operator_may_self_sign": false
+  },
+  "claim_ceiling_before_accept": "LOCAL_DESIGN_AUDIT_ONLY",
+  "nonclaims": [
+    "no model execution authorization",
+    "no independent proof",
+    "no causal or continual-learning result"
+  ],
+  "packet_digest": "9956c1bc697aa8730046fb99a6d0975bd940b56da4068e100e159e85ccc608a0",
+  "protocol_digest": "42cc1c84d4440ff31015ca75d22c7367e636e57cd660521fd22df1e74750e144",
+  "protocol_id": "gemma3-reconstruction-v9",
+  "required_return": {
+    "conflict_of_interest_statement": true,
+    "decision": "ACCEPT or REJECT",
+    "packet_digest_binding": true,
+    "reviewer_controlled_ed25519_registry": true,
+    "reviewer_identity": true,
+    "signed_receipt": true
+  },
+  "review_scope": [
+    "model and feature identity",
+    "SAE orientation, thresholds, and normalization",
+    "layer provenance and dimensionality",
+    "fresh corpus and split disjointness",
+    "runtime, determinism, and H100 attestation requirements",
+    "qualification gate order and reconstruction thresholds",
+    "custody, retention, and claim ceilings",
+    "downstream Weco, causal, scrubbing, and continual-learning locks"
+  ],
+  "review_status": "PENDING_INDEPENDENT_REVIEW",
+  "schema": "interp-lab.independent-review-packet.v1",
+  "state_slice": "interpretability-lab-sandbox-v1"
+}

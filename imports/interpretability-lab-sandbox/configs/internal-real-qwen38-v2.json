@@ -1,0 +1,79 @@
+{
+  "corpus": {
+    "identity": "qwen38-code-internal-20260915-v1",
+    "rows": 18,
+    "schema": "interp-lab.assessment-corpus.v1",
+    "splits": {
+      "assessment": 6,
+      "fit": 6,
+      "tune": 6
+    }
+  },
+  "execution": {
+    "claim_ceiling": "LOCAL_INTERNAL_EXPLORATORY_ONLY",
+    "external_review_required": false,
+    "internal_authorization_required": true,
+    "network_during_model_execution": false,
+    "raw_retention_hours": 72,
+    "real_model_enabled": true,
+    "review_mode": "internal"
+  },
+  "feature_asset": {
+    "d_in": 5120,
+    "d_sae": 40960,
+    "format": "torch_state_dict_weights_only",
+    "normalization": "stored_scale_sqrt_d_mean_norm",
+    "path": "v2/sae_L32_final.pt",
+    "repository": "LeonInverse/qwen3.8-27b-scope-code",
+    "revision": "0f965454ffedb93e826546a7dc11b51a4622188e",
+    "top_k": 50,
+    "upstream_lfs_sha256": "1ef1cabe0ac77b298be6793fac3da1abaed130d88564670a58dd7a1c513c89bc"
+  },
+  "mode": "internal-real",
+  "model": {
+    "canonical_path": "model.language_model.layers[32]",
+    "dtype": "bfloat16",
+    "hook": "decoder_out",
+    "id": "Qwen/Qwen3.8-27B",
+    "layer": 32,
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "text_only_inputs": true
+  },
+  "nonclaims": [
+    "no independent review or proof",
+    "no held-out scientific assessment claim",
+    "no cross-checkpoint stability claim",
+    "no continual-learning retention claim",
+    "no alignment or production claim"
+  ],
+  "packet": {
+    "digest": "6829b895e9d2ebefd4e19c9f4617581cd0c874c4118e1fd0f6d6c765c42d7ac1",
+    "path": "configs/qwen3.8-27b-internal-qualification-v2.json"
+  },
+  "qualification": {
+    "intervention_min_abs_effect": 1e-09,
+    "no_op_abs_tol": 0.0,
+    "parity_abs_tol": 0.0,
+    "reconstruction_nmse_max": 0.05,
+    "repeatability_abs_tol": 0.0,
+    "scrub_min_abs_effect": 1e-09,
+    "stability_min_cosine": 0.8
+  },
+  "runtime": {
+    "cuda": "12.4",
+    "determinism": {
+      "cublas_workspace_config": ":4096:8",
+      "cudnn_benchmark": false,
+      "tf32": false,
+      "torch_deterministic_algorithms": true
+    },
+    "device_model": "NVIDIA H100",
+    "dtype": "bfloat16",
+    "python": "3.11.11",
+    "safetensors": "0.8.0",
+    "torch": "2.6.0",
+    "transformers": "4.57.3"
+  },
+  "schema": "interp-lab.real-qwen38-config.v1",
+  "state_slice": "interpretability-lab-sandbox-v1"
+}

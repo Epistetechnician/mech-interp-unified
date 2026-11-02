@@ -1,0 +1,39 @@
+{
+  "schema": "interp-lab.sandbox.config.v1",
+  "state_slice": "interpretability-lab-sandbox-v1",
+  "mode": "synthetic",
+  "execution": {
+    "real_model_enabled": false,
+    "network_during_model_execution": false,
+    "raw_retention_hours": 72,
+    "claim_ceiling": "LOCAL_SYNTHETIC_ONLY",
+    "review_mode": "internal",
+    "internal_authorization_required": true,
+    "external_review_required": false
+  },
+  "determinism": {
+    "seed": 20260914,
+    "float_policy": "binary64",
+    "event_order": "input_order"
+  },
+  "qualification": {
+    "parity_abs_tol": 0.0,
+    "repeatability_abs_tol": 0.0,
+    "no_op_abs_tol": 0.0,
+    "reconstruction_nmse_max": 0.05,
+    "intervention_min_abs_effect": 1e-09,
+    "stability_min_cosine": 0.8,
+    "scrub_min_abs_effect": 1e-09
+  },
+  "continual_learning": {
+    "controllers": [
+      "sgd",
+      "replay",
+      "ewc",
+      "behavioral_only",
+      "causal_monitor"
+    ],
+    "matched_streams": true,
+    "assessment_enabled": false
+  }
+}

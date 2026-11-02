@@ -1,0 +1,106 @@
+{
+  "continuation": "transformers-main-qwen3_5-vision-runtime",
+  "corpus": {
+    "assessment_families": 48,
+    "corpus_digest": null,
+    "document_disjoint": true,
+    "fit_families": 48,
+    "fresh": true,
+    "identity": null,
+    "token_capture": "all_nonpadding_positions",
+    "tune_families": 48
+  },
+  "downstream": {
+    "causal_effects": "closed_until_reconstruction_and_independent_review",
+    "continual_learning": "closed_until_held_out_causal_assessment",
+    "publication": "aggregate_only_after_independent_validation"
+  },
+  "execution": {
+    "hard_usd_ceiling": 333.0,
+    "internal_authorization_required": true,
+    "mode": "internal-real",
+    "network_during_model_execution": false,
+    "raw_trace_retention_hours": 72,
+    "real_model_enabled": false,
+    "review_mode": "internal"
+  },
+  "feature_asset": {
+    "asset_digest": null,
+    "decoder_rows": "unit_norm",
+    "feature_width": 40960,
+    "input_width": 5120,
+    "normalization": "x_scaled_by_sqrt_d_over_mean_norm",
+    "path": "v2/sae_L33_final.pt",
+    "repository": "LeonInverse/qwen3.8-27b-scope-code",
+    "revision": "0f965454ffedb93e826546a7dc11b51a4622188e",
+    "strategy": "upstream_model_matched_affine_topk_sae",
+    "top_k": 50
+  },
+  "hook_selection": {
+    "candidates": [
+      {
+        "capture": "forward_pre_hook:first_tensor",
+        "id": "decoder_input",
+        "path_template": "model.language_model.layers[33]"
+      },
+      {
+        "capture": "forward_hook:first_tensor",
+        "id": "decoder_output",
+        "path_template": "model.language_model.layers[33]"
+      }
+    ],
+    "layer": 33,
+    "locked_before": "tune",
+    "selection_rule": "choose the first candidate in declared order whose finite pooled FVU and row-wise coverage gates pass; never select from assessment",
+    "selection_split": "fit"
+  },
+  "inputs_required_before_execution": [
+    "fresh_corpus_identity_and_digest",
+    "model_tree_digest",
+    "runtime_and_device_attestation",
+    "model_matched_asset_digest",
+    "packet_bound_custody_manifest",
+    "local_internal_authorization"
+  ],
+  "model": {
+    "hidden_width": 5120,
+    "id": "Qwen/Qwen3.8-27B",
+    "layers": 64,
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0"
+  },
+  "purpose": "Predeclare a fresh layer-33 model-matched feature qualification after the closed V6 processor dependency failure.",
+  "reconstruction": {
+    "assessment_max_row_nmse": 0.4,
+    "assessment_pooled_fvu_max": 0.2,
+    "finite_required": true,
+    "fit_max_row_nmse": 0.4,
+    "fit_pooled_fvu_max": 0.2,
+    "primary_metric": "pooled_fvu_global_centered",
+    "secondary_metric": "maximum_row_nmse",
+    "tune_max_row_nmse": 0.4,
+    "tune_pooled_fvu_max": 0.2,
+    "zero_variance_policy": "exact_only"
+  },
+  "runtime": {
+    "cuda": "12.4",
+    "determinism": {
+      "cublas_workspace_config": ":4096:8",
+      "cudnn_benchmark": false,
+      "tf32": false,
+      "torch_deterministic_algorithms": true
+    },
+    "device_model": "NVIDIA H100",
+    "dtype": "bfloat16",
+    "pillow": "11.3.0",
+    "python": "3.11.11",
+    "safetensors": "0.8.0",
+    "torch": "2.6.0",
+    "torchvision": "0.21.0",
+    "transformers": "5.18.0.dev0",
+    "transformers_source": "https://github.com/huggingface/transformers.git",
+    "transformers_source_revision": "dbea10932a0e18f40d8103a3bae6fa7927f8d36e"
+  },
+  "schema": "interp-lab.qwen38-reconstruction-protocol.v3",
+  "state_slice": "interpretability-lab-sandbox-v1",
+  "status": "DESIGN_ONLY_NO_MODEL_EXECUTION"
+}

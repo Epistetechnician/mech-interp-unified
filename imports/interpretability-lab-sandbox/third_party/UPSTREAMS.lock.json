@@ -1,0 +1,109 @@
+{
+  "schema": "interp-lab.upstreams.lock.v1",
+  "state_slice": "interpretability-lab-sandbox-v1",
+  "policy": "reference-only-no-vendoring",
+  "submodules": [
+    {
+      "name": "transformerlens",
+      "url": "https://github.com/TransformerLensOrg/TransformerLens.git",
+      "commit": "2a05c15df238caf8b7869188ea27b5d39a903d35",
+      "license": "MIT",
+      "license_files": [
+        "LICENSE"
+      ],
+      "role": "activation capture and cache editing"
+    },
+    {
+      "name": "transformerlens-circuit-tracer-legacy",
+      "url": "https://github.com/TransformerLensOrg/TransformerLens.git",
+      "commit": "a634e5757cd2ae43add9beb492be7a2dfb443a30",
+      "license": "MIT",
+      "license_files": [
+        "LICENSE"
+      ],
+      "role": "circuit-tracer-compatible TransformerLens 2.16.1 runtime"
+    },
+    {
+      "name": "transformerlens-acdc-legacy",
+      "url": "https://github.com/TransformerLensOrg/TransformerLens.git",
+      "commit": "3745d0c18b683cdcdd4b4acf3800f038c2fe8aa7",
+      "license": "MIT",
+      "license_files": [
+        "LICENSE"
+      ],
+      "role": "ACDC-compatible TransformerLens 1.6.1 runtime"
+    },
+    {
+      "name": "saelens",
+      "url": "https://github.com/decoderesearch/SAELens.git",
+      "commit": "ee45e7406165ce267b33d33b7371bbb63ef24db8",
+      "license": "MIT",
+      "license_files": [
+        "LICENSE"
+      ],
+      "role": "sparse feature encoding and reconstruction"
+    },
+    {
+      "name": "circuit-tracer",
+      "url": "https://github.com/safety-research/circuit-tracer.git",
+      "commit": "6018ed8d35e40f2c50062822e8dde422b8e52e2d",
+      "license": "MIT",
+      "license_files": [
+        "LICENSE"
+      ],
+      "role": "attribution graph and feature intervention"
+    },
+    {
+      "name": "nnsight",
+      "url": "https://github.com/ndif-team/nnsight.git",
+      "commit": "87f4dadaae254c6d36e8820cc83a251623b8dda7",
+      "license": "MIT",
+      "license_files": [
+        "LICENSE"
+      ],
+      "role": "local PyTorch tracing and activation intervention"
+    },
+    {
+      "name": "nnsight-circuit-tracer-legacy",
+      "url": "https://github.com/ndif-team/nnsight.git",
+      "commit": "3fd13f8959cf9bcb79fc87d24bc244bceb26e3e5",
+      "license": "MIT",
+      "license_files": [
+        "LICENSE"
+      ],
+      "role": "circuit-tracer-compatible NNsight 0.6.1 runtime"
+    },
+    {
+      "name": "pyvene",
+      "url": "https://github.com/stanfordnlp/pyvene.git",
+      "commit": "9e333904dcf9e597ca76170010d17f4d4580de8d",
+      "license": "Apache-2.0",
+      "license_files": [
+        "LICENSE"
+      ],
+      "role": "composable representation interventions"
+    },
+    {
+      "name": "acdc",
+      "url": "https://github.com/ArthurConmy/Automatic-Circuit-Discovery.git",
+      "commit": "bc99ace817974b5584b7ee203d596a8e2bbcd399",
+      "license": "MIT",
+      "license_files": [
+        "LICENSE"
+      ],
+      "role": "automated circuit discovery reference"
+    },
+    {
+      "name": "neuronpedia",
+      "url": "https://github.com/hijohnnylin/neuronpedia.git",
+      "commit": "df03cfee33e9023866eba6f828d9e34900932877",
+      "license": "Apache-2.0",
+      "license_files": [
+        "LICENSE",
+        "NOTICE",
+        "LICENSE-MIT"
+      ],
+      "role": "local feature browser and aggregate visualization reference"
+    }
+  ]
+}

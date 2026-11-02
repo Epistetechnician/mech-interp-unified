@@ -1,0 +1,153 @@
+{
+  "claim_ceiling": "LOCAL_INTERNAL_REAL_MODEL_ASSESSMENT_ONLY_AFTER_GATES",
+  "continual_learning": {
+    "assessment_requires_causal_gates": true,
+    "controllers": [
+      "sgd",
+      "ewc",
+      "behavioral_only",
+      "causal_monitor"
+    ],
+    "matched_learning_progress": true,
+    "matched_total_compute": true,
+    "metrics": [
+      "retention",
+      "adaptation",
+      "calibration_error",
+      "monitoring_overhead_units"
+    ],
+    "ordered_streams_identical": true
+  },
+  "controls": [
+    "exact_copy",
+    "activation_only",
+    "text_only",
+    "shuffled",
+    "constant",
+    "matched"
+  ],
+  "corpus": {
+    "document_disjoint": true,
+    "family_disjoint": true,
+    "identity": "fresh-gpt2-resid-mid-assessment-20260915-v1",
+    "sha256": null,
+    "source": "external-owner-only-acquisition-required",
+    "splits": {
+      "assessment": 48,
+      "fit": 48,
+      "tune": 48
+    }
+  },
+  "custody": {
+    "model_assets_external_only": true,
+    "owner_only_mode": "0700",
+    "raw_inputs_outside_git": true,
+    "root_required": true
+  },
+  "estimand": {
+    "aggregation": "mean_signed_and_mean_absolute_effect",
+    "intervention": "replace_selected_feature_with_locked_donor_value",
+    "name": "paired_final_token_logit_margin_effect",
+    "prediction_lock_before_assessment": true,
+    "scrubbing": "replace_selected_feature_with_zero_or_locked_baseline_donor"
+  },
+  "execution": {
+    "external_review_required": true,
+    "hard_usd_ceiling": 333.0,
+    "independent_validator_required": true,
+    "mode": "external-real",
+    "network_during_model_execution": false,
+    "raw_trace_retention_hours": 72
+  },
+  "feature_asset": {
+    "config_sha256": null,
+    "d_in": 768,
+    "d_sae": 32768,
+    "hook": "transformer.h[6].ln_2.input",
+    "path": "v5_32k_layer_6",
+    "repository": "jbloom/GPT2-Small-OAI-v5-32k-resid-mid-SAEs",
+    "revision": "90ed829d1ea6b776c2f4af11184b6d43683e58bc",
+    "weights_sha256": null
+  },
+  "independent_review": {
+    "public_key": null,
+    "receipt": null,
+    "required": true,
+    "reviewer_id": null
+  },
+  "model": {
+    "checkpoints": {
+      "base": {
+        "identity": "gpt2-resid-mid-base-v1",
+        "sha256": null
+      },
+      "post_update_1": {
+        "identity": "gpt2-resid-mid-post-update-1-v1",
+        "sha256": null
+      }
+    },
+    "id": "openai-community/gpt2",
+    "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e"
+  },
+  "nonclaims": [
+    "no independent review until a reviewer-controlled signed ACCEPT exists",
+    "no alignment or generalization claim",
+    "no production authorization",
+    "no continual-learning retention claim before matched real training"
+  ],
+  "packet_digest": "65cc428ee1997b65389a004c5ba9ca0acc9cf6038e59f7110b59591e9fded697",
+  "packet_id": "gpt2-resid-mid-heldout-assessment-20260915-v1",
+  "prediction_lock": {
+    "digest": null,
+    "required": true,
+    "reviewer": null
+  },
+  "runtime": {
+    "cuda": "12.4",
+    "determinism": {
+      "cublas_workspace_config": ":4096:8",
+      "cudnn_benchmark": false,
+      "tf32": false,
+      "torch_deterministic_algorithms": true
+    },
+    "device_model": "NVIDIA H100",
+    "dtype": "float32",
+    "python": "3.11.11",
+    "safetensors": "0.8.0",
+    "torch": "2.6.0",
+    "transformers": "4.57.3"
+  },
+  "schema": "interp-lab.assessment-packet.v1",
+  "selection": {
+    "checkpoint_pair": [
+      "base",
+      "post_update_1"
+    ],
+    "feature_index": 13637,
+    "selection_source": "fit_only_locked_before_tune"
+  },
+  "state_slice": "interpretability-lab-sandbox-v1",
+  "statistics": {
+    "alpha": 0.05,
+    "icc_assumption": 0.5,
+    "independent_unit": "family",
+    "minimum_standardized_effect": 0.5,
+    "missingness": "fail_closed",
+    "multiplicity": "Holm",
+    "power_endpoints": 4,
+    "power_method": "two_sided_normal_icc_design_effect",
+    "power_scope": "single_comparison_approximation",
+    "power_target": 0.8,
+    "power_validation": "familywise_holm_power_unvalidated",
+    "repeats": 3
+  },
+  "status": "FROZEN_DESIGN_REQUIRES_EXTERNAL_CUSTODY",
+  "thresholds": {
+    "control_max_abs": 1.0,
+    "effect_min_abs": 0.01,
+    "exact_copy_max_abs": 0.0,
+    "scrub_min_abs": 0.01,
+    "sign_agreement_min": 0.8,
+    "zero_attrition": true
+  }
+}

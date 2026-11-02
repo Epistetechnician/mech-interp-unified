@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68,<76"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "interpretability-lab-sandbox"
+version = "0.1.0"
+description = "Deterministic, fail-closed interpretability experiment sandbox"
+requires-python = ">=3.11,<3.13"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]

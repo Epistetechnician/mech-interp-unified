@@ -1,0 +1,82 @@
+{
+  "corpus": {
+    "identity": "fresh-qwen38-27b-code-internal-20260915-v4",
+    "rows": 18,
+    "schema": "interp-lab.assessment-corpus.v1",
+    "splits": {
+      "assessment": 6,
+      "fit": 6,
+      "tune": 6
+    }
+  },
+  "execution": {
+    "claim_ceiling": "LOCAL_INTERNAL_EXPLORATORY_ONLY",
+    "external_review_required": false,
+    "internal_authorization_required": true,
+    "network_during_model_execution": false,
+    "raw_retention_hours": 72,
+    "real_model_enabled": true,
+    "review_mode": "internal"
+  },
+  "feature_asset": {
+    "d_in": 5120,
+    "d_sae": 40960,
+    "format": "torch_state_dict_weights_only",
+    "normalization": "stored_scale_sqrt_d_mean_norm",
+    "path": "stage1/sae_L32_final.pt",
+    "repository": "LeonInverse/qwen3.8-27b-scope-code",
+    "revision": "0f965454ffedb93e826546a7dc11b51a4622188e",
+    "top_k": 50,
+    "upstream_lfs_sha256": "6a106f453461d19a5063604f1993007f64618980a51e32c9e7d2695139d9b489"
+  },
+  "mode": "internal-real",
+  "model": {
+    "canonical_path": "model.language_model.layers[32]",
+    "device": "cuda",
+    "dtype": "bfloat16",
+    "hook": "decoder_out",
+    "id": "Qwen/Qwen3.8-27B",
+    "layer": 32,
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "text_only_inputs": true
+  },
+  "nonclaims": [
+    "no independent review or proof",
+    "no held-out scientific assessment claim",
+    "no cross-checkpoint stability claim",
+    "no continual-learning retention claim",
+    "no alignment or production claim"
+  ],
+  "packet": {
+    "digest": "cca7d3d0426cae774e81f94f5d2137f031902e714dcddcfe910fb23d72c6bf0c",
+    "path": "configs/qwen3.8-27b-internal-qualification-v4-stage1.json"
+  },
+  "qualification": {
+    "intervention_min_abs_effect": 1e-09,
+    "no_op_abs_tol": 0.0,
+    "parity_abs_tol": 0.0,
+    "reconstruction_nmse_max": 0.05,
+    "repeatability_abs_tol": 0.0,
+    "scrub_min_abs_effect": 1e-09,
+    "stability_min_cosine": 0.8
+  },
+  "runtime": {
+    "cuda": "12.4",
+    "determinism": {
+      "cublas_workspace_config": ":4096:8",
+      "cudnn_benchmark": false,
+      "tf32": false,
+      "torch_deterministic_algorithms": true
+    },
+    "device_model": "NVIDIA H100",
+    "dtype": "bfloat16",
+    "python": "3.11.11",
+    "safetensors": "0.8.0",
+    "torch": "2.6.0",
+    "transformers": "5.18.0.dev0",
+    "transformers_source": "https://github.com/huggingface/transformers.git",
+    "transformers_source_revision": "a4aa98904e41952cc515fef42c285eecacd18a65"
+  },
+  "schema": "interp-lab.real-qwen38-config.v1",
+  "state_slice": "interpretability-lab-sandbox-v1"
+}

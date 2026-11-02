@@ -1,0 +1,38 @@
+{
+  "acceptance": {
+    "assessment_unlocks_only_after_signed_accept": true,
+    "local_signature_is_valid": false,
+    "operator_may_self_sign": false
+  },
+  "claim_ceiling_before_accept": "LOCAL_DESIGN_ONLY",
+  "nonclaims": [
+    "no model execution authorization",
+    "no independent proof",
+    "no causal or continual-learning result",
+    "no alignment, benchmark, or production claim"
+  ],
+  "packet_digest": "866ac7b5470afcae6d34802ee070a8037094a56c10872b4d6cbaf3eba4dc586b",
+  "protocol_digest": "1eb483339b3c938acf684ab15b28905ae2a3d971e91a6471b39264ecf4e6f8db",
+  "protocol_id": "gemma3-27b-heldout-causal-retention-v10",
+  "required_return": {
+    "conflict_of_interest_statement": true,
+    "decision": "ACCEPT or REJECT",
+    "packet_digest_binding": true,
+    "reviewer_controlled_ed25519_registry": true,
+    "reviewer_identity": true,
+    "signed_receipt": true
+  },
+  "review_scope": [
+    "Gemma model and official feature-asset identity",
+    "SAE orientation, JumpReLU threshold, normalization, layer provenance, and dimensions",
+    "fresh corpus, donor restrictions, and split disjointness",
+    "post-update checkpoint recipe and cross-checkpoint stability gate",
+    "runtime, deterministic settings, H100 attestation, and offline execution",
+    "held-out estimand, prediction lock, fixed controls, and scrubbing validity",
+    "Holm thresholds, power plan, repeats, missingness, and resource matching",
+    "custody, 72-hour retention, claim ceilings, and downstream locks"
+  ],
+  "review_status": "PENDING_INDEPENDENT_REVIEW",
+  "schema": "interp-lab.independent-review-packet.v1",
+  "state_slice": "interpretability-lab-sandbox-v1"
+}
