@@ -1,0 +1,2106 @@
+{
+ "random": {
+  "0.0": [
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.6,
+      "one": 0.3,
+      "unexplained": 0.1
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.4,
+      "unexplained": 0.6
+     }
+    },
+    "seed": 0
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.3,
+      "one": 0.3,
+      "unexplained": 0.4
+     }
+    },
+    "seed": 1
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.5,
+      "one": 0.4,
+      "unexplained": 0.1
+     },
+     "0.4": {
+      "multi": 0.1,
+      "one": 0.4,
+      "unexplained": 0.5
+     }
+    },
+    "seed": 2
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.6,
+      "one": 0.3,
+      "unexplained": 0.1
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.4,
+      "unexplained": 0.6
+     }
+    },
+    "seed": 3
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.4,
+      "one": 0.3,
+      "unexplained": 0.3
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.4,
+      "unexplained": 0.6
+     }
+    },
+    "seed": 4
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.4,
+      "one": 0.4,
+      "unexplained": 0.2
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.5,
+      "unexplained": 0.5
+     }
+    },
+    "seed": 5
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.6,
+      "one": 0.1,
+      "unexplained": 0.3
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.5,
+      "unexplained": 0.5
+     }
+    },
+    "seed": 6
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.4,
+      "one": 0.5,
+      "unexplained": 0.1
+     },
+     "0.4": {
+      "multi": 0.2,
+      "one": 0.3,
+      "unexplained": 0.5
+     }
+    },
+    "seed": 7
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.8,
+      "one": 0.2,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.1,
+      "one": 0.4,
+      "unexplained": 0.5
+     }
+    },
+    "seed": 8
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.6,
+      "one": 0.4,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.1,
+      "one": 0.4,
+      "unexplained": 0.5
+     }
+    },
+    "seed": 9
+   }
+  ],
+  "0.5": [
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.5,
+      "one": 0.5,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.3,
+      "unexplained": 0.7
+     }
+    },
+    "seed": 0
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.4,
+      "one": 0.2,
+      "unexplained": 0.4
+     }
+    },
+    "seed": 1
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.8,
+      "one": 0.2,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.3,
+      "one": 0.3,
+      "unexplained": 0.4
+     }
+    },
+    "seed": 2
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.7,
+      "one": 0.1,
+      "unexplained": 0.2
+     },
+     "0.4": {
+      "multi": 0.1,
+      "one": 0.2,
+      "unexplained": 0.7
+     }
+    },
+    "seed": 3
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.5,
+      "one": 0.3,
+      "unexplained": 0.2
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.4,
+      "unexplained": 0.6
+     }
+    },
+    "seed": 4
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.4,
+      "one": 0.4,
+      "unexplained": 0.2
+     },
+     "0.4": {
+      "multi": 0.1,
+      "one": 0.3,
+      "unexplained": 0.6
+     }
+    },
+    "seed": 5
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.7,
+      "one": 0.2,
+      "unexplained": 0.1
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.2,
+      "unexplained": 0.8
+     }
+    },
+    "seed": 6
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.8,
+      "one": 0.1,
+      "unexplained": 0.1
+     },
+     "0.3": {
+      "multi": 0.4,
+      "one": 0.5,
+      "unexplained": 0.1
+     },
+     "0.4": {
+      "multi": 0.1,
+      "one": 0.6,
+      "unexplained": 0.3
+     }
+    },
+    "seed": 7
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.2,
+      "one": 0.4,
+      "unexplained": 0.4
+     }
+    },
+    "seed": 8
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.6,
+      "one": 0.3,
+      "unexplained": 0.1
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.6,
+      "unexplained": 0.4
+     }
+    },
+    "seed": 9
+   }
+  ],
+  "0.9": [
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.6,
+      "one": 0.3,
+      "unexplained": 0.1
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.4,
+      "unexplained": 0.6
+     }
+    },
+    "seed": 0
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.8,
+      "one": 0.2,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.4,
+      "one": 0.2,
+      "unexplained": 0.4
+     }
+    },
+    "seed": 1
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.7,
+      "one": 0.3,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.2,
+      "one": 0.4,
+      "unexplained": 0.4
+     }
+    },
+    "seed": 2
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.7,
+      "one": 0.1,
+      "unexplained": 0.2
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.2,
+      "unexplained": 0.8
+     }
+    },
+    "seed": 3
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.5,
+      "one": 0.2,
+      "unexplained": 0.3
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.4,
+      "unexplained": 0.6
+     }
+    },
+    "seed": 4
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.4,
+      "one": 0.4,
+      "unexplained": 0.2
+     },
+     "0.4": {
+      "multi": 0.1,
+      "one": 0.3,
+      "unexplained": 0.6
+     }
+    },
+    "seed": 5
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.6,
+      "one": 0.2,
+      "unexplained": 0.2
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.1,
+      "unexplained": 0.9
+     }
+    },
+    "seed": 6
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.8,
+      "one": 0.2,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.4,
+      "one": 0.5,
+      "unexplained": 0.1
+     },
+     "0.4": {
+      "multi": 0.1,
+      "one": 0.6,
+      "unexplained": 0.3
+     }
+    },
+    "seed": 7
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.6,
+      "unexplained": 0.4
+     }
+    },
+    "seed": 8
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.7,
+      "one": 0.2,
+      "unexplained": 0.1
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.6,
+      "unexplained": 0.4
+     }
+    },
+    "seed": 9
+   }
+  ],
+  "0.95": [
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.6,
+      "one": 0.3,
+      "unexplained": 0.1
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.3,
+      "unexplained": 0.7
+     }
+    },
+    "seed": 0
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.8,
+      "one": 0.2,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.4,
+      "one": 0.2,
+      "unexplained": 0.4
+     }
+    },
+    "seed": 1
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.7,
+      "one": 0.3,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.1,
+      "one": 0.5,
+      "unexplained": 0.4
+     }
+    },
+    "seed": 2
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.7,
+      "one": 0.1,
+      "unexplained": 0.2
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.3,
+      "unexplained": 0.7
+     }
+    },
+    "seed": 3
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.4,
+      "one": 0.5,
+      "unexplained": 0.1
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.4,
+      "unexplained": 0.6
+     }
+    },
+    "seed": 4
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.5,
+      "one": 0.3,
+      "unexplained": 0.2
+     },
+     "0.4": {
+      "multi": 0.1,
+      "one": 0.4,
+      "unexplained": 0.5
+     }
+    },
+    "seed": 5
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.7,
+      "one": 0.2,
+      "unexplained": 0.1
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.1,
+      "unexplained": 0.9
+     }
+    },
+    "seed": 6
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.8,
+      "one": 0.2,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.5,
+      "one": 0.4,
+      "unexplained": 0.1
+     },
+     "0.4": {
+      "multi": 0.1,
+      "one": 0.6,
+      "unexplained": 0.3
+     }
+    },
+    "seed": 7
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.5,
+      "unexplained": 0.5
+     }
+    },
+    "seed": 8
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.7,
+      "one": 0.2,
+      "unexplained": 0.1
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.6,
+      "unexplained": 0.4
+     }
+    },
+    "seed": 9
+   }
+  ]
+ },
+ "trained": {
+  "0.0": [
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.8,
+      "one": 0.2,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.6,
+      "one": 0.2,
+      "unexplained": 0.2
+     },
+     "0.4": {
+      "multi": 0.2,
+      "one": 0.4,
+      "unexplained": 0.4
+     }
+    },
+    "final_loss": 0.042064446955919266,
+    "seed": 0
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.9,
+      "one": 0.0,
+      "unexplained": 0.1
+     },
+     "0.3": {
+      "multi": 0.7,
+      "one": 0.2,
+      "unexplained": 0.1
+     },
+     "0.4": {
+      "multi": 0.2,
+      "one": 0.7,
+      "unexplained": 0.1
+     }
+    },
+    "final_loss": 0.041419368237257004,
+    "seed": 1
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.9,
+      "one": 0.0,
+      "unexplained": 0.1
+     },
+     "0.3": {
+      "multi": 0.9,
+      "one": 0.0,
+      "unexplained": 0.1
+     },
+     "0.4": {
+      "multi": 0.4,
+      "one": 0.4,
+      "unexplained": 0.2
+     }
+    },
+    "final_loss": 0.04104369133710861,
+    "seed": 2
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.8,
+      "one": 0.2,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.5,
+      "one": 0.3,
+      "unexplained": 0.2
+     }
+    },
+    "final_loss": 0.04191068932414055,
+    "seed": 3
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.5,
+      "one": 0.2,
+      "unexplained": 0.3
+     },
+     "0.4": {
+      "multi": 0.2,
+      "one": 0.2,
+      "unexplained": 0.6
+     }
+    },
+    "final_loss": 0.04122155159711838,
+    "seed": 4
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.7,
+      "one": 0.3,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.8,
+      "unexplained": 0.2
+     }
+    },
+    "final_loss": 0.04136108234524727,
+    "seed": 5
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.7,
+      "one": 0.2,
+      "unexplained": 0.1
+     },
+     "0.3": {
+      "multi": 0.4,
+      "one": 0.4,
+      "unexplained": 0.2
+     },
+     "0.4": {
+      "multi": 0.1,
+      "one": 0.2,
+      "unexplained": 0.7
+     }
+    },
+    "final_loss": 0.04275337606668472,
+    "seed": 6
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.4,
+      "one": 0.4,
+      "unexplained": 0.2
+     },
+     "0.4": {
+      "multi": 0.2,
+      "one": 0.3,
+      "unexplained": 0.5
+     }
+    },
+    "final_loss": 0.043125659227371216,
+    "seed": 7
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.7,
+      "one": 0.1,
+      "unexplained": 0.2
+     },
+     "0.4": {
+      "multi": 0.4,
+      "one": 0.3,
+      "unexplained": 0.3
+     }
+    },
+    "final_loss": 0.041835032403469086,
+    "seed": 8
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.4,
+      "one": 0.5,
+      "unexplained": 0.1
+     },
+     "0.4": {
+      "multi": 0.2,
+      "one": 0.3,
+      "unexplained": 0.5
+     }
+    },
+    "final_loss": 0.041367631405591965,
+    "seed": 9
+   }
+  ],
+  "0.5": [
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.6,
+      "one": 0.4,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.9,
+      "unexplained": 0.1
+     }
+    },
+    "final_loss": 0.038972970098257065,
+    "seed": 0
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.8,
+      "one": 0.2,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.1,
+      "one": 0.6,
+      "unexplained": 0.3
+     }
+    },
+    "final_loss": 0.039172958582639694,
+    "seed": 1
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.6,
+      "one": 0.4,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.9,
+      "unexplained": 0.1
+     }
+    },
+    "final_loss": 0.03932952135801315,
+    "seed": 2
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.8,
+      "one": 0.2,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.1,
+      "one": 0.7,
+      "unexplained": 0.2
+     }
+    },
+    "final_loss": 0.040323950350284576,
+    "seed": 3
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.8,
+      "one": 0.2,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.9,
+      "unexplained": 0.1
+     }
+    },
+    "final_loss": 0.03896467015147209,
+    "seed": 4
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.8,
+      "one": 0.2,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.2,
+      "one": 0.6,
+      "unexplained": 0.2
+     }
+    },
+    "final_loss": 0.038075633347034454,
+    "seed": 5
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.8,
+      "one": 0.2,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.7,
+      "unexplained": 0.3
+     }
+    },
+    "final_loss": 0.03968978673219681,
+    "seed": 6
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.8,
+      "one": 0.2,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.8,
+      "unexplained": 0.2
+     }
+    },
+    "final_loss": 0.04077541083097458,
+    "seed": 7
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.6,
+      "one": 0.4,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.1,
+      "one": 0.9,
+      "unexplained": 0.0
+     }
+    },
+    "final_loss": 0.03814160078763962,
+    "seed": 8
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.8,
+      "one": 0.2,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.5,
+      "unexplained": 0.5
+     }
+    },
+    "final_loss": 0.036481428891420364,
+    "seed": 9
+   }
+  ],
+  "0.9": [
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.8,
+      "unexplained": 0.2
+     }
+    },
+    "final_loss": 0.0019024076173081994,
+    "seed": 0
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.7,
+      "one": 0.3,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.1,
+      "one": 0.6,
+      "unexplained": 0.3
+     }
+    },
+    "final_loss": 0.0019810397643595934,
+    "seed": 1
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.6,
+      "one": 0.4,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.4,
+      "unexplained": 0.6
+     }
+    },
+    "final_loss": 0.0014310379046946764,
+    "seed": 2
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.5,
+      "unexplained": 0.5
+     }
+    },
+    "final_loss": 0.0013252280186861753,
+    "seed": 3
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.5,
+      "one": 0.5,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.8,
+      "unexplained": 0.2
+     }
+    },
+    "final_loss": 0.0012500527082011104,
+    "seed": 4
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.7,
+      "one": 0.2,
+      "unexplained": 0.1
+     },
+     "0.4": {
+      "multi": 0.1,
+      "one": 0.4,
+      "unexplained": 0.5
+     }
+    },
+    "final_loss": 0.0013586807763203979,
+    "seed": 5
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.8,
+      "one": 0.2,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.7,
+      "unexplained": 0.3
+     }
+    },
+    "final_loss": 0.001932986080646515,
+    "seed": 6
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.4,
+      "one": 0.6,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.6,
+      "unexplained": 0.4
+     }
+    },
+    "final_loss": 0.0015392956556752324,
+    "seed": 7
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.5,
+      "one": 0.5,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.1,
+      "one": 0.8,
+      "unexplained": 0.1
+     }
+    },
+    "final_loss": 0.002102734986692667,
+    "seed": 8
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.7,
+      "one": 0.3,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.1,
+      "one": 0.3,
+      "unexplained": 0.6
+     }
+    },
+    "final_loss": 0.0014759546611458063,
+    "seed": 9
+   }
+  ],
+  "0.95": [
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.8,
+      "one": 0.2,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.7,
+      "unexplained": 0.3
+     }
+    },
+    "final_loss": 0.0005201796302571893,
+    "seed": 0
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.7,
+      "one": 0.3,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.7,
+      "unexplained": 0.3
+     }
+    },
+    "final_loss": 0.0006670037982985377,
+    "seed": 1
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.1,
+      "one": 0.4,
+      "unexplained": 0.5
+     }
+    },
+    "final_loss": 0.0004265350289642811,
+    "seed": 2
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.1,
+      "unexplained": 0.9
+     }
+    },
+    "final_loss": 0.0004709294007625431,
+    "seed": 3
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.8,
+      "one": 0.1,
+      "unexplained": 0.1
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.7,
+      "unexplained": 0.3
+     }
+    },
+    "final_loss": 0.00016475927259307355,
+    "seed": 4
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.5,
+      "one": 0.3,
+      "unexplained": 0.2
+     },
+     "0.4": {
+      "multi": 0.2,
+      "one": 0.3,
+      "unexplained": 0.5
+     }
+    },
+    "final_loss": 0.0005055553046986461,
+    "seed": 5
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.9,
+      "one": 0.1,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.8,
+      "unexplained": 0.2
+     }
+    },
+    "final_loss": 0.00034249870805069804,
+    "seed": 6
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.7,
+      "one": 0.3,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.6,
+      "unexplained": 0.4
+     }
+    },
+    "final_loss": 0.00025053462013602257,
+    "seed": 7
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.5,
+      "one": 0.5,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.9,
+      "unexplained": 0.1
+     }
+    },
+    "final_loss": 0.0005994457751512527,
+    "seed": 8
+   },
+   {
+    "audit": {
+     "0.1": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.2": {
+      "multi": 1.0,
+      "one": 0.0,
+      "unexplained": 0.0
+     },
+     "0.3": {
+      "multi": 0.6,
+      "one": 0.4,
+      "unexplained": 0.0
+     },
+     "0.4": {
+      "multi": 0.0,
+      "one": 0.6,
+      "unexplained": 0.4
+     }
+    },
+    "final_loss": 0.0005314751761034131,
+    "seed": 9
+   }
+  ]
+ },
+ "verdict": {
+  "H1_power": false,
+  "H2_monotone": true,
+  "H3_random_arm_specific": true,
+  "detects_planted_superposition": false,
+  "mean_multi_random": {
+   "0.0": 0.96,
+   "0.5": 0.95,
+   "0.9": 0.95,
+   "0.95": 0.97
+  },
+  "mean_multi_trained": {
+   "0.0": 0.8700000000000001,
+   "0.5": 0.99,
+   "0.9": 1.0,
+   "0.95": 1.0
+  },
+  "sensitivity": {
+   "0.1": {
+    "0.0": 0.99,
+    "0.5": 1.0,
+    "0.9": 1.0,
+    "0.95": 1.0
+   },
+   "0.2": {
+    "0.0": 0.8700000000000001,
+    "0.5": 0.99,
+    "0.9": 1.0,
+    "0.95": 1.0
+   },
+   "0.3": {
+    "0.0": 0.6100000000000001,
+    "0.5": 0.74,
+    "0.9": 0.67,
+    "0.95": 0.73
+   },
+   "0.4": {
+    "0.0": 0.24000000000000005,
+    "0.5": 0.05,
+    "0.9": 0.04,
+    "0.95": 0.030000000000000006
+   }
+  }
+ }
+}
