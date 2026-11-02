@@ -1,0 +1,47 @@
+{
+ "hashes": {
+  "step1000/model.safetensors": "a9af4ab58fe527ac0c4bdd43d1834c0a2d2e28ce9527957668353c700b01311a",
+  "step100000/model.safetensors": "3164be2625f407dd83703a2d218277b7e80a03e28c9d51fc9d40dd5e34c16c14",
+  "step120000/model.safetensors": "c7a4594f9cee604cf6a954abb0f1afaf82d9a73de6f6f427c635febe4c044152",
+  "step143000/model.safetensors": "d829d1a5cf66032491679d64c5b18e85b82d37833a99c346905668b8553084d5",
+  "step16000/model.safetensors": "b9cabaa6801bede34659808394d5b148bc5553eb47191b4c3385106afb34367c",
+  "step2000/model.safetensors": "480015741efece1ba8b1463a997e4cc774c7266881f0eb9cde1cbd11b0d5cb07",
+  "step24000/model.safetensors": "16a7e11b2df928dcf823d22cde751ec3925ff1d410881ef65796bbc1fad8dae0",
+  "step32000/model.safetensors": "837a7b56674b9563583343fb532f92704cc394da5970b19f8ac1a443aaeb6f0a",
+  "step4000/model.safetensors": "0857241c666f85302201b5775a7d2921b642c79596486af93b42f6ebd5e423bb",
+  "step48000/model.safetensors": "e6c5da941e54b850636538215dee55b82a58faaa12778dca995cfa4cd6ac7ff8",
+  "step64000/model.safetensors": "0e054244779c34938b39db958396bf840c0ab22dac4fc172d6cd96d270ce5859",
+  "step8000/model.safetensors": "e4cafcb5b8253abc15de490693dc592b7b7e195c015c5e3c3522d7ad40fbff40",
+  "step80000/model.safetensors": "d9048c7a95de7a455816d03a55ae7dc9521da0ebed883b23072df7a7d951846f",
+  "wikitext-2-raw-v1/train": "e83889baabc497075506f91975be5fac0d45c5290b6b20582c8cd1e853d0c9f7"
+ },
+ "layers": {
+  "3": {
+   "growth_pass": false,
+   "mean_rho": -0.11162584651744092,
+   "mean_rho_output_embedding": -0.06905571853136075,
+   "null_mean": -0.04151378350406834,
+   "null_sd": 0.03116777263393321,
+   "p": 0.013986013986013986,
+   "qualifying_neurons": 42,
+   "stable_pass": false
+  },
+  "6": {
+   "growth_pass": false,
+   "note": "fewer than 30 qualifying neurons",
+   "qualifying_neurons": 22,
+   "stable_pass": false
+  },
+  "9": {
+   "growth_pass": false,
+   "mean_rho": -0.06983125764318761,
+   "mean_rho_output_embedding": -0.04524540503394884,
+   "null_mean": -0.023746558845001674,
+   "null_sd": 0.04112234846836491,
+   "p": 0.14185814185814186,
+   "qualifying_neurons": 32,
+   "stable_pass": false
+  }
+ },
+ "verdict": "inconclusive"
+}
