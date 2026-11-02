@@ -38,6 +38,6 @@ its spend gate is satisfied (`AGENTS.md`).
 - (Optional) an independent reviewer if any claim above `OwnerSelfAttestedLocalDevelopment` is wanted.
 
 ## Progress
-- R5: run, **negative** (pipeline blind at frozen tau; control flawed). Next: R5b.
-- R4: run, rule met, but confounded by stable-coherence; substring track artifact-contaminated. Next: R4b (churn control).
+- R5: run, **negative**. R5b: run, **audit not validated** (misses diffuse superposed neurons; share cutoff swings results; n=d control not clean). See `protocols/R5b-result.md`.
+- R4: rule met but confounded. R4b: persistence test fails; frozen frontier-vs-core verdict was size-biased; size-matched addendum null. Offshoot claim **unresolved**. See `protocols/R4b-result.md`. Next: finer Pythia checkpoints + concept-level relatedness (R4c).
 - R1, R2, R3, R6: not started. R1 must not use the R5 job definition.

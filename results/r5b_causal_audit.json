@@ -1,0 +1,4641 @@
+{
+ "runs": {
+  "C1_n10d10_S0.0": [
+   {
+    "audit_jobs": {
+     "0.1": [
+      2,
+      2,
+      1,
+      2,
+      1,
+      1,
+      3,
+      1,
+      1,
+      1
+     ],
+     "0.2": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "0.3": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ]
+    },
+    "corr_multi": [
+     true,
+     false,
+     false,
+     true,
+     true,
+     true,
+     true,
+     false,
+     false,
+     true
+    ],
+    "gt_multi": [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      0,
+      1,
+      2,
+      1,
+      3,
+      2,
+      2,
+      1,
+      2,
+      1
+     ],
+     "0.2": [
+      0,
+      1,
+      1,
+      1,
+      2,
+      1,
+      2,
+      1,
+      1,
+      1
+     ],
+     "0.3": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1
+     ]
+    },
+    "corr_multi": [
+     false,
+     true,
+     true,
+     false,
+     true,
+     true,
+     true,
+     false,
+     false,
+     true
+    ],
+    "gt_multi": [
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "used": [
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      1,
+      1,
+      1,
+      3,
+      1,
+      4,
+      1,
+      3,
+      2,
+      3
+     ],
+     "0.2": [
+      1,
+      1,
+      1,
+      2,
+      1,
+      2,
+      1,
+      2,
+      1,
+      1
+     ],
+     "0.3": [
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1
+     ]
+    },
+    "corr_multi": [
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      1,
+      3,
+      3,
+      1,
+      2,
+      2,
+      1,
+      1,
+      2,
+      3
+     ],
+     "0.2": [
+      1,
+      2,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      2,
+      2
+     ],
+     "0.3": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1
+     ]
+    },
+    "corr_multi": [
+     false,
+     true,
+     true,
+     false,
+     true,
+     true,
+     true,
+     false,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     true,
+     true,
+     false,
+     true,
+     true,
+     false,
+     false,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      2,
+      1,
+      4,
+      1,
+      1,
+      1,
+      3,
+      3,
+      1,
+      4
+     ],
+     "0.2": [
+      2,
+      1,
+      2,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      2
+     ],
+     "0.3": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1
+     ]
+    },
+    "corr_multi": [
+     true,
+     false,
+     true,
+     true,
+     false,
+     false,
+     true,
+     true,
+     false,
+     true
+    ],
+    "gt_multi": [
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true,
+     true,
+     false,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      2,
+      1,
+      3,
+      4,
+      1,
+      3,
+      3,
+      4,
+      4,
+      2
+     ],
+     "0.2": [
+      2,
+      1,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+     ],
+     "0.3": [
+      2,
+      1,
+      2,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      1
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     false,
+     true,
+     false,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      3,
+      1,
+      1,
+      2,
+      4,
+      2,
+      4,
+      3,
+      2,
+      2
+     ],
+     "0.2": [
+      3,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      2,
+      2,
+      2
+     ],
+     "0.3": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      2,
+      2,
+      1
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     false,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     false,
+     false,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      2,
+      1,
+      4,
+      2,
+      2,
+      3,
+      3,
+      2,
+      3,
+      2
+     ],
+     "0.2": [
+      1,
+      1,
+      2,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      2
+     ],
+     "0.3": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+     ]
+    },
+    "corr_multi": [
+     false,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     false,
+     true,
+     false,
+     true,
+     true,
+     true,
+     false,
+     false,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      3,
+      3,
+      2,
+      1,
+      1,
+      4,
+      3,
+      3,
+      3,
+      3
+     ],
+     "0.2": [
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      2,
+      2,
+      3,
+      2
+     ],
+     "0.3": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     true,
+     false,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      1,
+      1,
+      1,
+      3,
+      2,
+      1,
+      1,
+      3,
+      1,
+      1
+     ],
+     "0.2": [
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1
+     ],
+     "0.3": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false
+    ],
+    "gt_multi": [
+     false,
+     false,
+     false,
+     true,
+     true,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   }
+  ],
+  "C2_n10d10_S0.9": [
+   {
+    "audit_jobs": {
+     "0.1": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      1,
+      3
+     ],
+     "0.2": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      1,
+      3
+     ],
+     "0.3": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      1,
+      2
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      3,
+      4,
+      3
+     ],
+     "0.2": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      2,
+      3
+     ],
+     "0.3": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      4,
+      4,
+      1,
+      1,
+      3,
+      4,
+      3,
+      4,
+      3,
+      4
+     ],
+     "0.2": [
+      3,
+      3,
+      1,
+      1,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3
+     ],
+     "0.3": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     false,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     false,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      1,
+      3,
+      1,
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+     ],
+     "0.2": [
+      1,
+      3,
+      1,
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+     ],
+     "0.3": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     false,
+     true,
+     false,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      3,
+      3,
+      3,
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+     ],
+     "0.2": [
+      3,
+      3,
+      3,
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+     ],
+     "0.3": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     true,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      3,
+      5,
+      5,
+      4,
+      4,
+      5,
+      3,
+      3,
+      5,
+      7
+     ],
+     "0.2": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      0
+     ],
+     "0.3": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      3,
+      1,
+      1,
+      4,
+      4,
+      3,
+      3,
+      4,
+      4,
+      4
+     ],
+     "0.2": [
+      3,
+      1,
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+     ],
+     "0.3": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     false,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     false,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+     ],
+     "0.2": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+     ],
+     "0.3": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+     ],
+     "0.2": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3
+     ],
+     "0.3": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      3,
+      3,
+      4,
+      1,
+      4,
+      4,
+      1,
+      4,
+      3,
+      4
+     ],
+     "0.2": [
+      3,
+      3,
+      3,
+      1,
+      3,
+      4,
+      1,
+      3,
+      3,
+      3
+     ],
+     "0.3": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     false,
+     true,
+     true,
+     false,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     true,
+     false,
+     true,
+     true,
+     false,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   }
+  ],
+  "C3_n20d10_S0.0": [
+   {
+    "audit_jobs": {
+     "0.1": [
+      3,
+      3,
+      2,
+      3,
+      3,
+      5,
+      5,
+      2,
+      4,
+      3
+     ],
+     "0.2": [
+      1,
+      1,
+      2,
+      1,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2
+     ],
+     "0.3": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     false,
+     true,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      4,
+      3,
+      3,
+      4,
+      5,
+      3,
+      4,
+      4,
+      2,
+      4
+     ],
+     "0.2": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+     ],
+     "0.3": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     true,
+     false,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      3,
+      4,
+      3,
+      4,
+      4,
+      3,
+      1,
+      3,
+      2,
+      4
+     ],
+     "0.2": [
+      2,
+      1,
+      0,
+      2,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "0.3": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     false,
+     true,
+     true,
+     false,
+     false,
+     false,
+     true,
+     false,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      3,
+      4,
+      4,
+      3,
+      1,
+      4,
+      4,
+      3,
+      0,
+      4
+     ],
+     "0.2": [
+      2,
+      2,
+      1,
+      2,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "0.3": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     true,
+     true,
+     false,
+     false,
+     true,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      3,
+      3,
+      2,
+      2,
+      4,
+      3,
+      4,
+      5,
+      2,
+      3
+     ],
+     "0.2": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      0,
+      1,
+      2,
+      2,
+      0
+     ],
+     "0.3": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     true,
+     false,
+     true,
+     false,
+     true,
+     true,
+     true,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      3,
+      4,
+      4,
+      4,
+      1,
+      3,
+      3,
+      3,
+      2,
+      3
+     ],
+     "0.2": [
+      2,
+      0,
+      1,
+      0,
+      1,
+      3,
+      1,
+      1,
+      0,
+      0
+     ],
+     "0.3": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     false,
+     false,
+     false,
+     true,
+     true,
+     true,
+     false,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      3,
+      2,
+      2,
+      2,
+      4,
+      4,
+      3,
+      2,
+      4,
+      4
+     ],
+     "0.2": [
+      2,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
+     ],
+     "0.3": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      3,
+      3,
+      3,
+      4,
+      2,
+      3,
+      3,
+      2,
+      3,
+      4
+     ],
+     "0.2": [
+      1,
+      1,
+      2,
+      2,
+      1,
+      2,
+      1,
+      1,
+      1,
+      0
+     ],
+     "0.3": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      2,
+      3,
+      2,
+      2,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3
+     ],
+     "0.2": [
+      2,
+      0,
+      2,
+      2,
+      1,
+      1,
+      1,
+      0,
+      1,
+      2
+     ],
+     "0.3": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     true,
+     true,
+     false,
+     true,
+     false,
+     false,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      4,
+      2,
+      4,
+      1,
+      4,
+      4,
+      2,
+      5,
+      4,
+      3
+     ],
+     "0.2": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      2,
+      1
+     ],
+     "0.3": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     true,
+     false,
+     true,
+     true,
+     false,
+     false,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   }
+  ],
+  "C4_n20d10_S0.5": [
+   {
+    "audit_jobs": {
+     "0.1": [
+      2,
+      4,
+      2,
+      3,
+      4,
+      3,
+      3,
+      4,
+      4,
+      3
+     ],
+     "0.2": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1
+     ],
+     "0.3": [
+      2,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      2,
+      2,
+      4,
+      4,
+      4,
+      5,
+      5,
+      4,
+      5,
+      4
+     ],
+     "0.2": [
+      2,
+      2,
+      0,
+      2,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "0.3": [
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     false,
+     true,
+     false,
+     true,
+     true,
+     true,
+     true,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      4,
+      3,
+      2,
+      3,
+      5,
+      5,
+      3,
+      2,
+      2,
+      4
+     ],
+     "0.2": [
+      3,
+      2,
+      2,
+      2,
+      0,
+      2,
+      1,
+      2,
+      2,
+      1
+     ],
+     "0.3": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      4,
+      4,
+      4,
+      4,
+      3,
+      4,
+      5,
+      3,
+      4,
+      3
+     ],
+     "0.2": [
+      1,
+      1,
+      2,
+      1,
+      2,
+      1,
+      1,
+      2,
+      0,
+      0
+     ],
+     "0.3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      4,
+      4,
+      3,
+      4,
+      4,
+      4,
+      3,
+      4,
+      3,
+      5
+     ],
+     "0.2": [
+      2,
+      3,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      1
+     ],
+     "0.3": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      3,
+      5,
+      3,
+      4,
+      4,
+      4,
+      4,
+      3,
+      3,
+      3
+     ],
+     "0.2": [
+      2,
+      0,
+      2,
+      1,
+      2,
+      3,
+      1,
+      1,
+      2,
+      2
+     ],
+     "0.3": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      4,
+      5,
+      2,
+      3
+     ],
+     "0.2": [
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      1,
+      2,
+      1
+     ],
+     "0.3": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      4,
+      3,
+      2,
+      3,
+      4,
+      3,
+      4,
+      4,
+      5,
+      4
+     ],
+     "0.2": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      1,
+      1,
+      3
+     ],
+     "0.3": [
+      0,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      4,
+      2,
+      2,
+      4,
+      5,
+      3,
+      4,
+      3,
+      4,
+      3
+     ],
+     "0.2": [
+      3,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2
+     ],
+     "0.3": [
+      0,
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      4,
+      4,
+      3,
+      2,
+      4,
+      5,
+      2,
+      3,
+      2,
+      3
+     ],
+     "0.2": [
+      2,
+      3,
+      2,
+      2,
+      3,
+      2,
+      2,
+      1,
+      2,
+      2
+     ],
+     "0.3": [
+      0,
+      0,
+      1,
+      2,
+      0,
+      0,
+      2,
+      0,
+      1,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     false,
+     true,
+     true,
+     false,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   }
+  ],
+  "C5_n20d10_S0.9": [
+   {
+    "audit_jobs": {
+     "0.1": [
+      4,
+      3,
+      4,
+      4,
+      4,
+      3,
+      4,
+      4,
+      3,
+      4
+     ],
+     "0.2": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "0.3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      4,
+      3,
+      4,
+      3,
+      5,
+      3,
+      3,
+      3,
+      4,
+      5
+     ],
+     "0.2": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
+     ],
+     "0.3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      2,
+      4,
+      4,
+      4,
+      4,
+      5,
+      3,
+      4,
+      2,
+      3
+     ],
+     "0.2": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1
+     ],
+     "0.3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      3,
+      2,
+      4,
+      3,
+      3,
+      4,
+      4,
+      5,
+      2,
+      3
+     ],
+     "0.2": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "0.3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true,
+     true,
+     false,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      2,
+      3,
+      1,
+      2,
+      2,
+      2,
+      5,
+      3,
+      4,
+      3
+     ],
+     "0.2": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0
+     ],
+     "0.3": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     false,
+     false,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      4,
+      3,
+      3,
+      3,
+      4,
+      4,
+      3,
+      2,
+      4,
+      5
+     ],
+     "0.2": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+     ],
+     "0.3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      5,
+      4,
+      4,
+      3,
+      4,
+      4,
+      4,
+      4,
+      2,
+      3
+     ],
+     "0.2": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+     ],
+     "0.3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     true,
+     false,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      2,
+      2,
+      4,
+      4,
+      3,
+      3,
+      4,
+      3,
+      4,
+      4
+     ],
+     "0.2": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "0.3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     false,
+     true,
+     true,
+     false,
+     false,
+     false,
+     true,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      5,
+      4,
+      2,
+      3,
+      2,
+      3,
+      4,
+      3,
+      4,
+      3
+     ],
+     "0.2": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "0.3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      4,
+      6,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      4
+     ],
+     "0.2": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1
+     ],
+     "0.3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true,
+     true,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   }
+  ],
+  "C6_n20d10_S0.95": [
+   {
+    "audit_jobs": {
+     "0.1": [
+      5,
+      3,
+      5,
+      3,
+      4,
+      4,
+      4,
+      4,
+      2,
+      5
+     ],
+     "0.2": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0
+     ],
+     "0.3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      4
+     ],
+     "0.2": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "0.3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     true,
+     false,
+     false,
+     true,
+     false,
+     true,
+     true,
+     false,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      3,
+      4,
+      3,
+      3,
+      3,
+      2,
+      3,
+      5,
+      2,
+      2
+     ],
+     "0.2": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      2,
+      1,
+      0,
+      1,
+      1
+     ],
+     "0.3": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      3,
+      3,
+      2,
+      4,
+      4,
+      3,
+      3,
+      3,
+      2,
+      3
+     ],
+     "0.2": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     "0.3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      3,
+      3,
+      3,
+      2,
+      4,
+      4,
+      3,
+      5,
+      3,
+      2
+     ],
+     "0.2": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "0.3": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     true,
+     false,
+     true,
+     true,
+     true,
+     false,
+     true,
+     false,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      4,
+      2,
+      2,
+      3,
+      2,
+      4,
+      2,
+      3,
+      3,
+      3
+     ],
+     "0.2": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "0.3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      4,
+      4,
+      3,
+      2,
+      2,
+      4,
+      4,
+      3,
+      3,
+      3
+     ],
+     "0.2": [
+      1,
+      1,
+      1,
+      2,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+     ],
+     "0.3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     true,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      2,
+      4,
+      2,
+      4,
+      4,
+      4,
+      2,
+      4,
+      4,
+      3
+     ],
+     "0.2": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+     ],
+     "0.3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     true,
+     false
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      5,
+      4,
+      2,
+      4,
+      3,
+      4,
+      5,
+      5,
+      3,
+      3
+     ],
+     "0.2": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "0.3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     true,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "audit_jobs": {
+     "0.1": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      2,
+      3
+     ],
+     "0.2": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "0.3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "corr_multi": [
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "gt_multi": [
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     true,
+     false,
+     true,
+     true
+    ],
+    "used": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   }
+  ]
+ },
+ "verdict": {
+  "H1_power": false,
+  "H2_accuracy": true,
+  "H3_null_control": false,
+  "audit_multi_fraction": {
+   "C1_n10d10_S0.0": 0.37373737373737376,
+   "C2_n10d10_S0.9": 0.88,
+   "C3_n20d10_S0.0": 0.25252525252525254,
+   "C4_n20d10_S0.5": 0.7,
+   "C5_n20d10_S0.9": 0.01,
+   "C6_n20d10_S0.95": 0.03
+  },
+  "audit_validated_for_R1": false,
+  "balanced_accuracy": 0.7758966298789307,
+  "confusion": {
+   "fn": 131,
+   "fp": 16,
+   "tn": 243,
+   "tnr": 0.9382239382239382,
+   "tp": 208,
+   "tpr": 0.6135693215339233
+  },
+  "corr_audit_multi_fraction": {
+   "C1_n10d10_S0.0": 0.77,
+   "C2_n10d10_S0.9": 0.89,
+   "C3_n20d10_S0.0": 0.99,
+   "C4_n20d10_S0.5": 0.98,
+   "C5_n20d10_S0.9": 0.98,
+   "C6_n20d10_S0.95": 0.99
+  },
+  "ground_truth_multi_fraction": {
+   "C1_n10d10_S0.0": 0.494949494949495,
+   "C2_n10d10_S0.9": 0.75,
+   "C3_n20d10_S0.0": 0.6767676767676768,
+   "C4_n20d10_S0.5": 0.94,
+   "C5_n20d10_S0.9": 0.28,
+   "C6_n20d10_S0.95": 0.26
+  },
+  "share_sensitivity": {
+   "0.1": {
+    "C1_n10d10_S0.0": 0.6161616161616161,
+    "C2_n10d10_S0.9": 0.89,
+    "C3_n20d10_S0.0": 0.9595959595959596,
+    "C4_n20d10_S0.5": 1.0,
+    "C5_n20d10_S0.9": 0.99,
+    "C6_n20d10_S0.95": 1.0
+   },
+   "0.2": {
+    "C1_n10d10_S0.0": 0.37373737373737376,
+    "C2_n10d10_S0.9": 0.88,
+    "C3_n20d10_S0.0": 0.25252525252525254,
+    "C4_n20d10_S0.5": 0.7,
+    "C5_n20d10_S0.9": 0.01,
+    "C6_n20d10_S0.95": 0.03
+   },
+   "0.3": {
+    "C1_n10d10_S0.0": 0.13131313131313133,
+    "C2_n10d10_S0.9": 0.05,
+    "C3_n20d10_S0.0": 0.0,
+    "C4_n20d10_S0.5": 0.08,
+    "C5_n20d10_S0.9": 0.0,
+    "C6_n20d10_S0.95": 0.0
+   }
+  }
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "hashes": {
+  "step100000/model.safetensors": "3164be2625f407dd83703a2d218277b7e80a03e28c9d51fc9d40dd5e34c16c14",
+  "step143000/model.safetensors": "d829d1a5cf66032491679d64c5b18e85b82d37833a99c346905668b8553084d5",
+  "step16000/model.safetensors": "b9cabaa6801bede34659808394d5b148bc5553eb47191b4c3385106afb34367c",
+  "step32000/model.safetensors": "837a7b56674b9563583343fb532f92704cc394da5970b19f8ac1a443aaeb6f0a",
+  "step64000/model.safetensors": "0e054244779c34938b39db958396bf840c0ab22dac4fc172d6cd96d270ce5859",
+  "wikitext-2-raw-v1/train": "e83889baabc497075506f91975be5fac0d45c5290b6b20582c8cd1e853d0c9f7"
+ },
+ "layers": {
+  "3": {
+   "A": {
+    "events": 757,
+    "gap": 0.08073137054028778,
+    "n_persistent": 286,
+    "n_transient": 471,
+    "null_mean": 0.053200726025566795,
+    "p": 0.17782217782217782,
+    "pass_": false
+   },
+   "C": {
+    "growth_pass": false,
+    "mean_d": -0.26644209834999305,
+    "neurons": 72,
+    "p": 9.999000099990002e-05,
+    "stable_pass": true
+   }
+  },
+  "6": {
+   "A": {
+    "events": 611,
+    "gap": 0.038237303019954094,
+    "n_persistent": 199,
+    "n_transient": 412,
+    "null_mean": -0.021440796214080123,
+    "p": 0.02097902097902098,
+    "pass_": false
+   },
+   "C": {
+    "growth_pass": false,
+    "mean_d": -0.1308637149269514,
+    "neurons": 67,
+    "p": 0.048795120487951205,
+    "stable_pass": false
+   }
+  },
+  "9": {
+   "A": {
+    "events": 680,
+    "gap": -0.06323320579961828,
+    "n_persistent": 269,
+    "n_transient": 411,
+    "null_mean": -0.05748243019564214,
+    "p": 0.6573426573426573,
+    "pass_": false
+   },
+   "C": {
+    "growth_pass": false,
+    "mean_d": -0.2592058339500795,
+    "neurons": 69,
+    "p": 9.999000099990002e-05,
+    "stable_pass": true
+   }
+  }
+ },
+ "layers_A_and_C_growth": 0,
+ "layers_C_stable": 2,
+ "theta": 0.0941653847694397,
+ "verdict": "stable_coherence_favored"
+}
