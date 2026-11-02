@@ -1,0 +1,355 @@
+{
+ "descriptive_examples_layer6": [
+  {
+   "layer": 6,
+   "neuron": 1970,
+   "new": "is",
+   "prior": [
+    "monuments",
+    "shows",
+    "als",
+    "ises",
+    "attacks",
+    "places",
+    "publications",
+    "aries",
+    "battles"
+   ],
+   "transition": "step16000->step32000"
+  },
+  {
+   "layer": 6,
+   "neuron": 498,
+   "new": "is",
+   "prior": [
+    "is"
+   ],
+   "transition": "step16000->step32000"
+  },
+  {
+   "layer": 6,
+   "neuron": 423,
+   "new": "it",
+   "prior": [
+    "ological",
+    "co",
+    "hindu",
+    "buddhist",
+    "it",
+    "office",
+    "aa",
+    "ord",
+    "es",
+    "us",
+    "ury"
+   ],
+   "transition": "step16000->step32000"
+  },
+  {
+   "layer": 6,
+   "neuron": 1825,
+   "new": "ch",
+   "prior": [
+    "\u00f6n",
+    "\u00fcr",
+    "sche",
+    "\ufffd"
+   ],
+   "transition": "step16000->step32000"
+  },
+  {
+   "layer": 6,
+   "neuron": 250,
+   "new": "re",
+   "prior": [
+    "\u00ed",
+    "n",
+    "reader",
+    "y",
+    "write",
+    "ball",
+    "e",
+    "z",
+    "m",
+    "united"
+   ],
+   "transition": "step16000->step32000"
+  },
+  {
+   "layer": 6,
+   "neuron": 1013,
+   "new": "during",
+   "prior": [
+    "c",
+    "ri",
+    "\u00f3",
+    "ov",
+    "ury",
+    "ran",
+    "is"
+   ],
+   "transition": "step32000->step64000"
+  },
+  {
+   "layer": 6,
+   "neuron": 762,
+   "new": "in",
+   "prior": [
+    "accepted",
+    "like",
+    "becoming",
+    "defeated",
+    "won"
+   ],
+   "transition": "step32000->step64000"
+  },
+  {
+   "layer": 6,
+   "neuron": 556,
+   "new": "on",
+   "prior": [
+    "able",
+    "confisc"
+   ],
+   "transition": "step32000->step64000"
+  },
+  {
+   "layer": 6,
+   "neuron": 1296,
+   "new": "as",
+   "prior": [
+    "case",
+    "low",
+    "enter"
+   ],
+   "transition": "step32000->step64000"
+  },
+  {
+   "layer": 6,
+   "neuron": 1982,
+   "new": "ska",
+   "prior": [
+    "ka"
+   ],
+   "transition": "step64000->step100000"
+  },
+  {
+   "layer": 6,
+   "neuron": 2473,
+   "new": "von",
+   "prior": [
+    "as",
+    "jordan",
+    "after",
+    "during",
+    "on",
+    "with",
+    "short",
+    "many",
+    "mark",
+    "in",
+    "the",
+    "pol",
+    "town",
+    "a",
+    "v"
+   ],
+   "transition": "step64000->step100000"
+  },
+  {
+   "layer": 6,
+   "neuron": 376,
+   "new": "1990",
+   "prior": [
+    "did",
+    "22",
+    "27",
+    "20",
+    "19",
+    "25",
+    "10",
+    "do",
+    "28",
+    "31",
+    "16",
+    "finished",
+    "30",
+    "21",
+    "33"
+   ],
+   "transition": "step64000->step100000"
+  },
+  {
+   "layer": 6,
+   "neuron": 506,
+   "new": "ish",
+   "prior": [
+    "name",
+    "uses",
+    "english",
+    "russian",
+    "/",
+    "using"
+   ],
+   "transition": "step64000->step100000"
+  },
+  {
+   "layer": 6,
+   "neuron": 2983,
+   "new": "another",
+   "prior": [
+    "another",
+    "now",
+    "second",
+    "disc"
+   ],
+   "transition": "step64000->step100000"
+  },
+  {
+   "layer": 6,
+   "neuron": 2473,
+   "new": "ol",
+   "prior": [
+    "osa",
+    "after",
+    "during",
+    "von",
+    "jordan",
+    "as",
+    "on",
+    "with",
+    "town",
+    "pol",
+    "short",
+    "in",
+    "\u00f6n",
+    "the",
+    "many"
+   ],
+   "transition": "step100000->step143000"
+  },
+  {
+   "layer": 6,
+   "neuron": 703,
+   "new": "following",
+   "prior": [
+    "write",
+    "short",
+    ".",
+    "jordan",
+    "the",
+    "mark",
+    "in",
+    "pol",
+    "during",
+    "many",
+    "town",
+    "as",
+    "a"
+   ],
+   "transition": "step100000->step143000"
+  },
+  {
+   "layer": 6,
+   "neuron": 762,
+   "new": "remained",
+   "prior": [
+    "them",
+    "with",
+    "in",
+    "many",
+    "jordan",
+    "after",
+    "as",
+    "the",
+    "during",
+    "short",
+    "mark",
+    "pol",
+    "town",
+    "on",
+    "a"
+   ],
+   "transition": "step100000->step143000"
+  },
+  {
+   "layer": 6,
+   "neuron": 2628,
+   "new": "no",
+   "prior": [
+    "never",
+    "not",
+    "little",
+    "banned",
+    "without",
+    "un"
+   ],
+   "transition": "step100000->step143000"
+  },
+  {
+   "layer": 6,
+   "neuron": 2908,
+   "new": "in",
+   "prior": [
+    "pre",
+    "too",
+    "ence",
+    "after",
+    "where",
+    "during",
+    "short",
+    "with",
+    "the"
+   ],
+   "transition": "step100000->step143000"
+  }
+ ],
+ "hashes": {
+  "step100000/model.safetensors": "3164be2625f407dd83703a2d218277b7e80a03e28c9d51fc9d40dd5e34c16c14",
+  "step143000/model.safetensors": "d829d1a5cf66032491679d64c5b18e85b82d37833a99c346905668b8553084d5",
+  "step16000/model.safetensors": "b9cabaa6801bede34659808394d5b148bc5553eb47191b4c3385106afb34367c",
+  "step32000/model.safetensors": "837a7b56674b9563583343fb532f92704cc394da5970b19f8ac1a443aaeb6f0a",
+  "step64000/model.safetensors": "0e054244779c34938b39db958396bf840c0ab22dac4fc172d6cd96d270ce5859",
+  "wikitext-2-raw-v1/train": "e83889baabc497075506f91975be5fac0d45c5290b6b20582c8cd1e853d0c9f7"
+ },
+ "layers": {
+  "3": {
+   "R_any": 0.5368063420158551,
+   "R_emb": 0.5300113250283126,
+   "R_emb_null_mean": 0.21916308040770105,
+   "R_null_mean": 0.24109513023782564,
+   "R_sub": 0.052095130237825596,
+   "R_sub_null_mean": 0.04139524348810872,
+   "events": 883,
+   "gap": 0.29571121177802945,
+   "p": 0.000999000999000999,
+   "status": "supported"
+  },
+  "6": {
+   "R_any": 0.46248294679399726,
+   "R_emb": 0.45020463847203274,
+   "R_emb_null_mean": 0.19137517053206002,
+   "R_null_mean": 0.2090968622100955,
+   "R_sub": 0.03547066848567531,
+   "R_sub_null_mean": 0.03562892223738063,
+   "events": 733,
+   "gap": 0.25338608458390177,
+   "p": 0.000999000999000999,
+   "status": "supported"
+  },
+  "9": {
+   "R_any": 0.45265888456549935,
+   "R_emb": 0.437094682230869,
+   "R_emb_null_mean": 0.2002827496757458,
+   "R_null_mean": 0.22372114137483792,
+   "R_sub": 0.06355382619974059,
+   "R_sub_null_mean": 0.0436420233463035,
+   "events": 771,
+   "gap": 0.22893774319066143,
+   "p": 0.000999000999000999,
+   "status": "supported"
+  }
+ },
+ "offshoot_growth_supported": true,
+ "theta": 0.0941653847694397
+}

@@ -24,6 +24,4 @@ python3 -I scripts/verify_imports.py
 
 ## Status
 
-Consolidation done. Reproduction not started: it needs model downloads and GPU
-spend, which require an explicit USD ceiling (see `AGENTS.md`).
-Nothing here is independently reviewed.
+Consolidation done. Phase 2 (local, USD 0) started: R5 negative (audit blind to planted superposition), R4 passes its frozen rule but with a main confound; see `docs/protocols/R5-result.md` and `R4-result.md`. Authorization: `docs/AUTHORIZATION.md` (paid ceiling USD 10.00, none used). Nothing here is independently reviewed.

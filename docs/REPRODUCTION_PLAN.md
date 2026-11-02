@@ -36,3 +36,8 @@ its spend gate is satisfied (`AGENTS.md`).
 - Permission to download named model weights and datasets (with hashes pinned).
 - A hard USD ceiling for any rented compute.
 - (Optional) an independent reviewer if any claim above `OwnerSelfAttestedLocalDevelopment` is wanted.
+
+## Progress
+- R5: run, **negative** (pipeline blind at frozen tau; control flawed). Next: R5b.
+- R4: run, rule met, but confounded by stable-coherence; substring track artifact-contaminated. Next: R4b (churn control).
+- R1, R2, R3, R6: not started. R1 must not use the R5 job definition.
