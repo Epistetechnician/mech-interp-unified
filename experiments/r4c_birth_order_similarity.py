@@ -42,7 +42,7 @@ def main():
         std = (s2 / n - mean ** 2).clamp(min=1e-12).sqrt()
         sel[L] = torch.topk((mx - mean) / std, r4.N_SEL).indices
     E_in = final.gpt_neox.embed_in.weight.detach()
-    E_out = final.embed_out.weight.detach()
+    E_out = final.get_output_embeddings().weight.detach()
     En_in = (E_in / E_in.norm(dim=1, keepdim=True)).numpy()
     En_out = (E_out / E_out.norm(dim=1, keepdim=True)).numpy()
     counts = torch.zeros(E_in.shape[0])
