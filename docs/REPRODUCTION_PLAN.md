@@ -43,3 +43,4 @@ its spend gate is satisfied (`AGENTS.md`).
 - R1, R2, R3, R6: not started. R1 must not use the R5 job definition.
 - R4c: run, **inconclusive** (weak growth-direction hint at layer 3, p=0.014 vs 0.01 bar; layer 6 underpowered). See `protocols/R4c-result.md`.
 - R4d: run (500 neurons/layer, post-hoc power increase), **directed growth supported** in 3/3 layers but weak (rho -0.06 to -0.11). Needs fresh-text and second-model replication (R4e). See `protocols/R4d-result.md`.
+- R4e: run, **replicated** (Pythia-160m fresh text and Pythia-70m, 6/6 layers pass, effects rho -0.05 to -0.10). Token-level temporal clustering of token births is a small but replicated effect in Pythia; concept-level and cross-family tests open. See `protocols/R4e-result.md`.

@@ -1,0 +1,50 @@
+{
+ "hashes": {
+  "step100000/pytorch_model.bin": "67c95df2198d37a0ee0594c3278b0114cf981241ef4ab8c89c667ae994675b39",
+  "step120000/pytorch_model.bin": "c88ca45b4335f1f542e8d14b7c2f44610c38f154dc8465ebef14eda98975d17a",
+  "step143000/pytorch_model.bin": "f629437d6fe950ffda3ef94f6a956a1bb63a2e79e03c296c92fe208999aeb092",
+  "step16000/pytorch_model.bin": "7062eb0d4bcb7cc77c7bdd7585983865ea252c08e3217b85bed82d494e8fc5f4",
+  "step2000/pytorch_model.bin": "04b07de9d3065ad3654b21f0f2eb31881084db83119b2807370efa02e292ba8e",
+  "step24000/pytorch_model.bin": "cc1931167bd3d24c36c90d0c17190f8fd80b128058ee8007065152368a49460e",
+  "step32000/pytorch_model.bin": "f2b913925d0c9cacd7ed41462f1ba042fc9591780505a8ccc08907eb991ac6df",
+  "step4000/pytorch_model.bin": "3e3602bab40e80969c414ecab36efd119741056632ca53f35b4a60e44ae21ce1",
+  "step48000/pytorch_model.bin": "ed606d275810b189fed63c13adeda5b4ce10b51482064f5953f1aa2f42c1580e",
+  "step64000/pytorch_model.bin": "cf52abff410b04429353834ce019999999fc8e31d4ad27e26d41bb68351aac19",
+  "step8000/pytorch_model.bin": "59bb76b9fa6cdf255ac2c9d9817f13c7127f5436616f86ad7a37dedc0d16119e",
+  "step80000/pytorch_model.bin": "4b87b422f87195029b82539320045c19bc0d7a47c2e3db6ec60ec47bbbbee431",
+  "wikitext-2-raw-v1/train": "e83889baabc497075506f91975be5fac0d45c5290b6b20582c8cd1e853d0c9f7"
+ },
+ "layers": {
+  "1": {
+   "growth_pass": true,
+   "mean_rho": -0.05326925514277388,
+   "mean_rho_output_embedding": -0.015198251751929298,
+   "null_mean": -0.003997019841246363,
+   "null_sd": 0.011669588414312303,
+   "p": 0.000999000999000999,
+   "qualifying_neurons": 323,
+   "stable_pass": false
+  },
+  "3": {
+   "growth_pass": true,
+   "mean_rho": -0.059483287507537265,
+   "mean_rho_output_embedding": -0.055201919615343736,
+   "null_mean": -0.01091546140690605,
+   "null_sd": 0.011386537946719368,
+   "p": 0.000999000999000999,
+   "qualifying_neurons": 335,
+   "stable_pass": false
+  },
+  "4": {
+   "growth_pass": true,
+   "mean_rho": -0.09089925731692496,
+   "mean_rho_output_embedding": -0.08270349485082608,
+   "null_mean": -0.010916469023941193,
+   "null_sd": 0.010362421056926415,
+   "p": 0.000999000999000999,
+   "qualifying_neurons": 389,
+   "stable_pass": false
+  }
+ },
+ "verdict": "directed_growth_supported"
+}
