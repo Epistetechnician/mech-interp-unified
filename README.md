@@ -24,4 +24,4 @@ python3 -I scripts/verify_imports.py
 
 ## Status
 
-Consolidation done. Phase 2 (local, USD 0) started: R5 negative (audit blind to planted superposition), R4 passes its frozen rule but is confounded; R5b audit not validated; R4b offshoot claim unresolved; see `docs/protocols/` results. Authorization: `docs/AUTHORIZATION.md` (paid ceiling USD 10.00, none used). Nothing here is independently reviewed.
+Consolidation done. Phase 2 (local, USD 0) started: R5 negative (audit blind to planted superposition), R4 passes its frozen rule but is confounded; R5b audit not validated; R4b/R4c unresolved, R4d weak support for temporal clustering of token births (post-hoc, one model); see `docs/protocols/` results. Authorization: `docs/AUTHORIZATION.md` (paid ceiling USD 10.00, none used). Nothing here is independently reviewed.

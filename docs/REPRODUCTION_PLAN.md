@@ -42,3 +42,4 @@ its spend gate is satisfied (`AGENTS.md`).
 - R4: rule met but confounded. R4b: persistence test fails; frozen frontier-vs-core verdict was size-biased; size-matched addendum null. Offshoot claim **unresolved**. See `protocols/R4b-result.md`. Next: finer Pythia checkpoints + concept-level relatedness (R4c).
 - R1, R2, R3, R6: not started. R1 must not use the R5 job definition.
 - R4c: run, **inconclusive** (weak growth-direction hint at layer 3, p=0.014 vs 0.01 bar; layer 6 underpowered). See `protocols/R4c-result.md`.
+- R4d: run (500 neurons/layer, post-hoc power increase), **directed growth supported** in 3/3 layers but weak (rho -0.06 to -0.11). Needs fresh-text and second-model replication (R4e). See `protocols/R4d-result.md`.
