@@ -1,0 +1,18 @@
+{
+ "note": "timing/load probe on synthetic text; not a result",
+ "probes": [
+  {
+   "explain_jobs_parsed": 3,
+   "explain_prompt_chars": 5576,
+   "explain_s": 10.06,
+   "load_s": 247.71,
+   "model": "qwen3.6-35b-a3b-4bit",
+   "path": "/Users/shaanp/.lmstudio/models/lmstudio-community/Qwen3.6-35B-A3B-MLX-4bit",
+   "sim_prompt_tokens_per_context": 454,
+   "sim_s_per_64tok_context": 0.392,
+   "sim_sanity_colorado_mean": 3.422217845916748,
+   "sim_sanity_other_mean": 1.3641339540481567,
+   "sim_tokens_per_s": 1159.1
+  }
+ ]
+}
