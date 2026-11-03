@@ -1,0 +1,11 @@
+{
+ "status": "stopped_early_decided",
+ "poles_done": 39,
+ "singles_done": 39,
+ "best_possible_mean_r3_singles": 0.1729664005131892,
+ "bar": 0.7,
+ "mean_r3_set": 0.25286344101010105,
+ "mean_r3_after": 0.045336168438186705,
+ "one_recall_so_far": 0.0,
+ "verdict": "labeller_too_weak (frozen R1b-1 identity); C2 not run per protocol; unions not reached"
+}

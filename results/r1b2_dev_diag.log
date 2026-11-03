@@ -1,0 +1,13 @@
+[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+{'kind': 'set', 'job': "the token is exactly one of: ' ,', ' States', ' by', ' major', ' —', '.'", 'r': 0.4270408853002855, 's_on': 3.2783673041559793, 's_off': 0.8962484881461735, 'n_on': 203, 'sec': 26.2}
+{'kind': 'set', 'job': "the token is exactly one of: ' At', ' ground', ' up', ' w', 'A', 'man'", 'r': 0.4861642811399754, 's_on': 6.637498496209874, 's_off': 0.8620505173742017, 'n_on': 34, 'sec': 29.0}
+{'kind': 'set', 'job': "the token is exactly one of: ' been', ' four', ' good', ' of', 'al', 'ing'", 'r': 0.4576291369754649, 's_on': 3.9496251153094426, 's_off': 0.8313385025444352, 'n_on': 98, 'sec': 28.7}
+{'kind': 'set', 'job': "the token is exactly one of: ' Boy', ' produced', ' though', ' together', ' years', 'ary'", 'r': 0.5864636593655258, 's_on': 7.908509471837212, 's_off': 0.9322187176552889, 'n_on': 34, 'sec': 30.7}
+{'kind': 'set', 'job': "the token is exactly one of: ' J', ' S', ' There', ' This', ' recorded', '.@'", 'r': 0.4942869891295861, 's_on': 6.16202155865875, 's_off': 0.982938641498117, 'n_on': 51, 'sec': 43.2}
+{'kind': 'set', 'job': "the token is exactly one of: ' North', ' T', ' includes', ' made', ' song', 'On'", 'r': 0.5228260749687144, 's_on': 6.184693206101656, 's_off': 0.9432360486352506, 'n_on': 48, 'sec': 40.0}
+{'kind': 'after', 'job': "the token that comes immediately after the token ' and'", 'r': 0.2011093081068598, 's_on': 2.6714720399606797, 's_off': 1.113349561804181, 'n_on': 84, 'sec': 33.4}
+{'kind': 'after', 'job': "the token that comes immediately after the token ' ball'", 'r': 0.12907073018489007, 's_on': 4.4047582149505615, 's_off': 1.0308582145952323, 'n_on': 5, 'sec': 31.0}
+{'kind': 'after', 'job': "the token that comes immediately after the token ' has'", 'r': 0.3175803164088593, 's_on': 4.206422078981996, 's_off': 1.0255953074042021, 'n_on': 40, 'sec': 29.7}
+{'kind': 'after', 'job': "the token that comes immediately after the token ' it'", 'r': 0.19515579415446915, 's_on': 3.1445863323156225, 's_off': 1.0926699016702135, 'n_on': 43, 'sec': 28.8}
+{'kind': 'after', 'job': "the token that comes immediately after the token ' !'", 'r': 0.1495615650812811, 's_on': 2.849097407289914, 's_off': 1.0180718639221495, 'n_on': 28, 'sec': 28.0}
+{'kind': 'after', 'job': "the token that comes immediately after the token ' have'", 'r': 0.31927527797381056, 's_on': 4.45307430343048, 's_off': 1.000381000129915, 'n_on': 37, 'sec': 27.6}

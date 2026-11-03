@@ -1,0 +1,46 @@
+[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+pools 600 600
+0 one set [0.26, 0.26, 0.38] unexplained
+1 one set [0.12, 0.26, 0.31] unexplained
+2 one set [0.25, 0.24, 0.23] unexplained
+3 one set [-0.01, 0.18, 0.24] unexplained
+4 one set [0.03, 0.13, 0.4] unexplained
+5 one set [0.28, 0.28, 0.3] unexplained
+(eval):4: command not found: setsid
+[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+pools 600 600
+6 one set [0.03, 0.03, 0.04] unexplained
+7 one set [0.09, 0.2, 0.26] unexplained
+8 one set [0.14, 0.16, 0.19] unexplained
+9 one set [-0.02, 0.03, 0.05] unexplained
+10 one set [0.07, 0.23, 0.22] unexplained
+11 one set [0.17, 0.23, 0.31] unexplained
+12 one set [0.01, 0.01, 0.01] unexplained
+13 one set [0.08, 0.13, 0.24] unexplained
+14 one set [0.46, 0.49, 0.49] unexplained
+15 one set [0.02, 0.27, 0.31] unexplained
+16 one set [0.12, 0.12, 0.12] unexplained
+17 one set [0.14, 0.16, 0.19] unexplained
+18 one set [0.39, 0.36, 0.41] unexplained
+19 one set [0.09, 0.22, 0.32] unexplained
+20 one after [0.05, 0.04, 0.04] unexplained
+21 one after [0.11, 0.09, 0.09] unexplained
+22 one after [0.05, 0.16, 0.16] unexplained
+23 one after [0.09, 0.08, 0.07] unexplained
+24 one after [0.08, 0.07, 0.06] unexplained
+25 one after [0.03, 0.04, 0.04] unexplained
+26 one after [0.02, 0.03, 0.06] unexplained
+27 one after [0.02, 0.04, 0.03] unexplained
+28 one after [-0.01, -0.01, -0.01] unexplained
+29 one after [0.03, 0.03, 0.03] unexplained
+30 one after [0.04, 0.12, 0.12] unexplained
+31 one after [0.03, 0.02, 0.02] unexplained
+32 one after [-0.02, -0.02, -0.02] unexplained
+33 one after [-0.04, -0.05, -0.05] unexplained
+34 one after [-0.03, -0.01, -0.01] unexplained
+35 one after [0.23, 0.2, 0.18] unexplained
+[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+pools 600 600
+36 one after [-0.03, -0.03, -0.03] unexplained
+37 one after [0.03, 0.03, 0.03] unexplained
+38 one after [0.03, 0.08, 0.07] unexplained
