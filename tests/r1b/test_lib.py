@@ -65,6 +65,16 @@ class TestBasics(unittest.TestCase):
             lib.derangement(1, rng)
 
 
+class TestSampling(unittest.TestCase):
+    def test_sample_assess(self):
+        rng = np.random.default_rng(0)
+        ctxs = [lib.Ctx(["a"] * 4, np.full(4, float(i % 7))) for i in range(100)]
+        out = lib.sample_assess(ctxs, np.random.default_rng(1))
+        self.assertEqual(len(out), 60)
+        self.assertEqual(len({id(c) for c in out}), 60)
+        self.assertTrue(all(c.x.max() == 6.0 for c in out[:14]))
+
+
 class TestEvidence(unittest.TestCase):
     def test_evidence_shape_and_marks(self):
         pole = build_poles(n_each=1)[0]

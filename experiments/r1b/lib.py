@@ -123,6 +123,15 @@ def parse_jobs(text):
     return jobs[:MAX_JOBS]
 
 
+def sample_assess(ctxs, rng, n_top=30, n_rand=30):
+    """Frozen assess sampling (R1b-0 amendment): top contexts by max activation plus random others."""
+    mx = np.array([float(c.x.max()) for c in ctxs])
+    order = [int(i) for i in np.argsort(-mx, kind="stable")]
+    top, rest = order[:n_top], order[n_top:]
+    rand = [int(i) for i in rng.permutation(rest)[:n_rand]]
+    return [ctxs[i] for i in top + rand]
+
+
 def flat_x(ctxs):
     return np.concatenate([c.x for c in ctxs])
 
