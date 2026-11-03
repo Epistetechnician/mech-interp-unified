@@ -1,0 +1,1935 @@
+{
+ "by_percentile": {
+  "90": {
+   "composite_pairs": 0,
+   "essay_consistent": false,
+   "fractions": {
+    "many": 0.25252525252525254,
+    "one": 0.030303030303030304,
+    "token_unexplained": 0.6818181818181818,
+    "two": 0.03535353535353535
+   },
+   "per_layer": {
+    "10": {
+     "many": 0.15,
+     "one": 0.0,
+     "token_unexplained": 0.8,
+     "two": 0.05
+    },
+    "16": {
+     "many": 0.15,
+     "one": 0.075,
+     "token_unexplained": 0.775,
+     "two": 0.0
+    },
+    "22": {
+     "many": 0.2,
+     "one": 0.0,
+     "token_unexplained": 0.8,
+     "two": 0.0
+    },
+    "27": {
+     "many": 0.20512820512820512,
+     "one": 0.02564102564102564,
+     "token_unexplained": 0.7435897435897436,
+     "two": 0.02564102564102564
+    },
+    "4": {
+     "many": 0.5641025641025641,
+     "one": 0.05128205128205128,
+     "token_unexplained": 0.28205128205128205,
+     "two": 0.10256410256410256
+    }
+   },
+   "sensitivity": null,
+   "test_retest_agreement": 0.8737373737373737,
+   "validated": false
+  },
+  "95": {
+   "composite_pairs": 0,
+   "essay_consistent": false,
+   "fractions": {
+    "many": 0.25757575757575757,
+    "one": 0.030303030303030304,
+    "token_unexplained": 0.6818181818181818,
+    "two": 0.030303030303030304
+   },
+   "per_layer": {
+    "10": {
+     "many": 0.175,
+     "one": 0.0,
+     "token_unexplained": 0.8,
+     "two": 0.025
+    },
+    "16": {
+     "many": 0.15,
+     "one": 0.075,
+     "token_unexplained": 0.775,
+     "two": 0.0
+    },
+    "22": {
+     "many": 0.2,
+     "one": 0.0,
+     "token_unexplained": 0.8,
+     "two": 0.0
+    },
+    "27": {
+     "many": 0.20512820512820512,
+     "one": 0.02564102564102564,
+     "token_unexplained": 0.7435897435897436,
+     "two": 0.02564102564102564
+    },
+    "4": {
+     "many": 0.5641025641025641,
+     "one": 0.05128205128205128,
+     "token_unexplained": 0.28205128205128205,
+     "two": 0.10256410256410256
+    }
+   },
+   "sensitivity": null,
+   "test_retest_agreement": 0.8939393939393939,
+   "validated": false
+  },
+  "98": {
+   "composite_pairs": 0,
+   "essay_consistent": false,
+   "fractions": {
+    "many": 0.2727272727272727,
+    "one": 0.030303030303030304,
+    "token_unexplained": 0.6818181818181818,
+    "two": 0.015151515151515152
+   },
+   "per_layer": {
+    "10": {
+     "many": 0.175,
+     "one": 0.0,
+     "token_unexplained": 0.8,
+     "two": 0.025
+    },
+    "16": {
+     "many": 0.15,
+     "one": 0.075,
+     "token_unexplained": 0.775,
+     "two": 0.0
+    },
+    "22": {
+     "many": 0.2,
+     "one": 0.0,
+     "token_unexplained": 0.8,
+     "two": 0.0
+    },
+    "27": {
+     "many": 0.23076923076923078,
+     "one": 0.02564102564102564,
+     "token_unexplained": 0.7435897435897436,
+     "two": 0.0
+    },
+    "4": {
+     "many": 0.6153846153846154,
+     "one": 0.05128205128205128,
+     "token_unexplained": 0.28205128205128205,
+     "two": 0.05128205128205128
+    }
+   },
+   "sensitivity": null,
+   "test_retest_agreement": 0.9141414141414141,
+   "validated": false
+  }
+ },
+ "model": "Qwen/Qwen3-1.7B-Base",
+ "n_possible_poles": 200,
+ "n_valid_poles": 198,
+ "primary_rows": [
+  {
+   "class": "many",
+   "clusters": 11,
+   "layer": 4,
+   "neuron": 101,
+   "r_tok": 0.42324319994305837,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "many",
+   "clusters": 11,
+   "layer": 4,
+   "neuron": 101,
+   "r_tok": 0.6550736866012303,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 14,
+   "layer": 4,
+   "neuron": 251,
+   "r_tok": 0.2948434967082851,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "many",
+   "clusters": 17,
+   "layer": 4,
+   "neuron": 251,
+   "r_tok": 0.44228042325048955,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 6,
+   "layer": 4,
+   "neuron": 461,
+   "r_tok": 0.22888260923695358,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "many",
+   "clusters": 5,
+   "layer": 4,
+   "neuron": 461,
+   "r_tok": 0.3070588236909082,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 9,
+   "layer": 4,
+   "neuron": 1074,
+   "r_tok": 0.45819060716026483,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 14,
+   "layer": 4,
+   "neuron": 1074,
+   "r_tok": 0.2860522808943886,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 10,
+   "layer": 4,
+   "neuron": 1653,
+   "r_tok": 0.37074367599293356,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 8,
+   "layer": 4,
+   "neuron": 1653,
+   "r_tok": 0.17079657590534647,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 6,
+   "layer": 4,
+   "neuron": 1886,
+   "r_tok": 0.6202072217995167,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "many",
+   "clusters": 13,
+   "layer": 4,
+   "neuron": 1886,
+   "r_tok": 0.5748531893020592,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 7,
+   "layer": 4,
+   "neuron": 3090,
+   "r_tok": 0.39815152328831965,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "many",
+   "clusters": 15,
+   "layer": 4,
+   "neuron": 3090,
+   "r_tok": 0.4688835308814229,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 17,
+   "layer": 4,
+   "neuron": 3131,
+   "r_tok": 0.8521014646853036,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "two",
+   "clusters": 2,
+   "layer": 4,
+   "neuron": 3131,
+   "r_tok": 0.6968030408484607,
+   "retest_class": "two",
+   "sign": -1
+  },
+  {
+   "class": "one",
+   "clusters": 1,
+   "layer": 4,
+   "neuron": 3338,
+   "r_tok": 0.7797084777397991,
+   "retest_class": "one",
+   "sign": 1
+  },
+  {
+   "class": "one",
+   "clusters": 1,
+   "layer": 4,
+   "neuron": 3338,
+   "r_tok": 0.9170449062107952,
+   "retest_class": "one",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 13,
+   "layer": 4,
+   "neuron": 3439,
+   "r_tok": 0.39610678206263794,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 9,
+   "layer": 4,
+   "neuron": 3439,
+   "r_tok": 0.26874375091221486,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 20,
+   "layer": 4,
+   "neuron": 3723,
+   "r_tok": 0.4472743666544393,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 12,
+   "layer": 4,
+   "neuron": 3723,
+   "r_tok": 0.23281538423585532,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 8,
+   "layer": 4,
+   "neuron": 3882,
+   "r_tok": 0.4383816802739046,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 14,
+   "layer": 4,
+   "neuron": 3882,
+   "r_tok": 0.2932734454366381,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 10,
+   "layer": 4,
+   "neuron": 3902,
+   "r_tok": 0.34926168863170176,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "many",
+   "clusters": 11,
+   "layer": 4,
+   "neuron": 3902,
+   "r_tok": 0.44233621122937516,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 11,
+   "layer": 4,
+   "neuron": 3984,
+   "r_tok": 0.15121581832538253,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "many",
+   "clusters": 11,
+   "layer": 4,
+   "neuron": 3984,
+   "r_tok": 0.44721163933726854,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 9,
+   "layer": 4,
+   "neuron": 4479,
+   "r_tok": 0.28684866969183004,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "many",
+   "clusters": 13,
+   "layer": 4,
+   "neuron": 4479,
+   "r_tok": 0.3934402099889721,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 15,
+   "layer": 4,
+   "neuron": 4988,
+   "r_tok": 0.13377206700120664,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "two",
+   "clusters": 2,
+   "layer": 4,
+   "neuron": 4988,
+   "r_tok": 0.42154747158426137,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 14,
+   "layer": 4,
+   "neuron": 5210,
+   "r_tok": 0.4663459412551812,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 10,
+   "layer": 4,
+   "neuron": 5600,
+   "r_tok": 0.45411662144011,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 9,
+   "layer": 4,
+   "neuron": 5600,
+   "r_tok": 0.2939713796836763,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 9,
+   "layer": 4,
+   "neuron": 5745,
+   "r_tok": 0.3766275308500492,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "many",
+   "clusters": 10,
+   "layer": 4,
+   "neuron": 5745,
+   "r_tok": 0.7201856515920372,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "two",
+   "clusters": 2,
+   "layer": 4,
+   "neuron": 5959,
+   "r_tok": 0.46899424896987024,
+   "retest_class": "one",
+   "sign": 1
+  },
+  {
+   "class": "two",
+   "clusters": 2,
+   "layer": 4,
+   "neuron": 5959,
+   "r_tok": 0.5083280772688198,
+   "retest_class": "one",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 7,
+   "layer": 10,
+   "neuron": 32,
+   "r_tok": 0.212836047247014,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "many",
+   "clusters": 6,
+   "layer": 10,
+   "neuron": 32,
+   "r_tok": 0.37144802058127,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 6,
+   "layer": 10,
+   "neuron": 50,
+   "r_tok": 0.18174841098807246,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 11,
+   "layer": 10,
+   "neuron": 50,
+   "r_tok": 0.1685190735925265,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 10,
+   "layer": 10,
+   "neuron": 173,
+   "r_tok": 0.26472237287256456,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "many",
+   "clusters": 9,
+   "layer": 10,
+   "neuron": 173,
+   "r_tok": 0.3365684551071186,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 5,
+   "layer": 10,
+   "neuron": 761,
+   "r_tok": 0.28579543728356754,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 6,
+   "layer": 10,
+   "neuron": 761,
+   "r_tok": 0.2704528419972504,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 4,
+   "layer": 10,
+   "neuron": 1578,
+   "r_tok": 0.3078729715797133,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 3,
+   "layer": 10,
+   "neuron": 1578,
+   "r_tok": 0.29501637723305324,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 12,
+   "layer": 10,
+   "neuron": 2331,
+   "r_tok": 0.24508295083814494,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 11,
+   "layer": 10,
+   "neuron": 2331,
+   "r_tok": 0.29816388545470324,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 7,
+   "layer": 10,
+   "neuron": 2354,
+   "r_tok": 0.12172568849109626,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 12,
+   "layer": 10,
+   "neuron": 2354,
+   "r_tok": 0.20039349099140513,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 7,
+   "layer": 10,
+   "neuron": 2470,
+   "r_tok": 0.15354943388648817,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 4,
+   "layer": 10,
+   "neuron": 2470,
+   "r_tok": 0.2893366609057474,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 9,
+   "layer": 10,
+   "neuron": 2588,
+   "r_tok": 0.21674684618756285,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "two",
+   "clusters": 2,
+   "layer": 10,
+   "neuron": 2588,
+   "r_tok": 0.5852818454856271,
+   "retest_class": "two",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 3,
+   "layer": 10,
+   "neuron": 2829,
+   "r_tok": 0.22092772622498472,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 3,
+   "layer": 10,
+   "neuron": 2829,
+   "r_tok": 0.13287953611146527,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 5,
+   "layer": 10,
+   "neuron": 3223,
+   "r_tok": 0.25672651337914604,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "many",
+   "clusters": 6,
+   "layer": 10,
+   "neuron": 3223,
+   "r_tok": 0.34238988490483696,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 9,
+   "layer": 10,
+   "neuron": 3775,
+   "r_tok": 0.2486619831455779,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 7,
+   "layer": 10,
+   "neuron": 3775,
+   "r_tok": 0.19644510272724683,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 10,
+   "layer": 10,
+   "neuron": 3969,
+   "r_tok": 0.16287871998942982,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 5,
+   "layer": 10,
+   "neuron": 3969,
+   "r_tok": 0.20714773821740018,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 7,
+   "layer": 10,
+   "neuron": 4111,
+   "r_tok": 0.22714244161087385,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "many",
+   "clusters": 9,
+   "layer": 10,
+   "neuron": 4111,
+   "r_tok": 0.30865462593139775,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 7,
+   "layer": 10,
+   "neuron": 4211,
+   "r_tok": 0.17832348114313273,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 3,
+   "layer": 10,
+   "neuron": 4211,
+   "r_tok": 0.2030759730609124,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 5,
+   "layer": 10,
+   "neuron": 4688,
+   "r_tok": 0.2966567462833715,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 11,
+   "layer": 10,
+   "neuron": 4688,
+   "r_tok": 0.21380227583653943,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 10,
+   "layer": 10,
+   "neuron": 4942,
+   "r_tok": 0.25553934154698776,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 8,
+   "layer": 10,
+   "neuron": 4942,
+   "r_tok": 0.24881252670771115,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 3,
+   "layer": 10,
+   "neuron": 5837,
+   "r_tok": 0.4412692141215718,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 5,
+   "layer": 10,
+   "neuron": 5837,
+   "r_tok": 0.2601572147058019,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 7,
+   "layer": 10,
+   "neuron": 6023,
+   "r_tok": 0.24892177008592875,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 6,
+   "layer": 10,
+   "neuron": 6023,
+   "r_tok": 0.29587345102477275,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 8,
+   "layer": 10,
+   "neuron": 6121,
+   "r_tok": 0.301079340467607,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 9,
+   "layer": 10,
+   "neuron": 6121,
+   "r_tok": 0.28862383125704244,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 6,
+   "layer": 16,
+   "neuron": 298,
+   "r_tok": 0.298071224179528,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 4,
+   "layer": 16,
+   "neuron": 298,
+   "r_tok": 0.11579449614656415,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 14,
+   "layer": 16,
+   "neuron": 516,
+   "r_tok": 0.21899544916693015,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "many",
+   "clusters": 13,
+   "layer": 16,
+   "neuron": 516,
+   "r_tok": 0.3279914242493769,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 16,
+   "layer": 16,
+   "neuron": 1394,
+   "r_tok": 0.48018717871340166,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "many",
+   "clusters": 16,
+   "layer": 16,
+   "neuron": 1394,
+   "r_tok": 0.43247122464126275,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 8,
+   "layer": 16,
+   "neuron": 1560,
+   "r_tok": 0.17212335666172196,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 8,
+   "layer": 16,
+   "neuron": 1560,
+   "r_tok": 0.2639075017783878,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 3,
+   "layer": 16,
+   "neuron": 1620,
+   "r_tok": 0.10737111524712123,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 6,
+   "layer": 16,
+   "neuron": 1620,
+   "r_tok": 0.24303744227825122,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 5,
+   "layer": 16,
+   "neuron": 1973,
+   "r_tok": 0.12166367650189626,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 8,
+   "layer": 16,
+   "neuron": 1973,
+   "r_tok": 0.15970946397367783,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 4,
+   "layer": 16,
+   "neuron": 2014,
+   "r_tok": 0.27889455085701004,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 11,
+   "layer": 16,
+   "neuron": 2014,
+   "r_tok": 0.13426415675657327,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 4,
+   "layer": 16,
+   "neuron": 2072,
+   "r_tok": 0.3951288441879772,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 5,
+   "layer": 16,
+   "neuron": 2072,
+   "r_tok": 0.2569949349375168,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 5,
+   "layer": 16,
+   "neuron": 2191,
+   "r_tok": 0.1367855338026888,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 6,
+   "layer": 16,
+   "neuron": 2191,
+   "r_tok": 0.1549730263876317,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 5,
+   "layer": 16,
+   "neuron": 2402,
+   "r_tok": 0.12918552301803748,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 6,
+   "layer": 16,
+   "neuron": 2402,
+   "r_tok": 0.10100201265995,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 7,
+   "layer": 16,
+   "neuron": 3093,
+   "r_tok": 0.15695501147511987,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "many",
+   "clusters": 3,
+   "layer": 16,
+   "neuron": 3093,
+   "r_tok": 0.3068400633088187,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 9,
+   "layer": 16,
+   "neuron": 3254,
+   "r_tok": 0.12507699104611242,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 15,
+   "layer": 16,
+   "neuron": 3254,
+   "r_tok": 0.170911923801755,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 7,
+   "layer": 16,
+   "neuron": 3502,
+   "r_tok": 0.13307506613575543,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 6,
+   "layer": 16,
+   "neuron": 3502,
+   "r_tok": 0.16811125133629773,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 6,
+   "layer": 16,
+   "neuron": 3644,
+   "r_tok": 0.19751574827440027,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 6,
+   "layer": 16,
+   "neuron": 3644,
+   "r_tok": 0.23704945863610394,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "one",
+   "clusters": 1,
+   "layer": 16,
+   "neuron": 3827,
+   "r_tok": 0.3948547083359836,
+   "retest_class": "one",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 1,
+   "layer": 16,
+   "neuron": 3827,
+   "r_tok": 0.0818872310282427,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 9,
+   "layer": 16,
+   "neuron": 4121,
+   "r_tok": 0.1401333325240355,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 7,
+   "layer": 16,
+   "neuron": 4121,
+   "r_tok": 0.16834357519450105,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 2,
+   "layer": 16,
+   "neuron": 4385,
+   "r_tok": 0.08030294253158675,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 7,
+   "layer": 16,
+   "neuron": 4385,
+   "r_tok": 0.10462770337463308,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 11,
+   "layer": 16,
+   "neuron": 4411,
+   "r_tok": 0.4853021254716745,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "one",
+   "clusters": 1,
+   "layer": 16,
+   "neuron": 4411,
+   "r_tok": 0.47226596836401863,
+   "retest_class": "two",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 10,
+   "layer": 16,
+   "neuron": 4666,
+   "r_tok": 0.11731066946087222,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "one",
+   "clusters": 1,
+   "layer": 16,
+   "neuron": 4666,
+   "r_tok": 0.3885867805692759,
+   "retest_class": "one",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 7,
+   "layer": 16,
+   "neuron": 5464,
+   "r_tok": 0.11089411957551898,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 6,
+   "layer": 16,
+   "neuron": 5464,
+   "r_tok": 0.28957958993798605,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 10,
+   "layer": 22,
+   "neuron": 298,
+   "r_tok": 0.1747218466993017,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 7,
+   "layer": 22,
+   "neuron": 298,
+   "r_tok": 0.1731092247442243,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 5,
+   "layer": 22,
+   "neuron": 318,
+   "r_tok": 0.16412556287747043,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "many",
+   "clusters": 5,
+   "layer": 22,
+   "neuron": 318,
+   "r_tok": 0.33856910642722954,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 7,
+   "layer": 22,
+   "neuron": 556,
+   "r_tok": 0.14025987381180646,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 8,
+   "layer": 22,
+   "neuron": 556,
+   "r_tok": 0.17088162627227838,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 8,
+   "layer": 22,
+   "neuron": 1217,
+   "r_tok": 0.09014586749022625,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 7,
+   "layer": 22,
+   "neuron": 1217,
+   "r_tok": 0.11570230990222494,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 8,
+   "layer": 22,
+   "neuron": 1225,
+   "r_tok": 0.39276609075241065,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "many",
+   "clusters": 12,
+   "layer": 22,
+   "neuron": 1225,
+   "r_tok": 0.5558367058899601,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 5,
+   "layer": 22,
+   "neuron": 1412,
+   "r_tok": 0.18126308134217003,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 8,
+   "layer": 22,
+   "neuron": 1412,
+   "r_tok": 0.2307144856765539,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 10,
+   "layer": 22,
+   "neuron": 1833,
+   "r_tok": 0.201298308305615,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 4,
+   "layer": 22,
+   "neuron": 1833,
+   "r_tok": 0.2193879945221949,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 10,
+   "layer": 22,
+   "neuron": 2479,
+   "r_tok": 0.13942371180627336,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "many",
+   "clusters": 3,
+   "layer": 22,
+   "neuron": 2479,
+   "r_tok": 0.40644729129281487,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 8,
+   "layer": 22,
+   "neuron": 3493,
+   "r_tok": 0.1267166357874532,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 10,
+   "layer": 22,
+   "neuron": 3493,
+   "r_tok": 0.05110298664182812,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 11,
+   "layer": 22,
+   "neuron": 3560,
+   "r_tok": 0.05807901609162321,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 5,
+   "layer": 22,
+   "neuron": 3560,
+   "r_tok": 0.050341960933012256,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 6,
+   "layer": 22,
+   "neuron": 3822,
+   "r_tok": 0.1409252929882969,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 10,
+   "layer": 22,
+   "neuron": 3822,
+   "r_tok": 0.05779809858638455,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 14,
+   "layer": 22,
+   "neuron": 4125,
+   "r_tok": 0.05936115973706262,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 12,
+   "layer": 22,
+   "neuron": 4125,
+   "r_tok": 0.1864547656463289,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 5,
+   "layer": 22,
+   "neuron": 4657,
+   "r_tok": 0.12443297223318929,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 12,
+   "layer": 22,
+   "neuron": 4657,
+   "r_tok": 0.06041720722610786,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 4,
+   "layer": 22,
+   "neuron": 4698,
+   "r_tok": 0.44731078484296205,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 6,
+   "layer": 22,
+   "neuron": 4698,
+   "r_tok": 0.29271040868775305,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 8,
+   "layer": 22,
+   "neuron": 5467,
+   "r_tok": 0.16608615593364176,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 9,
+   "layer": 22,
+   "neuron": 5467,
+   "r_tok": 0.07368504510964279,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 12,
+   "layer": 22,
+   "neuron": 5515,
+   "r_tok": 0.29444375314891397,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "many",
+   "clusters": 14,
+   "layer": 22,
+   "neuron": 5515,
+   "r_tok": 0.3008984438393322,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 6,
+   "layer": 22,
+   "neuron": 5536,
+   "r_tok": 0.3834999464754114,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 4,
+   "layer": 22,
+   "neuron": 5536,
+   "r_tok": 0.2705381984325018,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 10,
+   "layer": 22,
+   "neuron": 5787,
+   "r_tok": 0.0777732666000258,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 7,
+   "layer": 22,
+   "neuron": 5787,
+   "r_tok": 0.08792956009000712,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 11,
+   "layer": 22,
+   "neuron": 5804,
+   "r_tok": 0.3613644909173377,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 12,
+   "layer": 22,
+   "neuron": 5804,
+   "r_tok": 0.0707362289326005,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 8,
+   "layer": 22,
+   "neuron": 6109,
+   "r_tok": 0.13320263949355715,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 10,
+   "layer": 22,
+   "neuron": 6109,
+   "r_tok": 0.21162698295391358,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 7,
+   "layer": 27,
+   "neuron": 100,
+   "r_tok": 0.3443890859110279,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 9,
+   "layer": 27,
+   "neuron": 100,
+   "r_tok": 0.1558870582423761,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 10,
+   "layer": 27,
+   "neuron": 476,
+   "r_tok": 0.2446716007197501,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 13,
+   "layer": 27,
+   "neuron": 476,
+   "r_tok": 0.20401309941718052,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 14,
+   "layer": 27,
+   "neuron": 1412,
+   "r_tok": 0.21146961364945632,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 12,
+   "layer": 27,
+   "neuron": 1412,
+   "r_tok": 0.2746178675554694,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "one",
+   "clusters": 1,
+   "layer": 27,
+   "neuron": 1730,
+   "r_tok": 0.8808661635268428,
+   "retest_class": "one",
+   "sign": 1
+  },
+  {
+   "class": "two",
+   "clusters": 2,
+   "layer": 27,
+   "neuron": 2498,
+   "r_tok": 0.41593095702390354,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 10,
+   "layer": 27,
+   "neuron": 2498,
+   "r_tok": 0.17494615070068673,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 4,
+   "layer": 27,
+   "neuron": 2545,
+   "r_tok": 0.6211277503199022,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 2,
+   "layer": 27,
+   "neuron": 2545,
+   "r_tok": 0.018537462645394402,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 4,
+   "layer": 27,
+   "neuron": 2577,
+   "r_tok": 0.08363822524464025,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 9,
+   "layer": 27,
+   "neuron": 2577,
+   "r_tok": 0.10464071135590869,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 6,
+   "layer": 27,
+   "neuron": 2819,
+   "r_tok": 0.23106662903232425,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 10,
+   "layer": 27,
+   "neuron": 2819,
+   "r_tok": 0.27025890803930347,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 6,
+   "layer": 27,
+   "neuron": 3050,
+   "r_tok": 0.3071642045023939,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 9,
+   "layer": 27,
+   "neuron": 3050,
+   "r_tok": 0.2818802590486372,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 13,
+   "layer": 27,
+   "neuron": 3246,
+   "r_tok": 0.23828553646871023,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "many",
+   "clusters": 12,
+   "layer": 27,
+   "neuron": 3246,
+   "r_tok": 0.42073081736230294,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 16,
+   "layer": 27,
+   "neuron": 3698,
+   "r_tok": 0.3006311659357791,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 16,
+   "layer": 27,
+   "neuron": 3698,
+   "r_tok": 0.15428907739287043,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 8,
+   "layer": 27,
+   "neuron": 4367,
+   "r_tok": 0.1331537237330776,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 9,
+   "layer": 27,
+   "neuron": 4367,
+   "r_tok": 0.11146508595982665,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 8,
+   "layer": 27,
+   "neuron": 4509,
+   "r_tok": 0.44226603023907385,
+   "retest_class": "many",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 11,
+   "layer": 27,
+   "neuron": 4509,
+   "r_tok": 0.21374253407458635,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 11,
+   "layer": 27,
+   "neuron": 4601,
+   "r_tok": 0.15709831220175577,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 12,
+   "layer": 27,
+   "neuron": 4601,
+   "r_tok": 0.19711219035408253,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 8,
+   "layer": 27,
+   "neuron": 4644,
+   "r_tok": 0.16434072351483492,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 12,
+   "layer": 27,
+   "neuron": 4644,
+   "r_tok": 0.18952946256745148,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 9,
+   "layer": 27,
+   "neuron": 4821,
+   "r_tok": 0.26429166624226913,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 12,
+   "layer": 27,
+   "neuron": 4821,
+   "r_tok": 0.2783262557744829,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 6,
+   "layer": 27,
+   "neuron": 5117,
+   "r_tok": 0.2765547093453996,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 10,
+   "layer": 27,
+   "neuron": 5117,
+   "r_tok": 0.23339347272683797,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "many",
+   "clusters": 10,
+   "layer": 27,
+   "neuron": 5679,
+   "r_tok": 0.35033657607976204,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 10,
+   "layer": 27,
+   "neuron": 5679,
+   "r_tok": 0.035323850773242745,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 11,
+   "layer": 27,
+   "neuron": 5726,
+   "r_tok": 0.26353333318470185,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "many",
+   "clusters": 10,
+   "layer": 27,
+   "neuron": 5726,
+   "r_tok": 0.38861083216617504,
+   "retest_class": "many",
+   "sign": -1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 8,
+   "layer": 27,
+   "neuron": 5813,
+   "r_tok": 0.18432122941159926,
+   "retest_class": "token_unexplained",
+   "sign": 1
+  },
+  {
+   "class": "token_unexplained",
+   "clusters": 7,
+   "layer": 27,
+   "neuron": 5813,
+   "r_tok": 0.23912468196194975,
+   "retest_class": "token_unexplained",
+   "sign": -1
+  }
+ ],
+ "thetas": {
+  "90": 0.04600589722394943,
+  "95": 0.06547696143388748,
+  "98": 0.10025684535503387
+ },
+ "verdict": {
+  "essay_consistent": false,
+  "validated": false
+ }
+}
