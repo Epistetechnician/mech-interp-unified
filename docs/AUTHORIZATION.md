@@ -35,3 +35,7 @@ Source: owner chat reply "go with 1 end to end" to the option "Raise the total c
 - **Launch:** exactly one run, code commit `5e6f1f21438a984147179073bda0dc29cb463872`, same Modal provider/node identity as Addendum 3, per-stage partial checkpoints enabled. A timeout or crash is reported `NotCompleted` and not retried.
 - Claim ceiling unchanged: `LocalDevelopmentUnreviewed`.
 - **Launch record (2026-11-03):** a first launch (`ap-4CdMJabSsareMjR9FavYQh`, 22:29-22:31 EST, about 2 min, about USD 0.04) used a mistyped `--code-commit` and was stopped by the agent; it read no result. The single authorized run is `ap-LNyGF2MCdy8dSLqxFPZPW3`, profile `epistetechnician`, commit `5e6f1f21438a984147179073bda0dc29cb463872`, started about 22:32 EST. Note: the active Modal CLI profile had switched to `episte2001`; the run was launched with `MODAL_PROFILE=epistetechnician` as authorized in Addendum 3, no other account was used.
+
+## Addendum 6 (2026-11-04): R6 outcome record (no new authorization)
+- Run `ap-LNyGF2MCdy8dSLqxFPZPW3` ended about 22:37 EST on 2026-11-03, about 5 min after start, when Modal returned `ConflictError: workspace ac-hUFoWZVZfuVYtLXbEi4eDM is disabled`. Only candidate selection completed. No result or `.partial` exists on volume `r6-data`; no containers remain. Extra spend about USD 0.10 (estimate; billing report not yet available).
+- Outcome: R6 is `NotCompleted`. No relaunch, retry, or other account/provider is authorized by this addendum. Any further run needs a new owner statement (and the workspace issue resolved).
