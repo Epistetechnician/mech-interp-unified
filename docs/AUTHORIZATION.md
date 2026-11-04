@@ -39,3 +39,9 @@ Source: owner chat reply "go with 1 end to end" to the option "Raise the total c
 ## Addendum 6 (2026-11-04): R6 outcome record (no new authorization)
 - Run `ap-LNyGF2MCdy8dSLqxFPZPW3` ended about 22:37 EST on 2026-11-03, about 5 min after start, when Modal returned `ConflictError: workspace ac-hUFoWZVZfuVYtLXbEi4eDM is disabled`. Only candidate selection completed. No result or `.partial` exists on volume `r6-data`; no containers remain. Extra spend about USD 0.10 (estimate; billing report not yet available).
 - Outcome: R6 is `NotCompleted`. No relaunch, retry, or other account/provider is authorized by this addendum. Any further run needs a new owner statement (and the workspace issue resolved).
+
+## Addendum 7 (2026-11-04): R6 relaunch on the `episte2001` Modal workspace
+Source: owner chat instruction "switch to episte2001 workspace that we have here in our cli because we have credit there" (in reply to the options after the `epistetechnician` workspace was disabled).
+- **Provider/node identity:** Modal, CLI 1.6.3, profile `episte2001` (explicitly authorized by this statement; supersedes the `epistetechnician`-only wording of Addendum 3), GPU `A10G`, one container, new private Volume `r6-data` in that workspace.
+- **Interpretation (agent's, recorded):** the owner gave no new dollar figure, so the USD 12.00 total ceiling of Addendum 5 stands. Estimated prior spend about USD 5.20 (about 5.10 plus about 0.10 from the aborted run), so one run (at most about USD 6.60) reaches at most about USD 11.80. Exactly one run, code commit `5e6f1f21438a984147179073bda0dc29cb463872`, per-stage checkpoints on. Timeout or crash is `NotCompleted`; no retry without a new owner statement.
+- **Data sent:** same staged files as Addendum 3 (model files, hashes.json, corpus.json), now also uploaded to the `episte2001` workspace volume. Claim ceiling `LocalDevelopmentUnreviewed`.
