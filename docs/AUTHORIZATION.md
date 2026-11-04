@@ -28,3 +28,9 @@ Source: owner chat reply "okay yes go ahead with 1" to the question "Approve up 
 - **Provider/node identity:** unchanged from Addendum 3 (Modal, CLI 1.6.3, profile `epistetechnician`, A10G, one container).
 - **Allocation:** at most USD 6.60 for exactly one rerun (6 h hard function timeout), on top of roughly USD 4 already spent on the crashed run and the duplicate run (both on pre-fix code). Cumulative R6 spend may therefore reach about USD 10.60 on list-price estimates; Modal's actual billing is the receipt and the sum is checked before launch. If actual prior spend plus 6.60 would exceed the USD 10.00 total ceiling, the run is NOT launched without a new owner statement. A timeout or crash is reported `NotCompleted`, not retried.
 - Everything else (data sent, device deviation, frozen config, claim ceiling `LocalDevelopmentUnreviewed`) is as in Addendum 3.
+
+## Addendum 5 (2026-11-03): total ceiling raised to USD 12.00, R6 rerun launch
+Source: owner chat reply "go with 1 end to end" to the option "Raise the total ceiling to USD 12.00 and launch the one run."
+- **Ceiling:** total paid-compute ceiling for this repo is now **USD 12.00** (was 10.00). Estimated prior spend about USD 5.10 (crashed run 1 about 2.10, duplicate run 2 about 3.00, list price; the Modal billing report was empty at the time). The one rerun (6 h hard timeout, at most about USD 6.60) therefore reaches at most about USD 11.70. Nothing further may be launched under this ceiling without a new owner statement.
+- **Launch:** exactly one run, code commit `5e6f1f21438a984147179073bda0dc29cb463872`, same Modal provider/node identity as Addendum 3, per-stage partial checkpoints enabled. A timeout or crash is reported `NotCompleted` and not retried.
+- Claim ceiling unchanged: `LocalDevelopmentUnreviewed`.
