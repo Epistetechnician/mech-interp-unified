@@ -14,6 +14,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import r6  # noqa: F401,E402  (sets sys.path for the imported tool modules)
 import v60  # noqa: E402
+from pythia_backend import PATH_DOCS  # noqa: E402
 
 
 def make_backend_class():
@@ -56,5 +57,26 @@ def make_backend_class():
                 self.layers_mod[l].mlp.dense_4h_to_h.register_forward_pre_hook(self._mask_hook(k))
             self.capture, self.acts = False, {}
             self.locked, self._base, self._enc = None, {}, {}
+
+        def activation_values(self, selected, docs):
+            """Last-position activation of the selected units at the measurement hook point (input of down_proj,
+            silu(gate)*up). The Pythia version hooks dense_h_to_4h output (a pre-GELU value); SwiGLU has no single
+            pre-activation, and silu(gate)*up is signed, so the gate's both-signs check is meaningful here.
+            Addendum 2 (docs/protocols/R6-second-model-agreement-gate.md)."""
+            want = {}
+            for u in selected:
+                want.setdefault(u // self.I, []).append(u % self.I)
+            vals, hs = [], []
+            for k, idx in want.items():
+                def hook(mod, args, idx=idx):
+                    vals.extend(args[0][:, -1][:, idx].float().flatten().tolist())
+                hs.append(self.layers_mod[self.LY[k]].mlp.dense_4h_to_h.register_forward_pre_hook(hook))
+            self._reset()
+            try:
+                self._mean(sorted(docs)[:PATH_DOCS])
+            finally:
+                for h in hs:
+                    h.remove()
+            return vals
 
     return Qwen3Backend

@@ -209,6 +209,18 @@ class QwenAdapter(unittest.TestCase):
             w.data.copy_(saved)
         self.assertAlmostEqual(base - ablated, weights_zeroed, places=4)
 
+    def test_activation_values_run_gate_path(self):
+        """Regression: the gate's activation_values crashed on Qwen (Pythia dense_h_to_4h hook). Must return one
+        finite value per selected unit and capture the down_proj input."""
+        import math
+        b = self.b
+        docs = b.split()["fit"]
+        sel = [0 * b.I + 3, 1 * b.I + 5, 2 * b.I + 7]
+        vals = b.activation_values(sel, docs)
+        self.assertEqual(len(vals), len(sel) * len(docs))
+        self.assertTrue(all(math.isfinite(v) for v in vals))
+        self.assertGreater(len(set(vals)), 1)
+
     def test_swap_patch_capture_shapes(self):
         b = self.b
         b.mark_locked("x")
