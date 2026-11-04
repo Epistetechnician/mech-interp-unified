@@ -35,7 +35,7 @@ def run(code_commit: str, corpus_digest: str):
     try:
         run_r6.main(["run", "--model-dir", "/data/model", "--model-hashes", "/data/hashes.json",
                      "--corpus", "/data/corpus.json", "--expected-corpus-digest", corpus_digest,
-                     "--code-commit", code_commit, "--out", out])
+                     "--code-commit", code_commit, "--out", out], on_checkpoint=vol.commit)
     finally:
         vol.commit()
     print(open(out).read()[:4000])

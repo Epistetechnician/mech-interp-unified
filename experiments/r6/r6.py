@@ -47,13 +47,14 @@ def classify(gate_valid, t0, l, p):
     return "Replicates" if (l and p) else "PartiallyReplicates"
 
 
-def run_r6(backend, cfg, log=None, clock=time.monotonic):
+def run_r6(backend, cfg, log=None, clock=time.monotonic, checkpoint=None):
     if v50.digest(FROZEN6) != FROZEN6_DIGEST:
         raise v50.V50Error("R6 frozen values changed")
     v50.check_frozen()
     if list(cfg["target_layers"]) != FROZEN6["target_layers"]:
         raise v50.V50Error("target layers differ from the frozen plan")
     say = log or (lambda *a: None)
+    ckpt = checkpoint or (lambda o: None)
     cap = FROZEN6["stage_cap_s"]
     out = {"frozen6_digest": FROZEN6_DIGEST, "ceiling": v50.CEILING, "stages": {}}
 
@@ -109,6 +110,7 @@ def run_r6(backend, cfg, log=None, clock=time.monotonic):
                                       cfg.get("alpha", 0.05))
         out["gate"] = gate
         cur.done()
+        ckpt(out)
         if gate["status"] != "InstrumentValid":
             out["outcome"] = "InstrumentNotValid"
             return out  # no effect is read as evidence
@@ -127,6 +129,7 @@ def run_r6(backend, cfg, log=None, clock=time.monotonic):
         means = {u: (fs[u]["act_sing"], fs[u]["act_plur"]) for u in allu}  # dla fields are never read (RMSNorm)
         docs = sp["assess"]
         cur.done()
+        ckpt(out)
 
         floor = FROZEN6["min_effect"]
 
@@ -145,7 +148,9 @@ def run_r6(backend, cfg, log=None, clock=time.monotonic):
             return r
 
         out["t0_all_position_swap"] = task("T0", lambda us: backend.swap_effect(us, docs, means))
+        ckpt(out)
         out["l_last_position_swap"] = task("L", lambda us: backend.swap_effect_last(us, docs, means))
+        ckpt(out)
         classes = backend.item_classes(docs)
         capt = backend.capture_last(allu, docs)
         don = v60.donors(classes, docs, FROZEN6["donor_seed"])
@@ -153,6 +158,7 @@ def run_r6(backend, cfg, log=None, clock=time.monotonic):
         out["p_donor_patch"] = task("P", lambda us: backend.patch_last(us, docs, vals(us, don)))
         same = v60.donors(classes, docs, FROZEN6["donor_seed"] + 1, same=True)
         out["p_donor_patch"]["same_class_donor_diagnostic"] = backend.patch_last(swap, docs, vals(swap, same))
+        ckpt(out)
         out["outcome"] = classify(True, out["t0_all_position_swap"]["supported"],
                                   out["l_last_position_swap"]["supported"], out["p_donor_patch"]["supported"])
     except StageTimeout as e:

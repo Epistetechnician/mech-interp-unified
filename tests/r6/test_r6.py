@@ -95,6 +95,15 @@ class Decision(unittest.TestCase):
             self.assertAlmostEqual(r[t]["p_all"], 1 / 1001)  # 1000 controls, floor 0.000999
         self.assertEqual(r["selection_repeat_jaccard"], 1.0)
 
+    def test_checkpoints_cover_every_finished_stage(self):
+        seen = []
+        r6.run_r6(Fake(), CFG, checkpoint=lambda o: seen.append(sorted(k for k in o if k in (
+            "gate", "swap_units", "t0_all_position_swap", "l_last_position_swap", "p_donor_patch"))))
+        self.assertEqual(len(seen), 5)  # gate, rank, T0, L, P
+        self.assertEqual(seen[0], ["gate"])
+        self.assertIn("t0_all_position_swap", seen[2])
+        self.assertIn("p_donor_patch", seen[4])
+
     def test_partial_and_none(self):
         self.assertEqual(r6.run_r6(Fake(l=False), CFG)["outcome"], "PartiallyReplicates")
         self.assertEqual(r6.run_r6(Fake(t0=False), CFG)["outcome"], "DoesNotReplicate")

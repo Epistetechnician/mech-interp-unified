@@ -25,7 +25,7 @@ def hash_model(model_dir):
             if n.endswith((".safetensors", ".bin", ".json"))}
 
 
-def main(argv=None, backend_factory=None):
+def main(argv=None, backend_factory=None, on_checkpoint=None):
     a = argparse.ArgumentParser()
     sub = a.add_subparsers(dest="cmd", required=True)
     h = sub.add_parser("hash-model")
@@ -52,7 +52,12 @@ def main(argv=None, backend_factory=None):
             return qwen3_backend.make_backend_class()(model_dir, items, layers, device=os.environ.get("R6_DEVICE", "mps"))
     backend = backend_factory(args.model_dir, dict(corpus["split_items"]), cfg["target_layers"])
     t0 = time.time()
-    res = r6.run_r6(backend, cfg, log=lambda *x: print("%.0fs" % (time.time() - t0), *x, flush=True))
+    def ckpt(o):
+        json.dump(dict(o, partial=True), open(args.out + ".partial", "w"), indent=1, sort_keys=True, default=str)
+        if on_checkpoint:
+            on_checkpoint()
+
+    res = r6.run_r6(backend, cfg, log=lambda *x: print("%.0fs" % (time.time() - t0), *x, flush=True), checkpoint=ckpt)
     res.update(wall_seconds=round(time.time() - t0, 1), device=os.environ.get("R6_DEVICE", "mps"), spend_usd=0.0)
     json.dump(res, open(args.out, "w"), indent=1, sort_keys=True)
     return res
