@@ -48,3 +48,10 @@ Source: owner chat instruction "switch to episte2001 workspace that we have here
 
 ## Addendum 8 (2026-11-04): R6 launch record (no new authorization)
 The single run authorized by Addendum 7 started 2026-11-04 17:21 EST: app `ap-SSFI4E2C2e3oeMQDfSIPcY`, profile `episte2001`, A10G, `--code-commit 5e6f1f21438a984147179073bda0dc29cb463872` (no code differences from HEAD in `experiments/r6`, `imports`, `tests/r6`). Model hashes, corpus digest and candidate selection (96) passed in the container. Results land in volume `r6-data` at `/out/r6_result.json` (partials per stage). No relaunch authorized.
+
+## Addendum 9 (2026-11-05): R6 resume on GiveMeANode (gman)
+Source: owner chat reply "yes go ahead end to end but use gman cli instead modal is out of credit" to the proposal of a USD 19.00 ceiling and one resume run from the saved partial.
+- **Ceiling:** total paid-compute ceiling raised to **USD 19.00** (was 12.00), as proposed and approved. The Modal run `ap-SSFI4E2C2e3oeMQDfSIPcY` ended at credit exhaustion with a partial holding select, gate and rank only (no T0/L/P); Modal spend is taken as at most about USD 11.8.
+- **Provider/node identity:** GiveMeANode via `gman` CLI, default workspace, one `h100-1` node, image `pytorch-2.13-cuda12.9`, node name `r6-resume-r1`. Interpretation (agent's, recorded): gman replaces Modal; the node id and receipt are recorded in the result note. Agent-imposed hard stop for this run: USD 7.00 of gman spend (kill and stop the node at that point); node is stopped/deleted at the end.
+- **Run:** exactly one run, resumed from the Modal partial (gate reused after FROZEN6 and candidate-digest checks), code at the commit recorded in the result note. Device deviation: CUDA float32 on H100 instead of A10G/MPS, TF32 off; gate was computed on A10G, remaining stages on H100; no cross-device stability claimed. Timeout/crash is `NotCompleted`; no retry without a new owner statement.
+- Data sent: model files, hashes.json, corpus.json (same as Addendum 3), plus the partial. Claim ceiling `LocalDevelopmentUnreviewed`.
