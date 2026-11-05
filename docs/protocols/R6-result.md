@@ -1,10 +1,7 @@
 # R6 result: NotCompleted
 
-Claim ceiling: `LocalDevelopmentUnreviewed`. No agreement outcome exists.
+Qwen3-1.7B-Base, layers 8/15/22, k=32, swap 8, 1000 matched draws, gate v3. Claim ceiling LocalDevelopmentUnreviewed.
 
-- Run: `ap-LNyGF2MCdy8dSLqxFPZPW3`, commit `5e6f1f21438a984147179073bda0dc29cb463872`, Modal A10G, started about 22:32 EST 2026-11-03.
-- Completed: select stage only (96 candidates, 18 s).
-- Failure: Modal `ConflictError: workspace ... is disabled` at about 22:37 EST (likely billing or limit; unconfirmed). The run terminated before the gate produced its first checkpoint.
-- Artifacts: none retained (volume `/out` has no result or `.partial`).
-- Classification: `NotCompleted`. This is neither a replication nor a failure to replicate; the gate, T0, L, and P stages never ran.
-- Not retried, per Addendum 5/6.
+Select, gate (InstrumentValid, Modal/A10G) and rank were saved by the Modal run before credit ran out. The resume on a gman H100 reused them, finished T0, and reached 300/1000 L controls before the USD 7.00 cap stopped it. P and classify never ran.
+
+**No R6 verdict is reported.** Not a replication, not a failure to replicate. Details, spend and deviations: AUTHORIZATION.md Addendum 9 outcome.
