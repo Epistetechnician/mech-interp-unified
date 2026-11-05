@@ -35,6 +35,7 @@ def main(argv=None, backend_factory=None, on_checkpoint=None):
     for n in ("model_dir", "model_hashes", "corpus", "out", "expected_corpus_digest", "code_commit"):
         r.add_argument("--" + n.replace("_", "-"), required=True)
     r.add_argument("--seed", type=int, default=71)
+    r.add_argument("--resume", default=None, help="prior .partial result to reuse finished stages from")
     args = a.parse_args(argv)
     if args.cmd == "hash-model":
         json.dump(hash_model(args.model_dir), open(args.out, "w"), indent=1, sort_keys=True)
@@ -57,7 +58,8 @@ def main(argv=None, backend_factory=None, on_checkpoint=None):
         if on_checkpoint:
             on_checkpoint()
 
-    res = r6.run_r6(backend, cfg, log=lambda *x: print("%.0fs" % (time.time() - t0), *x, flush=True), checkpoint=ckpt)
+    res = r6.run_r6(backend, cfg, log=lambda *x: print("%.0fs" % (time.time() - t0), *x, flush=True), checkpoint=ckpt,
+                     resume=json.load(open(args.resume)) if args.resume else None)
     res.update(wall_seconds=round(time.time() - t0, 1), device=os.environ.get("R6_DEVICE", "mps"), spend_usd=0.0)
     json.dump(res, open(args.out, "w"), indent=1, sort_keys=True)
     return res

@@ -21,8 +21,8 @@ image = (
 )
 
 
-@app.function(image=image, gpu="A10G", timeout=6 * 3600, volumes={"/data": vol})
-def run(code_commit: str, corpus_digest: str):
+@app.function(image=image, gpu="A10G", timeout=7 * 3600, volumes={"/data": vol})
+def run(code_commit: str, corpus_digest: str, resume: str = "", out_name: str = "r6_result.json"):
     import sys
     import torch
     torch.backends.cuda.matmul.allow_tf32 = False
@@ -31,16 +31,16 @@ def run(code_commit: str, corpus_digest: str):
     sys.path.insert(0, "/repo/experiments/r6")
     import run_r6
     os.makedirs("/data/out", exist_ok=True)
-    out = "/data/out/r6_result.json"
+    out = "/data/out/" + out_name
     try:
         run_r6.main(["run", "--model-dir", "/data/model", "--model-hashes", "/data/hashes.json",
                      "--corpus", "/data/corpus.json", "--expected-corpus-digest", corpus_digest,
-                     "--code-commit", code_commit, "--out", out], on_checkpoint=vol.commit)
+                     "--code-commit", code_commit, "--out", out] + (["--resume", resume] if resume else []), on_checkpoint=vol.commit)
     finally:
         vol.commit()
     print(open(out).read()[:4000])
 
 
 @app.local_entrypoint()
-def main(code_commit: str, corpus_digest: str):
-    run.remote(code_commit, corpus_digest)
+def main(code_commit: str, corpus_digest: str, resume: str = "", out_name: str = "r6_result.json"):
+    run.remote(code_commit, corpus_digest, resume, out_name)

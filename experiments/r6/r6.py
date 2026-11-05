@@ -47,7 +47,9 @@ def classify(gate_valid, t0, l, p):
     return "Replicates" if (l and p) else "PartiallyReplicates"
 
 
-def run_r6(backend, cfg, log=None, clock=time.monotonic, checkpoint=None):
+def run_r6(backend, cfg, log=None, clock=time.monotonic, checkpoint=None, resume=None):
+    """resume: a prior partial result. Finished stages (gate, T0, L, P) are reused only if the deterministic
+    selection reproduces the same candidates_digest (and swap_units); otherwise the run refuses."""
     if v50.digest(FROZEN6) != FROZEN6_DIGEST:
         raise v50.V50Error("R6 frozen values changed")
     v50.check_frozen()
@@ -57,6 +59,9 @@ def run_r6(backend, cfg, log=None, clock=time.monotonic, checkpoint=None):
     ckpt = checkpoint or (lambda o: None)
     cap = FROZEN6["stage_cap_s"]
     out = {"frozen6_digest": FROZEN6_DIGEST, "ceiling": v50.CEILING, "stages": {}}
+    prior = resume or {}
+    if prior and prior.get("frozen6_digest") != FROZEN6_DIGEST:
+        raise v50.V50Error("resume file was produced under different frozen values")
 
     class Stage:
         def __init__(self, name):
@@ -88,27 +93,37 @@ def run_r6(backend, cfg, log=None, clock=time.monotonic, checkpoint=None):
         out["candidates_digest"] = v50.digest(cand_units)
         out["lock"] = lock
         say("candidates", len(cand_units))
+        if prior and prior.get("candidates_digest") != out["candidates_digest"]:
+            raise v50.V50Error("resume refused: selection does not reproduce the prior candidates")
         cur.done()
 
         # ---- stage 2: instrument gate v3 on the candidate set, tune split, 1000 matched draws
         cur = Stage("gate")
         mag = backend.magnitude()
         pool = v50.matched_pool(mag, cand_units, layer_of)
-        gctl = v50.draw_controls(pool, cand_units, FROZEN6["gate_draws"], cfg["seed"] + 2)
         tune = sp["tune"]
-        eff_m = backend.effect(cand_units, tune, "margin")
-        eff_l = backend.effect(cand_units, tune, "logprob")
-        cm, cl = [], []
-        for i, c in enumerate(gctl):
-            cm.append(backend.effect(c, tune, "margin"))
-            cl.append(backend.effect(c, tune, "logprob"))
-            if i % 50 == 49:
-                cur.tick()
-                say("gate controls", i + 1)
-        gate = v51.instrument_gate_v3(backend, cand_units, scores, tune,
-                                      {"margin": v50.one_sided_p(eff_m, cm), "logprob": v50.one_sided_p(eff_l, cl)},
-                                      cfg.get("alpha", 0.05))
-        out["gate"] = gate
+        if prior.get("gate"):
+            gate = prior["gate"]
+            out["gate"] = gate
+            out["gate_reused_from_resume"] = True
+            say("gate reused from resume", gate["status"])
+        else:
+            gate = None
+        if gate is None:
+            gctl = v50.draw_controls(pool, cand_units, FROZEN6["gate_draws"], cfg["seed"] + 2)
+            eff_m = backend.effect(cand_units, tune, "margin")
+            eff_l = backend.effect(cand_units, tune, "logprob")
+            cm, cl = [], []
+            for i, c in enumerate(gctl):
+                cm.append(backend.effect(c, tune, "margin"))
+                cl.append(backend.effect(c, tune, "logprob"))
+                if i % 50 == 49:
+                    cur.tick()
+                    say("gate controls", i + 1)
+            gate = v51.instrument_gate_v3(backend, cand_units, scores, tune,
+                                          {"margin": v50.one_sided_p(eff_m, cm), "logprob": v50.one_sided_p(eff_l, cl)},
+                                          cfg.get("alpha", 0.05))
+            out["gate"] = gate
         cur.done()
         ckpt(out)
         if gate["status"] != "InstrumentValid":
@@ -119,6 +134,8 @@ def run_r6(backend, cfg, log=None, clock=time.monotonic, checkpoint=None):
         cur = Stage("rank")
         single = {u: backend.effect([u], tune, "margin") for u in cand_units}
         swap = sorted(sorted(cand_units, key=lambda u: (-single[u], u))[:FROZEN6["swap_size"]])
+        if prior.get("swap_units") and list(prior["swap_units"]) != swap:
+            raise v50.V50Error("resume refused: swap set does not reproduce")
         out["swap_units"] = swap
         out["swap_lock_digest"] = v50.digest({"lock": lock, "swap": swap, "tune_single": {str(u): single[u] for u in swap}})
         cset = set(cand_units)
@@ -133,7 +150,10 @@ def run_r6(backend, cfg, log=None, clock=time.monotonic, checkpoint=None):
 
         floor = FROZEN6["min_effect"]
 
-        def task(name, fn):
+        def task(name, fn, key):
+            if prior.get(key) is not None and "supported" in prior[key]:
+                say(name, "reused from resume")
+                return prior[key]
             st = Stage(name)
             sel = fn(swap)
             cs = []
@@ -147,15 +167,15 @@ def run_r6(backend, cfg, log=None, clock=time.monotonic, checkpoint=None):
             st.done()
             return r
 
-        out["t0_all_position_swap"] = task("T0", lambda us: backend.swap_effect(us, docs, means))
+        out["t0_all_position_swap"] = task("T0", lambda us: backend.swap_effect(us, docs, means), "t0_all_position_swap")
         ckpt(out)
-        out["l_last_position_swap"] = task("L", lambda us: backend.swap_effect_last(us, docs, means))
+        out["l_last_position_swap"] = task("L", lambda us: backend.swap_effect_last(us, docs, means), "l_last_position_swap")
         ckpt(out)
         classes = backend.item_classes(docs)
         capt = backend.capture_last(allu, docs)
         don = v60.donors(classes, docs, FROZEN6["donor_seed"])
         vals = lambda us, dm: {u: {i: capt[u][dm[i]] for i in docs} for u in us}
-        out["p_donor_patch"] = task("P", lambda us: backend.patch_last(us, docs, vals(us, don)))
+        out["p_donor_patch"] = task("P", lambda us: backend.patch_last(us, docs, vals(us, don)), "p_donor_patch")
         same = v60.donors(classes, docs, FROZEN6["donor_seed"] + 1, same=True)
         out["p_donor_patch"]["same_class_donor_diagnostic"] = backend.patch_last(swap, docs, vals(swap, same))
         ckpt(out)

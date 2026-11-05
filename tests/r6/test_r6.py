@@ -104,6 +104,25 @@ class Decision(unittest.TestCase):
         self.assertIn("t0_all_position_swap", seen[2])
         self.assertIn("p_donor_patch", seen[4])
 
+    def test_resume_reuses_gate_and_t0_and_matches_full_run(self):
+        full = r6.run_r6(Fake(), CFG)
+        part = {k: full[k] for k in ("frozen6_digest", "candidates_digest", "gate", "swap_units",
+                                     "t0_all_position_swap")}
+        f = Fake()
+        calls = []
+        orig = f.swap_effect
+        f.swap_effect = lambda *a, **k: (calls.append(1), orig(*a, **k))[1]
+        r = r6.run_r6(f, CFG, resume=part)
+        self.assertEqual(calls, [])  # T0 not recomputed
+        self.assertTrue(r["gate_reused_from_resume"])
+        self.assertEqual(r["outcome"], full["outcome"])
+        self.assertEqual(r["swap_units"], full["swap_units"])
+
+    def test_resume_refuses_mismatched_selection(self):
+        full = r6.run_r6(Fake(), CFG)
+        with self.assertRaises(Exception):
+            r6.run_r6(Fake(), CFG, resume={"frozen6_digest": full["frozen6_digest"], "candidates_digest": "x"})
+
     def test_partial_and_none(self):
         self.assertEqual(r6.run_r6(Fake(l=False), CFG)["outcome"], "PartiallyReplicates")
         self.assertEqual(r6.run_r6(Fake(t0=False), CFG)["outcome"], "DoesNotReplicate")
