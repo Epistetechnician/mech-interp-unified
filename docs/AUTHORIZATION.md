@@ -61,3 +61,8 @@ Source: owner chat reply "yes go ahead end to end but use gman cli instead modal
 - Spend: gman about USD 6.4 (node), Modal at most about 11.8; total about 18.2 of the USD 19.00 ceiling. No retry without a new owner statement.
 - Deviations: model downloaded on-node from Hugging Face with every file SHA-256 verified against local copies (merges.txt checked against the local copy, not hashes.json); torch 2.13 vs 2.12 earlier; gate on A10G, rest on H100. Node stopped (disk parked), not deleted.
 - Observation: L/P are slower than estimated (about 3.4 s per control draw), so a full H100 run needs roughly 2.5 h (about USD 13), more than the remaining ceiling.
+
+## Addendum 10 (2026-11-06): R6 second resume, ceiling raised to USD 35.00
+Source: owner chat reply "okay raise the cap if needed and keep going end to end" after the Addendum 9 NotCompleted report that a full run needs about USD 13.
+- **Ceiling:** total paid-compute ceiling raised to **USD 35.00** (was 19.00). Prior spend about USD 18.6 (Modal at most about 11.8; gman node `r6-resume-r1` billed USD 6.83 per `gman usage`). Interpretation (agent's, recorded): the owner gave no dollar figure, so I chose 35.00.
+- **Run:** exactly one resume on the same node `r6-resume-r1` (gman default workspace, h100-1, same image), from the node's saved partial (select, gate, rank, T0 saved; L and P to run). Same commit `9af5ae9`, frozen config, CUDA float32 with TF32 off. Agent-imposed hard stop for this run: USD 14.00 of gman spend; at that point the run is killed and the node stopped. Timeout or crash is `NotCompleted`; no retry without a new owner statement. Claim ceiling `LocalDevelopmentUnreviewed`.
