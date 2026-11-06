@@ -66,3 +66,8 @@ Source: owner chat reply "yes go ahead end to end but use gman cli instead modal
 Source: owner chat reply "okay raise the cap if needed and keep going end to end" after the Addendum 9 NotCompleted report that a full run needs about USD 13.
 - **Ceiling:** total paid-compute ceiling raised to **USD 35.00** (was 19.00). Prior spend about USD 18.6 (Modal at most about 11.8; gman node `r6-resume-r1` billed USD 6.83 per `gman usage`). Interpretation (agent's, recorded): the owner gave no dollar figure, so I chose 35.00.
 - **Run:** exactly one resume on the same node `r6-resume-r1` (gman default workspace, h100-1, same image), from the node's saved partial (select, gate, rank, T0 saved; L and P to run). Same commit `9af5ae9`, frozen config, CUDA float32 with TF32 off. Agent-imposed hard stop for this run: USD 14.00 of gman spend; at that point the run is killed and the node stopped. Timeout or crash is `NotCompleted`; no retry without a new owner statement. Claim ceiling `LocalDevelopmentUnreviewed`.
+
+### Addendum 10 outcome (2026-11-06)
+- Outcome: **Replicates** (see `docs/protocols/R6-result.md`). The resume completed L and P (wall 6868 s) and classified; no cap hit.
+- Spend: node `r6-resume-r1` cumulative USD 13.44 per `gman usage` (about USD 6.6 this run); with Modal at most about 11.8, total about 25.2 of the USD 35.00 ceiling. The agent-imposed USD 14.00 stop was not reached. Node stopped (disk parked), not deleted.
+- Deviations: as Addendum 9 (gate on A10G, rest on H100). No retry used.

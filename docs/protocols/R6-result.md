@@ -1,7 +1,13 @@
-# R6 result: NotCompleted
+# R6 result: Replicates (owner-unreviewed, single run)
 
-Qwen3-1.7B-Base, layers 8/15/22, k=32, swap 8, 1000 matched draws, gate v3. Claim ceiling LocalDevelopmentUnreviewed.
+Qwen3-1.7B-Base, layers 8/15/22, k=32, swap size 8, 1000 matched draws, instrument gate v3. Claim ceiling `LocalDevelopmentUnreviewed`. Raw result: `R6-result.json` (frozen6 digest `42ec6cc0...`, candidates digest `b4e00aa1...`).
 
-Select, gate (InstrumentValid, Modal/A10G) and rank were saved by the Modal run before credit ran out. The resume on a gman H100 reused them, finished T0, and reached 300/1000 L controls before the USD 7.00 cap stopped it. P and classify never ran.
+- Gate: InstrumentValid (computed on A10G in the Modal partial, reused; signal/noise 16.97).
+- Selection repeat Jaccard 1.0.
+- All three tests supported, one-sided p = 0.000999 (the floor for 1000 draws):
+  - T0 all-position swap: selected 1.437 vs control max 0.044.
+  - L last-position swap: selected 1.158 vs control max 0.038.
+  - P donor patch: selected 1.550 vs control max 0.044 (same-class donor diagnostic 0.100).
+- Outcome per the frozen rule: **Replicates**.
 
-**No R6 verdict is reported.** Not a replication, not a failure to replicate. Details, spend and deviations: AUTHORIZATION.md Addendum 9 outcome.
+Caveats: single run, single second model, devices differ between gate (A10G) and later stages (H100, CUDA fp32, TF32 off); no cross-device stability claimed; this is not independent verification. Spend and deviations: AUTHORIZATION.md Addendum 10 outcome.
