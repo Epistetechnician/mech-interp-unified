@@ -38,7 +38,7 @@ been checked under a change of scale, device or checkpoint.
 
 | field | type | meaning |
 |---|---|---|
-| `id` | string | stable slug, `^[a-z0-9][a-z0-9._-]*$`. Split assignment hashes this string. |
+| `id` | string | stable slug, `^[A-Za-z0-9][A-Za-z0-9._-]*$`. Split assignment hashes this string. |
 | `cluster_id` | string | experimental thread; items in a cluster share base runs, sources or a code path and are **not independent**. |
 | `claim.text` | string | the claim, minimal restatement of the source's own wording; carries no outcome. |
 | `claim.family` | enum | `neuron_ablation_effect`, `class_swap_sufficiency`, `donor_patch_sufficiency`, `unit_selection_stability`, `affine_replacement_prediction`, `task_transfer`, `offshoot_growth`, `route_bypass`, `instrument_gate`. |
@@ -50,7 +50,7 @@ been checked under a change of scale, device or checkpoint.
 | `label_rule` | string | the rule id from `LABEL_RULES.md` that fired (`L0` ... `L5`, with the source-rule id for `L2`). |
 | `label_reason` | enum | `rule_met`, `rule_not_met`, `no_arm_run`, `arm_closed_before_measurement`, `arm_inconclusive_by_source_rule`, `instrument_invalid_no_rule`, `base_not_established`, `no_preregistered_rule`. |
 | `label_inputs` | object | the extracted numbers/flags the rule was applied to, copied from sources. Re-derivation recomputes the label from these. |
-| `evidence` | array | one entry per extracted value: `role` (`base`, `transfer`, `rule`, `absence`), `root` (`repo`, `jspace`, `zkbench`), `file`, `sha256` (of the file at build time), `kind` (`json_pointer`, `regex`, `absence_assertion`), `pointer`, `value`. |
+| `evidence` | array | one entry per extracted value: `name` (the key the rule reads), `role` (`base`, `transfer`, `rule`, `absence`), `root` (`repo`, `jspace`, `zkbench`), `file`, `sha256` (of the file at build time), `kind` (`json_pointer`, `regex`, `absence_assertion`), `pointer`, `value`. |
 | `ceiling` | string | `LocalDevelopmentUnreviewed` or `OwnerSelfAttestedLocalDevelopment` (source-side attestation, V49/V53/V54 only). |
 | `notes` | string | caveats copied from the source (post-hoc design, confounds, caveats). Never a re-interpretation of a result into a label. |
 

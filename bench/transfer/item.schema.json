@@ -8,7 +8,7 @@
                "instrument_gate_status", "base", "transfer", "label", "label_rule", "label_reason",
                "label_inputs", "evidence", "ceiling", "notes"],
   "properties": {
-    "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$"},
+    "id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"},
     "cluster_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$"},
     "claim": {
       "type": "object", "additionalProperties": false, "required": ["text", "family"],
@@ -67,8 +67,9 @@
       "type": "array", "minItems": 1,
       "items": {
         "type": "object", "additionalProperties": false,
-        "required": ["role", "root", "file", "sha256", "kind", "pointer", "value"],
+        "required": ["name", "role", "root", "file", "sha256", "kind", "pointer", "value"],
         "properties": {
+          "name": {"type": "string", "pattern": "^[a-z0-9_]+$"},
           "role": {"enum": ["base", "transfer", "rule", "absence"]},
           "root": {"enum": ["repo", "jspace", "zkbench"]},
           "file": {"type": "string"},
