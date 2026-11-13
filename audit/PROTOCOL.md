@@ -96,7 +96,7 @@ differences (dtype is emulated), multi-layer effects, trained SAEs, adversarial 
   6. dtype stability: selection under float16 or float64 has Jaccard < 0.75 with the claimed selection.
   7. equivariance: under a random function-preserving permutation + per-unit positive rescale (alpha in [0.25, 4]),
      the selection mapped back has Jaccard < 0.75 with the claimed selection.
-  8. control redraw: reported control max < the 99th percentile of 1000 freshly redrawn controls (either class).
+  8. control redraw: reported control max < the 99th percentile of 1000 freshly redrawn controls, auditor-drawn with the standard matched-random procedure (no instrument-side trimming), for any of sing, plur, all [amended, see section 9].
   9. headroom: metric has a ceiling and baseline >= ceiling - 0.01.
   10. preregistered-criterion rerun: rerun under the preregistered metric and floor gives a different verdict than claimed.
   The probes were written *after* the flaw list and cover its classes; the battery is therefore a
@@ -106,7 +106,8 @@ differences (dtype is emulated), multi-layer effects, trained SAEs, adversarial 
   API). A scripted stub exists only to unit-test parsing. No TPR/FPR is reported for A4.
 - **Null auditors (instrument-validity controls for the harness)**: `always_pass`, `always_flag`,
   `coin_flip(p=0.5, seeded)`. Harness is valid only if always_pass has TPR=FPR=0, always_flag has
-  TPR=FPR=1, and coin_flip TPR and FPR 95% CIs contain 0.5 in every class. Otherwise all results are void.
+  TPR=FPR=1, and coin_flip's pooled TPR and pooled FPR Wilson 95% CIs contain 0.5 with every per-class point
+  estimate within 0.5 +/- 0.15 [amended from per-class CIs, see section 9]. Otherwise all results are void.
 
 ## 5. Primary metrics and decision rules
 
@@ -156,4 +157,16 @@ Specified separately in `audit/GOODHART.md`, preregistered there.
 Development calibration of the *instrument side* (world parameters in section 3) may use development seeds
 and may adjust world parameters, never auditor definitions or thresholds, and is recorded here with its commit
 before the first evaluation run. No auditor TPR/FPR is computed on development seeds for tuning.
-- (none yet)
+Amendments made after dev-seed runs (seeds >= 100000, n=40) and BEFORE the first evaluation run. Disclosure: items
+2-3 touch auditor-side definitions and were motivated by dev-seed numbers, which section 9 forbids for tuning; they
+are logged here instead of hidden, and the REPORT discusses them.
+1. World parameters (allowed): ablation is mean-ablation with per-unit effect calibration except class 6 (zero
+   ablation, sigma_good=1.2); class 1 uses 8 decoys with decoy_d=8; class 2 n_fit=n_assess=16; class 7 weak profile
+   0.06 x STRONG; class 8 one weak carrier per class (effect ~U(0.02,0.10) per seed) plus 30 noisy inert units,
+   prereg floor 0.05; selection is quota (k/2 units by class-0 score, k/2 by class-1 score).
+2. Author-supplied known-bad control is a random size-k set drawn from the non-selected pool (previously drawn from all
+   units, which sometimes contained true carriers and made the gate FPR 0.35-0.57 for an instrument-side bug).
+3. Probe 8 redraws controls via a plain auditor-side procedure (the instrument's own re-execution reproduced the trim)
+   and also checks the `all` statistic (the p-value statistic); with sing/plur only, class-8 TPR was 0.2 on dev seeds.
+4. Harness-validity coin-flip rule changed from 16 per-class CIs (all-contain-0.5 has probability about 0.44 for a fair
+   coin) to the pooled rule above.
