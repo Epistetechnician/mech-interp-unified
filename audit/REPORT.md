@@ -37,7 +37,7 @@ Harness validity: always_pass TPR=FPR=0, always_flag TPR=FPR=1, coin_flip pooled
   PARTIAL on device/dtype (0.84), selection leakage (0.80), and PARTIAL+NOISY on saturated metric (FPR 0.10) and control
   omission (FPR 0.23). N/A on class 5.
 - **No auditor DETECTS all 8**: negative for the combined statement "an auditor available here catches broken instruments".
-  The union of A1-A3 covers 4 of 8 classes at the DETECTS bar (A3's three plus none new from A1/A2).
+  The union of A1-A3 covers 3 of 8 classes at the DETECTS bar (A3's three; A1 and A2 add none).
 - A3 was written after the flaw list and has one probe per class, so its TPR here is an upper bound on its general ability.
   It is a reference point, not evidence that the problem is solved.
 
@@ -123,8 +123,7 @@ Decision: {'probe_battery': 'partially_robust', 'rules_gate': 'broken'}
 - **Selection leakage, hidden variant (A3 TPR 0.59)**: probes 4/5 only run when the claim is `Supported`; 81 of 200 leaky
   instruments honestly claimed `NoCandidate`, and a flawed instrument whose conclusion happens to be negative is not
   detected. The visible variant (overlapping ids in provenance) is caught 200/200 by a set intersection.
-  Of the 319/400 leaky instruments that claimed support, probes caught all of them (TPR on wrong claims 0.80 is over all 400
-  flawed cases; see the JSON `tpr_claim_wrong`, which counts flawed cases whose claim is `Supported` against the rerun).
+  Hidden-variant TPR 0.59 = 119/200, exactly the leaky instruments whose claim was `Supported` and failed the fresh-assessment rerun.
 - **Device/dtype (0.84)**: dtype probe fires on 167/200; near-tied worlds where float16 rounding happens not to flip the
   selected set are missed. One rules-gate FLAG on a bad case is a chance exceedance of the known-bad control.
 - **Control omission**: probe 8 (auditor-side control redraw) flags 200/200 trimmed instruments, but FPR is 0.23, all from probe 5
@@ -143,9 +142,7 @@ the instrument's configuration space for a `Supported` claim resting on mostly n
 Results above: **A1 broken** (50/50 for both adversaries, median 5 / 17.5 queries); **A3 not broken** in this space (random 1/50,
 gray-box 4/50 [0.02, 0.16], decision "partially robust"; all A1-beating configurations were flagged by A3, transfer 1.0, while
 A3-beating configurations were passed by A1, transfer 0.0). Caveats: the adversary writes the preregistration, so A1's frozen
-floor is whatever it registers; the gray-box adversary sees A3's fired-check count; the knob space is small and hand-built; the
-successful A3 configurations all used hidden train/assess overlap together with a top-decile metric, i.e. a combination the probes
-cover only through the fresh-assessment check and happened to miss on 5 of 100 searches. Some knob settings (n_fit_use=2) produce
+floor is whatever it registers; the gray-box adversary sees A3's fired-check count; the knob space is small and hand-built; the two A3-beating configurations inspected (stored in the JSON) both combined `assess=fit` with hidden overlap logging and a top-decile applied metric, which the probes cover only through the shuffled-readout and fresh-assessment checks. Some knob settings (n_fit_use=2) produce
 empty classes and NaN effects; those count as adversary failures. The LLM-agent condition (C1) was **not run**.
 
 ## What the audit still misses
