@@ -1,0 +1,2336 @@
+{
+ "auditors": {
+  "always_flag": {
+   "_digest": "51fdb0a7b76c2e9f7edb9c5a76dc65a2c105d40ea5f76059c729693f956a79c9",
+   "control_omission": {
+    "fpr": {
+     "boot_ci": [
+      1.0,
+      1.0
+     ],
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "wilson_ci": [
+      0.9811546733310369,
+      0.9999999999999999
+     ]
+    },
+    "label": "PARTIAL+NOISY",
+    "n_na": 0,
+    "per_variant": {
+     "trim5pct": {
+      "fpr": 1.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 1.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      1.0,
+      1.0
+     ],
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "wilson_ci": [
+      0.9811546733310369,
+      0.9999999999999999
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 10,
+     "n": 10,
+     "rate": 1.0
+    }
+   },
+   "device_dtype_selection": {
+    "fpr": {
+     "boot_ci": [
+      1.0,
+      1.0
+     ],
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "wilson_ci": [
+      0.9811546733310369,
+      0.9999999999999999
+     ]
+    },
+    "label": "PARTIAL+NOISY",
+    "n_na": 0,
+    "per_variant": {
+     "near_ties": {
+      "fpr": 1.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 1.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      1.0,
+      1.0
+     ],
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "wilson_ci": [
+      0.9811546733310369,
+      0.9999999999999999
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   },
+   "label_independent_effect": {
+    "fpr": {
+     "boot_ci": [
+      1.0,
+      1.0
+     ],
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "wilson_ci": [
+      0.9811546733310369,
+      0.9999999999999999
+     ]
+    },
+    "label": "PARTIAL+NOISY",
+    "n_na": 0,
+    "per_variant": {
+     "decoy": {
+      "fpr": 1.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 1.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      1.0,
+      1.0
+     ],
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "wilson_ci": [
+      0.9811546733310369,
+      0.9999999999999999
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0
+    }
+   },
+   "planted_superposition": {
+    "fpr": {
+     "boot_ci": [
+      1.0,
+      1.0
+     ],
+     "k": 400,
+     "n": 400,
+     "rate": 1.0,
+     "wilson_ci": [
+      0.9904877055170676,
+      1.0
+     ]
+    },
+    "label": "PARTIAL+NOISY",
+    "n_na": 0,
+    "per_variant": {
+     "diffuse": {
+      "fpr": 1.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 1.0
+     },
+     "pairs": {
+      "fpr": 1.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 1.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      1.0,
+      1.0
+     ],
+     "k": 400,
+     "n": 400,
+     "rate": 1.0,
+     "wilson_ci": [
+      0.9904877055170676,
+      1.0
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   },
+   "post_hoc_criterion_change": {
+    "fpr": {
+     "boot_ci": [
+      1.0,
+      1.0
+     ],
+     "k": 400,
+     "n": 400,
+     "rate": 1.0,
+     "wilson_ci": [
+      0.9904877055170676,
+      1.0
+     ]
+    },
+    "label": "PARTIAL+NOISY",
+    "n_na": 0,
+    "per_variant": {
+     "relax_floor": {
+      "fpr": 1.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 1.0
+     },
+     "switch_metric": {
+      "fpr": 1.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 1.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      1.0,
+      1.0
+     ],
+     "k": 400,
+     "n": 400,
+     "rate": 1.0,
+     "wilson_ci": [
+      0.9904877055170676,
+      1.0
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 400,
+     "n": 400,
+     "rate": 1.0
+    }
+   },
+   "representation_relative_identity": {
+    "fpr": {
+     "boot_ci": [
+      1.0,
+      1.0
+     ],
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "wilson_ci": [
+      0.9811546733310369,
+      0.9999999999999999
+     ]
+    },
+    "label": "PARTIAL+NOISY",
+    "n_na": 0,
+    "per_variant": {
+     "weight_norm": {
+      "fpr": 1.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 1.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      1.0,
+      1.0
+     ],
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "wilson_ci": [
+      0.9811546733310369,
+      0.9999999999999999
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   },
+   "saturated_behavior_metric": {
+    "fpr": {
+     "boot_ci": [
+      1.0,
+      1.0
+     ],
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "wilson_ci": [
+      0.9811546733310369,
+      0.9999999999999999
+     ]
+    },
+    "label": "PARTIAL+NOISY",
+    "n_na": 0,
+    "per_variant": {
+     "accuracy_ceiling": {
+      "fpr": 1.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 1.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      1.0,
+      1.0
+     ],
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "wilson_ci": [
+      0.9811546733310369,
+      0.9999999999999999
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0
+    }
+   },
+   "selection_leakage": {
+    "fpr": {
+     "boot_ci": [
+      1.0,
+      1.0
+     ],
+     "k": 400,
+     "n": 400,
+     "rate": 1.0,
+     "wilson_ci": [
+      0.9904877055170676,
+      1.0
+     ]
+    },
+    "label": "PARTIAL+NOISY",
+    "n_na": 0,
+    "per_variant": {
+     "hidden": {
+      "fpr": 1.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 1.0
+     },
+     "visible": {
+      "fpr": 1.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 1.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      1.0,
+      1.0
+     ],
+     "k": 400,
+     "n": 400,
+     "rate": 1.0,
+     "wilson_ci": [
+      0.9904877055170676,
+      1.0
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 400,
+     "n": 400,
+     "rate": 1.0
+    }
+   }
+  },
+  "always_pass": {
+   "_digest": "aa7f2bfc999019289baec381ac02fd738ba7824b9e26818c8d47f89af7f52f5e",
+   "control_omission": {
+    "fpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.018845326668962936
+     ]
+    },
+    "label": "BLIND",
+    "n_na": 0,
+    "per_variant": {
+     "trim5pct": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.018845326668962936
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0
+    }
+   },
+   "device_dtype_selection": {
+    "fpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.018845326668962936
+     ]
+    },
+    "label": "BLIND",
+    "n_na": 0,
+    "per_variant": {
+     "near_ties": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.018845326668962936
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   },
+   "label_independent_effect": {
+    "fpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.018845326668962936
+     ]
+    },
+    "label": "BLIND",
+    "n_na": 0,
+    "per_variant": {
+     "decoy": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.018845326668962936
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 200,
+     "rate": 0.0
+    }
+   },
+   "planted_superposition": {
+    "fpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 400,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.009512294482932589
+     ]
+    },
+    "label": "BLIND",
+    "n_na": 0,
+    "per_variant": {
+     "diffuse": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.0
+     },
+     "pairs": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 400,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.009512294482932589
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   },
+   "post_hoc_criterion_change": {
+    "fpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 400,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.009512294482932589
+     ]
+    },
+    "label": "BLIND",
+    "n_na": 0,
+    "per_variant": {
+     "relax_floor": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.0
+     },
+     "switch_metric": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 400,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.009512294482932589
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 400,
+     "rate": 0.0
+    }
+   },
+   "representation_relative_identity": {
+    "fpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.018845326668962936
+     ]
+    },
+    "label": "BLIND",
+    "n_na": 0,
+    "per_variant": {
+     "weight_norm": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.018845326668962936
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   },
+   "saturated_behavior_metric": {
+    "fpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.018845326668962936
+     ]
+    },
+    "label": "BLIND",
+    "n_na": 0,
+    "per_variant": {
+     "accuracy_ceiling": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.018845326668962936
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 200,
+     "rate": 0.0
+    }
+   },
+   "selection_leakage": {
+    "fpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 400,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.009512294482932589
+     ]
+    },
+    "label": "BLIND",
+    "n_na": 0,
+    "per_variant": {
+     "hidden": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.0
+     },
+     "visible": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 400,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.009512294482932589
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 400,
+     "rate": 0.0
+    }
+   }
+  },
+  "coin_flip": {
+   "_digest": "01d04aca11f23c6525fb4ad0719df034f76809e86bb33ec3b9f3c59fd2eec1fe",
+   "control_omission": {
+    "fpr": {
+     "boot_ci": [
+      0.455,
+      0.595
+     ],
+     "k": 105,
+     "n": 200,
+     "rate": 0.525,
+     "wilson_ci": [
+      0.45597395960896836,
+      0.5930837740575835
+     ]
+    },
+    "label": "PARTIAL+NOISY",
+    "n_na": 0,
+    "per_variant": {
+     "trim5pct": {
+      "fpr": 0.525,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.475
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.405,
+      0.545
+     ],
+     "k": 95,
+     "n": 200,
+     "rate": 0.475,
+     "wilson_ci": [
+      0.40691622594241644,
+      0.5440260403910316
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 4,
+     "n": 10,
+     "rate": 0.4
+    }
+   },
+   "device_dtype_selection": {
+    "fpr": {
+     "boot_ci": [
+      0.42,
+      0.555
+     ],
+     "k": 97,
+     "n": 200,
+     "rate": 0.485,
+     "wilson_ci": [
+      0.4166738511921625,
+      0.5538915086079063
+     ]
+    },
+    "label": "PARTIAL+NOISY",
+    "n_na": 0,
+    "per_variant": {
+     "near_ties": {
+      "fpr": 0.485,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.505
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.435,
+      0.575
+     ],
+     "k": 101,
+     "n": 200,
+     "rate": 0.505,
+     "wilson_ci": [
+      0.4362699998026278,
+      0.5735415469306826
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   },
+   "label_independent_effect": {
+    "fpr": {
+     "boot_ci": [
+      0.445,
+      0.585
+     ],
+     "k": 103,
+     "n": 200,
+     "rate": 0.515,
+     "wilson_ci": [
+      0.44610849139209363,
+      0.5833261488078374
+     ]
+    },
+    "label": "PARTIAL+NOISY",
+    "n_na": 0,
+    "per_variant": {
+     "decoy": {
+      "fpr": 0.515,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.46
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.39,
+      0.53
+     ],
+     "k": 92,
+     "n": 200,
+     "rate": 0.46,
+     "wilson_ci": [
+      0.39233051748177505,
+      0.529177108651742
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 92,
+     "n": 200,
+     "rate": 0.46
+    }
+   },
+   "planted_superposition": {
+    "fpr": {
+     "boot_ci": [
+      0.4725,
+      0.5725
+     ],
+     "k": 209,
+     "n": 400,
+     "rate": 0.5225,
+     "wilson_ci": [
+      0.47356940710507367,
+      0.5710025396431943
+     ]
+    },
+    "label": "PARTIAL+NOISY",
+    "n_na": 0,
+    "per_variant": {
+     "diffuse": {
+      "fpr": 0.525,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.545
+     },
+     "pairs": {
+      "fpr": 0.52,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.485
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.4675,
+      0.5625
+     ],
+     "k": 206,
+     "n": 400,
+     "rate": 0.515,
+     "wilson_ci": [
+      0.46611355994865034,
+      0.5636010712168618
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   },
+   "post_hoc_criterion_change": {
+    "fpr": {
+     "boot_ci": [
+      0.4125,
+      0.5125
+     ],
+     "k": 185,
+     "n": 400,
+     "rate": 0.4625,
+     "wilson_ci": [
+      0.4142272528990509,
+      0.5114861691871692
+     ]
+    },
+    "label": "PARTIAL+NOISY",
+    "n_na": 0,
+    "per_variant": {
+     "relax_floor": {
+      "fpr": 0.475,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.54
+     },
+     "switch_metric": {
+      "fpr": 0.45,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.495
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.47,
+      0.5675
+     ],
+     "k": 207,
+     "n": 400,
+     "rate": 0.5175,
+     "wilson_ci": [
+      0.4685976323598288,
+      0.5660694373332684
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 207,
+     "n": 400,
+     "rate": 0.5175
+    }
+   },
+   "representation_relative_identity": {
+    "fpr": {
+     "boot_ci": [
+      0.435,
+      0.575
+     ],
+     "k": 101,
+     "n": 200,
+     "rate": 0.505,
+     "wilson_ci": [
+      0.4362699998026278,
+      0.5735415469306826
+     ]
+    },
+    "label": "PARTIAL+NOISY",
+    "n_na": 0,
+    "per_variant": {
+     "weight_norm": {
+      "fpr": 0.505,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.45
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.38,
+      0.52
+     ],
+     "k": 90,
+     "n": 200,
+     "rate": 0.45,
+     "wilson_ci": [
+      0.38264068350836655,
+      0.5192438491585296
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   },
+   "saturated_behavior_metric": {
+    "fpr": {
+     "boot_ci": [
+      0.405,
+      0.545
+     ],
+     "k": 95,
+     "n": 200,
+     "rate": 0.475,
+     "wilson_ci": [
+      0.40691622594241644,
+      0.5440260403910316
+     ]
+    },
+    "label": "PARTIAL+NOISY",
+    "n_na": 0,
+    "per_variant": {
+     "accuracy_ceiling": {
+      "fpr": 0.475,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.425
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.36,
+      0.495
+     ],
+     "k": 85,
+     "n": 200,
+     "rate": 0.425,
+     "wilson_ci": [
+      0.3585361249314706,
+      0.4942906740688737
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 85,
+     "n": 200,
+     "rate": 0.425
+    }
+   },
+   "selection_leakage": {
+    "fpr": {
+     "boot_ci": [
+      0.4325,
+      0.53
+     ],
+     "k": 193,
+     "n": 400,
+     "rate": 0.4825,
+     "wilson_ci": [
+      0.4339305626667315,
+      0.5314023676401711
+     ]
+    },
+    "label": "PARTIAL+NOISY",
+    "n_na": 0,
+    "per_variant": {
+     "hidden": {
+      "fpr": 0.475,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.525
+     },
+     "visible": {
+      "fpr": 0.49,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.475
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.45,
+      0.5475
+     ],
+     "k": 200,
+     "n": 400,
+     "rate": 0.5,
+     "wilson_ci": [
+      0.451234503788712,
+      0.548765496211288
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 200,
+     "n": 400,
+     "rate": 0.5
+    }
+   }
+  },
+  "probe_battery": {
+   "_digest": "3f22c584ad9aca5cfd465b7797bd2a62972fcb179ac109ac0f777562d329c284",
+   "control_omission": {
+    "fpr": {
+     "boot_ci": [
+      0.175,
+      0.29
+     ],
+     "k": 46,
+     "n": 200,
+     "rate": 0.23,
+     "wilson_ci": [
+      0.1770934322171564,
+      0.2930830441840836
+     ]
+    },
+    "label": "PARTIAL+NOISY",
+    "n_na": 0,
+    "per_variant": {
+     "trim5pct": {
+      "fpr": 0.23,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 1.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      1.0,
+      1.0
+     ],
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "wilson_ci": [
+      0.9811546733310369,
+      0.9999999999999999
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 10,
+     "n": 10,
+     "rate": 1.0
+    }
+   },
+   "device_dtype_selection": {
+    "fpr": {
+     "boot_ci": [
+      0.0,
+      0.015
+     ],
+     "k": 1,
+     "n": 200,
+     "rate": 0.005,
+     "wilson_ci": [
+      0.0008831687058453754,
+      0.02777370469642793
+     ]
+    },
+    "label": "PARTIAL",
+    "n_na": 0,
+    "per_variant": {
+     "near_ties": {
+      "fpr": 0.005,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.84
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.79,
+      0.89
+     ],
+     "k": 168,
+     "n": 200,
+     "rate": 0.84,
+     "wilson_ci": [
+      0.782859297881253,
+      0.884325879983852
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   },
+   "label_independent_effect": {
+    "fpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.018845326668962936
+     ]
+    },
+    "label": "DETECTS",
+    "n_na": 0,
+    "per_variant": {
+     "decoy": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 1.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      1.0,
+      1.0
+     ],
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "wilson_ci": [
+      0.9811546733310369,
+      0.9999999999999999
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0
+    }
+   },
+   "planted_superposition": {
+    "fpr": {
+     "boot_ci": [
+      NaN,
+      NaN
+     ],
+     "k": 0,
+     "n": 0,
+     "rate": NaN,
+     "wilson_ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "label": "N/A",
+    "n_na": 800,
+    "per_variant": {
+     "diffuse": {
+      "fpr": null,
+      "n_bad": 0,
+      "n_good": 0,
+      "tpr": null
+     },
+     "pairs": {
+      "fpr": null,
+      "n_bad": 0,
+      "n_good": 0,
+      "tpr": null
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      NaN,
+      NaN
+     ],
+     "k": 0,
+     "n": 0,
+     "rate": NaN,
+     "wilson_ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   },
+   "post_hoc_criterion_change": {
+    "fpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 400,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.009512294482932589
+     ]
+    },
+    "label": "DETECTS",
+    "n_na": 0,
+    "per_variant": {
+     "relax_floor": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 1.0
+     },
+     "switch_metric": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 1.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      1.0,
+      1.0
+     ],
+     "k": 400,
+     "n": 400,
+     "rate": 1.0,
+     "wilson_ci": [
+      0.9904877055170676,
+      1.0
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 400,
+     "n": 400,
+     "rate": 1.0
+    }
+   },
+   "representation_relative_identity": {
+    "fpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.018845326668962936
+     ]
+    },
+    "label": "DETECTS",
+    "n_na": 0,
+    "per_variant": {
+     "weight_norm": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 1.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      1.0,
+      1.0
+     ],
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "wilson_ci": [
+      0.9811546733310369,
+      0.9999999999999999
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   },
+   "saturated_behavior_metric": {
+    "fpr": {
+     "boot_ci": [
+      0.06,
+      0.145
+     ],
+     "k": 20,
+     "n": 200,
+     "rate": 0.1,
+     "wilson_ci": [
+      0.06567044845124734,
+      0.14940581288392302
+     ]
+    },
+    "label": "PARTIAL+NOISY",
+    "n_na": 0,
+    "per_variant": {
+     "accuracy_ceiling": {
+      "fpr": 0.1,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 1.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      1.0,
+      1.0
+     ],
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "wilson_ci": [
+      0.9811546733310369,
+      0.9999999999999999
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0
+    }
+   },
+   "selection_leakage": {
+    "fpr": {
+     "boot_ci": [
+      0.0,
+      0.0175
+     ],
+     "k": 3,
+     "n": 400,
+     "rate": 0.0075,
+     "wilson_ci": [
+      0.00255388917540412,
+      0.021815720890284482
+     ]
+    },
+    "label": "PARTIAL",
+    "n_na": 0,
+    "per_variant": {
+     "hidden": {
+      "fpr": 0.015,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.595
+     },
+     "visible": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 1.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.765,
+      0.83
+     ],
+     "k": 319,
+     "n": 400,
+     "rate": 0.7975,
+     "wilson_ci": [
+      0.7553739795526928,
+      0.8339662052299623
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 319,
+     "n": 400,
+     "rate": 0.7975
+    }
+   }
+  },
+  "r5b_audit": {
+   "_digest": "6b62858bd11680bc051d76b4e61406443bc6cdb70cb7deee8e37525cbcbb73e8",
+   "control_omission": {
+    "fpr": {
+     "boot_ci": [
+      NaN,
+      NaN
+     ],
+     "k": 0,
+     "n": 0,
+     "rate": NaN,
+     "wilson_ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "label": "N/A",
+    "n_na": 400,
+    "per_variant": {
+     "trim5pct": {
+      "fpr": null,
+      "n_bad": 0,
+      "n_good": 0,
+      "tpr": null
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      NaN,
+      NaN
+     ],
+     "k": 0,
+     "n": 0,
+     "rate": NaN,
+     "wilson_ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   },
+   "device_dtype_selection": {
+    "fpr": {
+     "boot_ci": [
+      NaN,
+      NaN
+     ],
+     "k": 0,
+     "n": 0,
+     "rate": NaN,
+     "wilson_ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "label": "N/A",
+    "n_na": 400,
+    "per_variant": {
+     "near_ties": {
+      "fpr": null,
+      "n_bad": 0,
+      "n_good": 0,
+      "tpr": null
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      NaN,
+      NaN
+     ],
+     "k": 0,
+     "n": 0,
+     "rate": NaN,
+     "wilson_ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   },
+   "label_independent_effect": {
+    "fpr": {
+     "boot_ci": [
+      NaN,
+      NaN
+     ],
+     "k": 0,
+     "n": 0,
+     "rate": NaN,
+     "wilson_ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "label": "N/A",
+    "n_na": 400,
+    "per_variant": {
+     "decoy": {
+      "fpr": null,
+      "n_bad": 0,
+      "n_good": 0,
+      "tpr": null
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      NaN,
+      NaN
+     ],
+     "k": 0,
+     "n": 0,
+     "rate": NaN,
+     "wilson_ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   },
+   "planted_superposition": {
+    "fpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 400,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.009512294482932589
+     ]
+    },
+    "label": "PARTIAL",
+    "n_na": 0,
+    "per_variant": {
+     "diffuse": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.3
+     },
+     "pairs": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 1.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.6175,
+      0.6825
+     ],
+     "k": 260,
+     "n": 400,
+     "rate": 0.65,
+     "wilson_ci": [
+      0.6020319603212178,
+      0.6951143513339025
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   },
+   "post_hoc_criterion_change": {
+    "fpr": {
+     "boot_ci": [
+      NaN,
+      NaN
+     ],
+     "k": 0,
+     "n": 0,
+     "rate": NaN,
+     "wilson_ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "label": "N/A",
+    "n_na": 800,
+    "per_variant": {
+     "relax_floor": {
+      "fpr": null,
+      "n_bad": 0,
+      "n_good": 0,
+      "tpr": null
+     },
+     "switch_metric": {
+      "fpr": null,
+      "n_bad": 0,
+      "n_good": 0,
+      "tpr": null
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      NaN,
+      NaN
+     ],
+     "k": 0,
+     "n": 0,
+     "rate": NaN,
+     "wilson_ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   },
+   "representation_relative_identity": {
+    "fpr": {
+     "boot_ci": [
+      NaN,
+      NaN
+     ],
+     "k": 0,
+     "n": 0,
+     "rate": NaN,
+     "wilson_ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "label": "N/A",
+    "n_na": 400,
+    "per_variant": {
+     "weight_norm": {
+      "fpr": null,
+      "n_bad": 0,
+      "n_good": 0,
+      "tpr": null
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      NaN,
+      NaN
+     ],
+     "k": 0,
+     "n": 0,
+     "rate": NaN,
+     "wilson_ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   },
+   "saturated_behavior_metric": {
+    "fpr": {
+     "boot_ci": [
+      NaN,
+      NaN
+     ],
+     "k": 0,
+     "n": 0,
+     "rate": NaN,
+     "wilson_ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "label": "N/A",
+    "n_na": 400,
+    "per_variant": {
+     "accuracy_ceiling": {
+      "fpr": null,
+      "n_bad": 0,
+      "n_good": 0,
+      "tpr": null
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      NaN,
+      NaN
+     ],
+     "k": 0,
+     "n": 0,
+     "rate": NaN,
+     "wilson_ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   },
+   "selection_leakage": {
+    "fpr": {
+     "boot_ci": [
+      NaN,
+      NaN
+     ],
+     "k": 0,
+     "n": 0,
+     "rate": NaN,
+     "wilson_ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "label": "N/A",
+    "n_na": 800,
+    "per_variant": {
+     "hidden": {
+      "fpr": null,
+      "n_bad": 0,
+      "n_good": 0,
+      "tpr": null
+     },
+     "visible": {
+      "fpr": null,
+      "n_bad": 0,
+      "n_good": 0,
+      "tpr": null
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      NaN,
+      NaN
+     ],
+     "k": 0,
+     "n": 0,
+     "rate": NaN,
+     "wilson_ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   }
+  },
+  "rules_gate": {
+   "_digest": "d6a411bc1687dea418aecf89cb5332c92ba068825e9dd83eb3c8ae2e9a890fcf",
+   "control_omission": {
+    "fpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.018845326668962936
+     ]
+    },
+    "label": "BLIND",
+    "n_na": 0,
+    "per_variant": {
+     "trim5pct": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.018845326668962936
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0
+    }
+   },
+   "device_dtype_selection": {
+    "fpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.018845326668962936
+     ]
+    },
+    "label": "BLIND",
+    "n_na": 0,
+    "per_variant": {
+     "near_ties": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.005
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.0,
+      0.015
+     ],
+     "k": 1,
+     "n": 200,
+     "rate": 0.005,
+     "wilson_ci": [
+      0.0008831687058453754,
+      0.02777370469642793
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   },
+   "label_independent_effect": {
+    "fpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.018845326668962936
+     ]
+    },
+    "label": "BLIND",
+    "n_na": 0,
+    "per_variant": {
+     "decoy": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.018845326668962936
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 200,
+     "rate": 0.0
+    }
+   },
+   "planted_superposition": {
+    "fpr": {
+     "boot_ci": [
+      NaN,
+      NaN
+     ],
+     "k": 0,
+     "n": 0,
+     "rate": NaN,
+     "wilson_ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "label": "N/A",
+    "n_na": 800,
+    "per_variant": {
+     "diffuse": {
+      "fpr": null,
+      "n_bad": 0,
+      "n_good": 0,
+      "tpr": null
+     },
+     "pairs": {
+      "fpr": null,
+      "n_bad": 0,
+      "n_good": 0,
+      "tpr": null
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      NaN,
+      NaN
+     ],
+     "k": 0,
+     "n": 0,
+     "rate": NaN,
+     "wilson_ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   },
+   "post_hoc_criterion_change": {
+    "fpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 400,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.009512294482932589
+     ]
+    },
+    "label": "PARTIAL",
+    "n_na": 0,
+    "per_variant": {
+     "relax_floor": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 1.0
+     },
+     "switch_metric": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.5,
+      0.5
+     ],
+     "k": 200,
+     "n": 400,
+     "rate": 0.5,
+     "wilson_ci": [
+      0.451234503788712,
+      0.548765496211288
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 200,
+     "n": 400,
+     "rate": 0.5
+    }
+   },
+   "representation_relative_identity": {
+    "fpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.018845326668962936
+     ]
+    },
+    "label": "BLIND",
+    "n_na": 0,
+    "per_variant": {
+     "weight_norm": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.018845326668962936
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 0,
+     "rate": null
+    }
+   },
+   "saturated_behavior_metric": {
+    "fpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.018845326668962936
+     ]
+    },
+    "label": "BLIND",
+    "n_na": 0,
+    "per_variant": {
+     "accuracy_ceiling": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.018845326668962936
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 200,
+     "rate": 0.0
+    }
+   },
+   "selection_leakage": {
+    "fpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 400,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.009512294482932589
+     ]
+    },
+    "label": "BLIND",
+    "n_na": 0,
+    "per_variant": {
+     "hidden": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.0
+     },
+     "visible": {
+      "fpr": 0.0,
+      "n_bad": 200,
+      "n_good": 200,
+      "tpr": 0.0
+     }
+    },
+    "tpr": {
+     "boot_ci": [
+      0.0,
+      0.0
+     ],
+     "k": 0,
+     "n": 400,
+     "rate": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.009512294482932589
+     ]
+    },
+    "tpr_claim_wrong": {
+     "k": 0,
+     "n": 400,
+     "rate": 0.0
+    }
+   }
+  }
+ },
+ "decisions": {
+  "no_single_auditor_covers_all_8": true,
+  "probe_battery_detects": [
+   "label_independent_effect",
+   "representation_relative_identity",
+   "post_hoc_criterion_change"
+  ],
+  "r5b_detects": [],
+  "r5b_negative": true,
+  "rules_gate_detects": [],
+  "rules_gate_negative": true
+ },
+ "fired_checks": {
+  "probe_battery/control_omission/trim5pct/bad": {
+   "4_shuffled_readout": 2,
+   "5_fresh_assess": 35,
+   "8_control_redraw": 200
+  },
+  "probe_battery/control_omission/trim5pct/good": {
+   "5_fresh_assess": 46
+  },
+  "probe_battery/device_dtype_selection/near_ties/bad": {
+   "1_rules_gate": 1,
+   "6_dtype_stability": 167
+  },
+  "probe_battery/device_dtype_selection/near_ties/good": {
+   "8_control_redraw": 1
+  },
+  "probe_battery/label_independent_effect/decoy/bad": {
+   "4_shuffled_readout": 200
+  },
+  "probe_battery/post_hoc_criterion_change/relax_floor/bad": {
+   "10_prereg_rerun": 200,
+   "1_rules_gate": 200,
+   "2_prereg_consistency": 200
+  },
+  "probe_battery/post_hoc_criterion_change/switch_metric/bad": {
+   "10_prereg_rerun": 200,
+   "4_shuffled_readout": 200
+  },
+  "probe_battery/representation_relative_identity/weight_norm/bad": {
+   "6_dtype_stability": 199,
+   "7_equivariance": 198,
+   "8_control_redraw": 1
+  },
+  "probe_battery/saturated_behavior_metric/accuracy_ceiling/bad": {
+   "9_headroom": 200
+  },
+  "probe_battery/saturated_behavior_metric/accuracy_ceiling/good": {
+   "5_fresh_assess": 20
+  },
+  "probe_battery/selection_leakage/hidden/bad": {
+   "4_shuffled_readout": 23,
+   "5_fresh_assess": 119
+  },
+  "probe_battery/selection_leakage/hidden/good": {
+   "5_fresh_assess": 1,
+   "8_control_redraw": 2
+  },
+  "probe_battery/selection_leakage/visible/bad": {
+   "3_split_overlap": 200,
+   "4_shuffled_readout": 26,
+   "5_fresh_assess": 122
+  },
+  "rules_gate/device_dtype_selection/near_ties/bad": {
+   "known_bad_control_supported": 1
+  },
+  "rules_gate/post_hoc_criterion_change/relax_floor/bad": {
+   "verdict_mismatch": 200
+  }
+ },
+ "harness_validity": {
+  "always_flag_one": true,
+  "always_pass_zero": true,
+  "coin_flip_contains_half": true,
+  "valid": true
+ },
+ "instrument_claims": {
+  "control_omission/trim5pct/bad": {
+   "NoCandidate": 77,
+   "Supported": 123
+  },
+  "control_omission/trim5pct/good": {
+   "NoCandidate": 89,
+   "Supported": 111
+  },
+  "device_dtype_selection/near_ties/bad": {
+   "Supported": 200
+  },
+  "device_dtype_selection/near_ties/good": {
+   "Supported": 200
+  },
+  "label_independent_effect/decoy/bad": {
+   "Supported": 200
+  },
+  "label_independent_effect/decoy/good": {
+   "Supported": 200
+  },
+  "post_hoc_criterion_change/relax_floor/bad": {
+   "Supported": 200
+  },
+  "post_hoc_criterion_change/relax_floor/good": {
+   "NoCandidate": 200
+  },
+  "post_hoc_criterion_change/switch_metric/bad": {
+   "Supported": 200
+  },
+  "post_hoc_criterion_change/switch_metric/good": {
+   "NoCandidate": 200
+  },
+  "representation_relative_identity/weight_norm/bad": {
+   "Supported": 200
+  },
+  "representation_relative_identity/weight_norm/good": {
+   "Supported": 200
+  },
+  "saturated_behavior_metric/accuracy_ceiling/bad": {
+   "NoCandidate": 200
+  },
+  "saturated_behavior_metric/accuracy_ceiling/good": {
+   "NoCandidate": 157,
+   "Supported": 43
+  },
+  "selection_leakage/hidden/bad": {
+   "NoCandidate": 81,
+   "Supported": 119
+  },
+  "selection_leakage/hidden/good": {
+   "NoCandidate": 199,
+   "Supported": 1
+  },
+  "selection_leakage/visible/bad": {
+   "NoCandidate": 77,
+   "Supported": 123
+  },
+  "selection_leakage/visible/good": {
+   "NoCandidate": 200
+  }
+ },
+ "n_seeds": 200,
+ "runtime_s": 195.0,
+ "seed0": 0
+}
