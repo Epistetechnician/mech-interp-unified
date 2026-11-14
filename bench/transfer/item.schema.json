@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "f1-transfer-bench-item-v1",
+  "title": "F1 mechanism-transfer bench item",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "cluster_id", "claim", "model", "size", "size_b", "device", "dtype", "checkpoint", "corpus",
+               "instrument_gate_status", "base", "transfer", "label", "label_rule", "label_reason",
+               "label_inputs", "evidence", "ceiling", "notes"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"},
+    "cluster_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$"},
+    "claim": {
+      "type": "object", "additionalProperties": false, "required": ["text", "family"],
+      "properties": {
+        "text": {"type": "string", "minLength": 10},
+        "family": {"enum": ["neuron_ablation_effect", "class_swap_sufficiency", "donor_patch_sufficiency",
+                            "unit_selection_stability", "affine_replacement_prediction", "task_transfer",
+                            "offshoot_growth", "route_bypass", "instrument_gate"]}
+      }
+    },
+    "model": {"type": "string"},
+    "size": {"type": "string"},
+    "size_b": {"type": ["number", "null"]},
+    "device": {"type": "string"},
+    "dtype": {"type": "string"},
+    "checkpoint": {"type": "string"},
+    "corpus": {"type": "string"},
+    "instrument_gate_status": {"type": "string"},
+    "base": {
+      "type": "object", "additionalProperties": false, "required": ["run_id", "verdict", "verdict_class"],
+      "properties": {
+        "run_id": {"type": "string"},
+        "verdict": {"type": "string"},
+        "verdict_class": {"enum": ["supported", "not_supported", "inconclusive"]}
+      }
+    },
+    "transfer": {
+      "type": "object", "additionalProperties": false,
+      "required": ["run_id", "model", "size", "size_b", "device", "dtype", "checkpoint", "corpus",
+                   "instrument_gate_status", "axes_changed", "confounds", "arm_status", "verdict"],
+      "properties": {
+        "run_id": {"type": ["string", "null"]},
+        "model": {"type": "string"},
+        "size": {"type": "string"},
+        "size_b": {"type": ["number", "null"]},
+        "device": {"type": "string"},
+        "dtype": {"type": "string"},
+        "checkpoint": {"type": "string"},
+        "corpus": {"type": "string"},
+        "instrument_gate_status": {"type": "string"},
+        "axes_changed": {"type": "array", "uniqueItems": true,
+                         "items": {"enum": ["scale", "device", "dtype", "checkpoint", "model_family", "corpus", "task"]}},
+        "confounds": {"type": "array", "items": {"type": "string"}},
+        "arm_status": {"enum": ["completed", "completed_instrument_invalid", "closed_before_measurement",
+                                "inconclusive", "not_run"]},
+        "verdict": {"type": "string"}
+      }
+    },
+    "label": {"enum": ["replicated", "failed", "not_tested"]},
+    "label_rule": {"type": "string", "pattern": "^L[0-5](:[A-Za-z0-9._-]+)?$"},
+    "label_reason": {"enum": ["rule_met", "rule_not_met", "no_arm_run", "arm_closed_before_measurement",
+                              "arm_inconclusive_by_source_rule", "instrument_invalid_no_rule",
+                              "base_not_established", "no_preregistered_rule"]},
+    "label_inputs": {"type": "object"},
+    "evidence": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["name", "role", "root", "file", "sha256", "kind", "pointer", "value"],
+        "properties": {
+          "name": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+          "role": {"enum": ["base", "transfer", "rule", "absence"]},
+          "root": {"enum": ["repo", "jspace", "zkbench"]},
+          "file": {"type": "string"},
+          "sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
+          "kind": {"enum": ["json_pointer", "regex", "absence_assertion"]},
+          "pointer": {"type": "string"},
+          "value": {}
+        }
+      }
+    },
+    "ceiling": {"enum": ["LocalDevelopmentUnreviewed", "OwnerSelfAttestedLocalDevelopment"]},
+    "notes": {"type": "string"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"label": {"const": "not_tested"}}},
+      "then": {"properties": {"label_reason": {"enum": ["no_arm_run", "arm_closed_before_measurement",
+                              "arm_inconclusive_by_source_rule", "instrument_invalid_no_rule",
+                              "base_not_established", "no_preregistered_rule"]}}}
+    },
+    {
+      "if": {"properties": {"label": {"const": "replicated"}}},
+      "then": {"properties": {"label_reason": {"const": "rule_met"}}}
+    },
+    {
+      "if": {"properties": {"label": {"const": "failed"}}},
+      "then": {"properties": {"label_reason": {"const": "rule_not_met"}}}
+    }
+  ]
+}
