@@ -13,7 +13,9 @@ Inherited discipline from the source repositories, restated for this repo.
    production claim without genuine independent review.
 4. Spend/network: no model or dataset download, no paid compute, no provider call
    without an owner-stated USD ceiling in chat, a recorded provider/node identity and an
-   allocation receipt before any paid action. No ceiling is currently granted.
+   allocation receipt before any paid action. Past ceilings and spend are recorded in
+   `docs/AUTHORIZATION.md` (latest: Addendum 10, USD 35.00 total for the R6 run only,
+   about 25.2 spent). No ceiling is granted for new work.
 5. Raw traces stay outside the repo in an owner-only (`0700`) root; commit digests and
    aggregates only. Delete raw traces within 72 hours.
 6. Instrument validity: every effect claim passes a null-calibrated known-bad control and
