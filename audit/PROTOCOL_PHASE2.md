@@ -83,4 +83,15 @@ Abort rules: runtime over 60 minutes, or the harness-validity check fails. Resul
 
 ## 7. Amendment log
 
-(Calibration values and any change made before the first evaluation run are recorded here with their commit.)
+Recorded before the first evaluation run, from development seeds 100000-100039, instrument claims only (no auditor
+was run on any Phase-2 case):
+1. Class 10 `eff = 0.08`. The STRONG world's full-ablation `sel.all` is 5.49 to 6.04 (median 5.72), all 40
+   `Supported`. At 0.08 the bad arm is `NoCandidate` in 40/40 and the good twin in 40/40; at 0.10 both arms flip
+   to `Supported`.
+2. Class 11 profile scale `0.075`: bad arm `Supported` in 23/40 (target 0.4 to 0.8), good arm 0/40. Scales tried:
+   0.06 (0/40), 0.065 (1/40), 0.07 (10/40), 0.075 (23/40), 0.08 (37/40), 0.09 and above (good arm also `Supported`).
+3. Class 9 has no calibration target. Observed on the same seeds, for information: the defect changes the claim in
+   a minority of seeds (`size` 25 `Supported` against 18 with standard controls, `pool` 30 against 21,
+   `condition` 18 against 19), so the section-5 "defect rarely changes the claim" note may apply to `condition`.
+4. Implementation note: `Probe.plain_controls` now disables every control-side defect (previously only trimming),
+   as section 4 states. Phase-1 results re-derive exactly (`python3 -m audit.verify`).

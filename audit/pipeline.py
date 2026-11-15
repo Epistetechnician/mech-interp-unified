@@ -30,6 +30,13 @@ class Spec:
     control_seed: int = 0
     shuffle_items: bool = False        # semantic no-op perturbation for good twins
     n_fit_use: Optional[int] = None    # use only the first n items of the fit split for selection
+    # --- Phase 2 (audit/PROTOCOL_PHASE2.md); defaults leave Phase-1 cases unchanged ---
+    ctrl_k: Optional[int] = None       # class 9 `size`: control sets of this size instead of k
+    ctrl_pool: str = "all"             # class 9 `pool`: 'lowscore' draws controls from the low-fit-score half
+    ctrl_cond: str = "same"            # class 9 `condition`: 'shuffled' computes control effects under a shuffled readout
+    abl_eff: float = 1.0               # class 10: fraction of each unit's contribution the intervention removes
+    best_of_m: int = 0                 # class 11: search up to m item subsets for a Supported verdict
+    subset_n: int = 64
 
 
 def _effect(metric: str, m: np.ndarray, A: np.ndarray, cls: np.ndarray) -> dict:
@@ -56,8 +63,9 @@ def _effect(metric: str, m: np.ndarray, A: np.ndarray, cls: np.ndarray) -> dict:
     return out
 
 
-def _masks(H: int, sel: np.ndarray, k: int, n: int, rng) -> np.ndarray:
-    pool = np.setdiff1d(np.arange(H), sel)
+def _masks(H: int, sel: np.ndarray, k: int, n: int, rng, pool=None) -> np.ndarray:
+    if pool is None:
+        pool = np.setdiff1d(np.arange(H), sel)
     M = np.zeros((H, n))
     for j in range(n):
         M[rng.choice(pool, size=k, replace=False), j] = 1.0
@@ -116,37 +124,59 @@ def run_pipeline(world, spec: Spec, probe: Optional[Probe] = None, perturb_rng=N
         selected = np.array(chosen)
 
     # --- assessment ---
-    s_eff = asm["s"]
-    if probe.shuffle_readout:
-        s_eff = np.random.default_rng(991).permutation(asm["s"])
-    Ca = net.contrib(asm, s_eff)
-    m = net.margin(asm, s_eff)
-    cls = asm["cls"]
-    A_sel = Ca[:, selected].sum(1)
-    sel = {k_: float(v) for k_, v in _effect(metric, m, A_sel, cls).items()}
-    H = Ca.shape[1]
     cseed = spec.control_seed if probe.control_seed is None else probe.control_seed
-    rng = np.random.default_rng(np.random.SeedSequence([cseed, 31337]))
-    # author-supplied known-bad control: a random size-k set drawn from the non-selected pool (same law as a control draw)
-    kb_set = rng.choice(np.setdiff1d(np.arange(H), selected), size=spec.k, replace=False)
-    kb = {k_: float(v) for k_, v in _effect(metric, m, Ca[:, kb_set].sum(1), cls).items()}
+    H = net.W1.shape[0]
+    defect = not probe.plain_controls      # the auditor's plain redraw never reproduces a control-side defect
 
-    ctrl = None
-    p_rep = float("nan")
-    claim = "NoCandidate"
-    if probe.need_controls:
-        M = _masks(H, selected, spec.k, spec.n_draws, rng)
-        ctrl = {k_: np.asarray(v) for k_, v in _effect(metric, m, Ca @ M, cls).items()}
-        if spec.trim > 0 and not probe.plain_controls:
-            n_drop = int(round(spec.trim * spec.n_draws))
-            order = np.argsort(-ctrl["all"], kind="stable")
-            drop, keep = order[:n_drop], order[n_drop:]
-            src = rng.choice(keep, size=n_drop, replace=True)
-            for k_ in ctrl:
-                ctrl[k_] = ctrl[k_].copy()
-                ctrl[k_][drop] = ctrl[k_][src]
-        p_rep = (1 + int((ctrl["all"] >= sel["all"]).sum())) / (1 + len(ctrl["all"]))
-        claim = verdict(sel, ctrl, floor)
+    def assess(items):
+        s_eff = items["s"]
+        if probe.shuffle_readout:
+            s_eff = np.random.default_rng(991).permutation(items["s"])
+        Ca = net.contrib(items, s_eff)
+        m = net.margin(items, s_eff)
+        if spec.abl_eff != 1.0:
+            Ca = spec.abl_eff * Ca
+        cls = items["cls"]
+        sel = {k_: float(v) for k_, v in _effect(metric, m, Ca[:, selected].sum(1), cls).items()}
+        rng = np.random.default_rng(np.random.SeedSequence([cseed, 31337]))
+        # author-supplied known-bad control: a random size-k set drawn from the non-selected pool (same law as a control draw)
+        kb_set = rng.choice(np.setdiff1d(np.arange(H), selected), size=spec.k, replace=False)
+        kb = {k_: float(v) for k_, v in _effect(metric, m, Ca[:, kb_set].sum(1), cls).items()}
+        ctrl, p_rep, claim = None, float("nan"), "NoCandidate"
+        if probe.need_controls:
+            k_c, pool, Cc, mc = spec.k, None, Ca, m
+            if defect and spec.ctrl_k:
+                k_c = spec.ctrl_k
+            if defect and spec.ctrl_pool == "lowscore":
+                rest = np.setdiff1d(np.arange(H), selected)
+                pool = rest[np.argsort(np.abs(Cf[:, rest]).mean(0), kind="stable")[: len(rest) // 2]]
+            if defect and spec.ctrl_cond == "shuffled":
+                s_sh = np.random.default_rng(np.random.SeedSequence([cseed, 4242])).permutation(items["s"])
+                Cc, mc = spec.abl_eff * net.contrib(items, s_sh), net.margin(items, s_sh)
+            M = _masks(H, selected, k_c, spec.n_draws, rng, pool)
+            ctrl = {k_: np.asarray(v) for k_, v in _effect(metric, mc, Cc @ M, cls).items()}
+            if spec.trim > 0 and defect:
+                n_drop = int(round(spec.trim * spec.n_draws))
+                order = np.argsort(-ctrl["all"], kind="stable")
+                drop, keep = order[:n_drop], order[n_drop:]
+                src = rng.choice(keep, size=n_drop, replace=True)
+                for k_ in ctrl:
+                    ctrl[k_] = ctrl[k_].copy()
+                    ctrl[k_][drop] = ctrl[k_][src]
+            p_rep = (1 + int((ctrl["all"] >= sel["all"]).sum())) / (1 + len(ctrl["all"]))
+            claim = verdict(sel, ctrl, floor)
+        return sel, ctrl, kb, p_rep, claim, m
+
+    if spec.best_of_m and probe.need_controls:
+        rs = np.random.default_rng(np.random.SeedSequence([cseed, 777]))
+        by_cls = [np.flatnonzero(asm["cls"] == c) for c in (0, 1)]
+        for _ in range(spec.best_of_m):
+            idx = np.concatenate([rs.choice(ix, size=spec.subset_n // 2, replace=False) for ix in by_cls])
+            sub = {k_: v[idx] for k_, v in asm.items()}
+            if assess(sub)[4] == "Supported":
+                asm, assess_ids = sub, np.asarray(assess_ids)[idx]
+                break
+    sel, ctrl, kb, p_rep, claim, m = assess(asm)
     base = float((m > 0).mean())
     prov = {
         "fit_ids": np.arange(n_fit),

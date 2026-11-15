@@ -28,6 +28,7 @@ def net_case(class_id: int, flaw_class: str, variant_id: int, variant: str, arm:
              seed=seed, flawed=(arm == "bad"), prereg=prereg, run=run, supports=ALL_PROBES,
              claim_correct=claim_correct)
     c.meta["world"] = world
+    c.meta["spec"] = spec
     return c
 
 
