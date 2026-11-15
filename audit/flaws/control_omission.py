@@ -7,7 +7,7 @@ from dataclasses import replace
 
 from ..core import Prereg, world_rng
 from ..pipeline import Spec, run_pipeline
-from ..worlds import STRONG, WorldCfg
+from ..worlds import WorldCfg
 from ._common import net_case
 
 CLASS_ID, NAME = 8, "control_omission"

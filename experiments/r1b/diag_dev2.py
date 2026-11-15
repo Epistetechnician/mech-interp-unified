@@ -23,7 +23,7 @@ def oracle_job(p):
         return "the token is exactly one of: " + ", ".join(repr(t) for t in spec)
     if k == "after":
         return f"the token that comes immediately after the token {spec!r}"
-    return (f"either the token is exactly one of: " + ", ".join(repr(t) for t in spec["set"]) +
+    return ("either the token is exactly one of: " + ", ".join(repr(t) for t in spec["set"]) +
             f"; or the token comes immediately after the token {spec['after']!r}")
 
 
