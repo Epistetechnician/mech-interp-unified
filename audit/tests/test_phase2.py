@@ -21,7 +21,8 @@ def test_plain_controls_remove_control_defects():
         bad, good = C.build("bad", v, DEV), C.build("good", v, DEV)
         rb = bad.run(Probe(control_seed=5, plain_controls=True))
         rg = good.run(Probe(control_seed=5, plain_controls=True))
-        assert (rb.ctrl["all"] == rg.ctrl["all"]).all()
+        # the good twin's item-order shuffle changes float summation order, so compare to rounding error
+        assert abs(rb.ctrl["all"] - rg.ctrl["all"]).max() < 1e-12
 
 
 def test_underpowered_bad_is_wrong_null():
