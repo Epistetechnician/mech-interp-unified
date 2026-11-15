@@ -368,7 +368,7 @@ theseus("theseus-v8-v28-fresh", cond("fresh OPT/ReLU, GPT-2/GELU, Llama/SiLU-gat
         [E("tgt_status", "transfer", "repo", f"{T}/replacement-loss-v28-results.md", R, r"\*\*Outcome: `([A-Z_]+)`\. Assurance"),
          E("case_level_all_pass", "transfer", "repo", f"{T}/replacement-loss-v28-results.md", R,
            r"(All nine case-level treatment, held-out behavior, causal-effect, and activation-rescue checks passed)")],
-        "V28: packet FAIL on a frozen float32 accumulation-order control gate; the discrepancy is consistent with numeric sensitivity but V28 did not adjudicate that. See LABEL_RULES section 5.", "V28")
+        "V28: packet FAIL on a frozen float32 accumulation-order control gate; the discrepancy is consistent with numeric sensitivity but V28 did not adjudicate that. Note (F1 spot-check): the source reports all nine case-level treatment, held-out behavior, causal-effect and activation-rescue checks as passed; `failed` here follows the packet outcome rule, not a failure of the intervention predictions. See LABEL_RULES section 5.", "V28")
 theseus("theseus-v8-cloudrun", cond("same frozen v8 packet", "same", None, "Google Cloud Run CPU (Linux/amd64, 4 vCPU, 16 GiB)", NOC, "same", "same", "n/a"),
         ["device"], ["replay container, different OS and CPU"],
         [E("tgt_status", "transfer", "repo", f"{T}/replacement-loss-v8-cloud-run-replay-v1.md", R, r"The scientific result is `([A-Z_]+)`, not `INTERNAL_PASS`")],
