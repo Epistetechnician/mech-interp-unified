@@ -13,6 +13,4 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install ruff pytest numpy
-      - run: ruff check .
-      # Qwen adapter tests need torch + a model; skipped in CI
-      - run: pytest -q tests -k "not QwenAdapter"
+      - run: scripts/check
