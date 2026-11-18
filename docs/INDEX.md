@@ -28,11 +28,11 @@ deliberately broken instrument?
 | V60 | 2.8B | headline hardened | Last-position swap and donor patch survive. Also showed device/numerics can change unit selection. |
 | V61-local | 2.8B, MPS fp32 | T0/L/P all supported | Headline reproduced and hardened. |
 | V61 (cloud) | 2.8B | minimal-pair donor patch supported | 7 swap units, 800 items: drop 0.482 logits vs control max 0.019 (about 25x); same-number donor -0.033. Smaller than V60's 1.40, so part of that was non-number donor differences. |
-| V62 | 2.8B | **prepared, not run** | Device/dtype robustness arms; protocol `202`. |
+| V62 | 2.8B | **prepared, not run** | Device/dtype robustness arms; protocol `202`. (Subsequent upstream lanes V64/V65 continued in `composed-zk-benchmark-os`.) |
 
-Honest read: a necessary-and-partly-sufficient unit set exists for agreement in
-Pythia-2.8B, concentrated in few units, but it is not shown to be a circuit, not
-shown on a second model, and selection is device/precision-sensitive (V60).
+Honest read (at import time): a necessary-and-partly-sufficient unit set exists for agreement in
+Pythia-2.8B, concentrated in few units, not shown to be a circuit, and selection is device/precision-sensitive (V60).
+Post-import runs in this repository (`docs/protocols/`): **R6** replicated the causal agreement unit lane out-of-family on `Qwen3-1.7B-Base` (`docs/protocols/R6-result.md`), and **F2** evaluated rules gates (`0/8`) and informed probes (`3/8`) against 8 planted-flaw organism classes (`docs/protocols/F2-result.md`).
 Campaign spend per the V61 record: about USD 45.6 of the USD 50.00 ceiling, so roughly USD 4.4 remains and V62's budget is not guaranteed.
 
 ## B. Machine-checked harness logic (Lean 4.30.0)
